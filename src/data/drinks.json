@@ -700,7 +700,7 @@
     { "id": "o-right",      "text": "右侧工作台：橙子酱、西柚酱、kiwi 酱、葡萄酱、百香果酱、芒果酱" },
     { "id": "o-tools",      "text": "工具准备：榨汁棒、搅拌棒、100ml & 250ml & 0.5oz 量杯" },
     { "id": "o-nodrip",     "text": "确认工作台与冰箱外部无水果残渍" },
-    { "id": "o-supplies",   "text": "前台补货：杯子、杯盖、吸管、热饮套、餐巾纸" },
+    { "id": "o-supplies",   "text": "前台补货：700ml 杯子、杯盖、厚椰乳；吸管架摆满；打包袋、热饮套、餐巾纸" },
     { "id": "o-table",      "text": "客席区：桌面干净、纸巾充足" },
     { "id": "o-slices",     "text": "切片水果（先进先出）：橙子满盆，青柠半盆以上，柠檬约 1/3 盆，西柚片半～一个" },
     { "id": "o-juice",      "text": "柑橘果汁：橙汁 ≥ 1L，西柚汁 ≈ 600ml" },
@@ -708,8 +708,9 @@
     { "id": "o-mango",      "text": "芒果捣一整层七排" },
     { "id": "o-straw",      "text": "草莓捣 1 排" },
     { "id": "o-kiwi",       "text": "准备 5–10 个 kiwi 杯" },
+    { "id": "o-bobo",       "text": "检查脆啵啵库存（不足时提前联系厨房）" },
     { "id": "o-fifo",       "text": "水果杯区确认：说明哪一侧旧货先用" },
-    { "id": "o-coffeestock","text": "确认咖啡豆、牛奶、half & half、creamer 库存充足" },
+    { "id": "o-coffeestock","text": "检查关键库存：咖啡豆、牛奶、厚椰乳、half & half、creamer 是否充足" },
     { "id": "o-kitchen",    "text": "⚠️ 紫薯/芋头需 3 小时、西米/果冻需 1–2 小时 → 提前通知厨房", "isWarning": true }
   ],
   "checklistClose": [
