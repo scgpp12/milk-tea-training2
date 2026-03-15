@@ -677,43 +677,173 @@
         "less": "少冰：不加冰"
       },
       "toppings": ["珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"]
+    },
+    {
+      "id": 32,
+      "category": "Hot Drinks",
+      "chineseName": "热珍珠奶茶",
+      "englishName": "Classic Bubble Tea (Hot)",
+      "cupSize": "500ml",
+      "sugarOptions": ["全糖", "半糖", "无糖", "30%糖"],
+      "description": "经典热珍珠奶茶；珍珠已含",
+      "steps": [
+        { "vessel": "cup", "text": "珍珠 一勺放入杯底" },
+        { "vessel": "cup", "text": "热奶茶 300ml（调好糖量）倒入杯中" },
+        { "vessel": "note", "text": "⚠️ 热饮出品，请用热饮套", "isWarning": true }
+      ],
+      "lessIce": {
+        "full": "热饮，正常热度出品",
+        "less": "温热：稍降温后出品（顾客要求时）"
+      },
+      "toppings": ["珍珠（已含）", "去除珍珠（免费）", "换脆啵啵（免费）", "脆啵啵（+$0.75）", "西米（+$0.75）"]
+    },
+    {
+      "id": 33,
+      "category": "Hot Drinks",
+      "chineseName": "热紫薯鲜奶",
+      "englishName": "Purple Yam (Hot)",
+      "cupSize": "500ml",
+      "sugarOptions": ["无糖（按需）"],
+      "description": "手捣紫薯 + 热牛奶；无粉末；口感有颗粒感，首次顾客须告知；可选奶茶底/有机奶/无乳糖奶",
+      "steps": [
+        { "vessel": "cup", "text": "紫薯 三大勺放入杯中" },
+        { "vessel": "cup", "text": "按顾客选择倒入热奶茶 / 热有机牛奶 / 热无乳糖牛奶至满杯" },
+        { "vessel": "note", "text": "⚠️ 手捣紫薯有颗粒感，首次顾客必须提供试饮或告知；热饮请用热饮套", "isWarning": true }
+      ],
+      "lessIce": {
+        "full": "热饮，正常热度出品",
+        "less": "温热：稍降温后出品（顾客要求时）"
+      },
+      "toppings": ["黑珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"]
+    },
+    {
+      "id": 34,
+      "category": "Hot Drinks",
+      "chineseName": "热香芋鲜奶",
+      "englishName": "Taro (Hot)",
+      "cupSize": "500ml",
+      "sugarOptions": ["无糖（按需）"],
+      "description": "手捣芋头 + 热牛奶；无粉末；口感有颗粒感，首次顾客须告知；可选奶茶底/有机奶/无乳糖奶",
+      "steps": [
+        { "vessel": "cup", "text": "芋头 三大勺放入杯中" },
+        { "vessel": "cup", "text": "按顾客选择倒入热奶茶 / 热有机牛奶 / 热无乳糖牛奶至满杯" },
+        { "vessel": "note", "text": "⚠️ 手捣芋头有颗粒感，首次顾客必须提供试饮或告知；热饮请用热饮套", "isWarning": true }
+      ],
+      "lessIce": {
+        "full": "热饮，正常热度出品",
+        "less": "温热：稍降温后出品（顾客要求时）"
+      },
+      "toppings": ["黑珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"]
+    },
+    {
+      "id": 35,
+      "category": "Hot Drinks",
+      "chineseName": "杨枝甘露（温热）",
+      "englishName": "Mango Sago (Warm)",
+      "cupSize": "700ml",
+      "sugarOptions": ["按需加糖"],
+      "description": "无咖啡因；手打芒果 + 西米 + 椰奶底 + 西柚果肉；温热出品",
+      "steps": [
+        { "vessel": "cup",     "text": "出品杯：芒果碎 40g" },
+        { "vessel": "cup",     "text": "西米 一勺" },
+        { "vessel": "cup",     "text": "Coco Milk 50ml（温热）" },
+        { "vessel": "blender", "text": "芒果块 80g" },
+        { "vessel": "blender", "text": "Mango Syrup 一勺" },
+        { "vessel": "blender", "text": "按需加糖" },
+        { "vessel": "blender", "text": "温热茶 150ml，搅拌机搅拌" },
+        { "vessel": "cup",     "text": "将 Blender 内容全部倒入出品杯" },
+        { "vessel": "cup",     "text": "倒入西柚果肉补至满杯，出杯" },
+        { "vessel": "note",    "text": "⚠️ 无咖啡因；温热出品，请用热饮套", "isWarning": true }
+      ],
+      "lessIce": {
+        "full": "温热出品，不加冰",
+        "less": "微温：稍微放凉后出品（顾客要求时）"
+      },
+      "toppings": ["西米（已含）", "西柚果肉（已含）"]
+    },
+    {
+      "id": 36,
+      "category": "Hot Drinks",
+      "chineseName": "热桂花乌龙鲜奶茶",
+      "englishName": "Osmanthus Oolong Milk Tea (Hot)",
+      "cupSize": "700ml",
+      "sugarOptions": ["全糖", "半糖", "无糖", "30%糖"],
+      "description": "桂花冻（已含）+ 桂花乌龙茶 + 有机牛奶；大杯",
+      "steps": [
+        { "vessel": "cup",    "text": "出品杯底加入桂花冻 100g" },
+        { "vessel": "shaker", "text": "新搅拌杯：热桂花乌龙茶 250ml" },
+        { "vessel": "shaker", "text": "有机牛奶 70ml + 咖奶（Evaporated Milk）30ml" },
+        { "vessel": "shaker", "text": "按糖表加糖（全糖 / 半糖 / 30%糖 / 无糖）" },
+        { "vessel": "cup",    "text": "搅拌均匀，倒入出品杯，热饮套出品" },
+        { "vessel": "note",   "text": "⚠️ 热饮出品，请用热饮套", "isWarning": true }
+      ],
+      "lessIce": {
+        "full": "热饮，正常热度出品",
+        "less": "温热：稍降温后出品（顾客要求时）"
+      },
+      "toppings": ["桂花冻（已含）", "黑珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"]
+    },
+    {
+      "id": 37,
+      "category": "Hot Drinks",
+      "chineseName": "热白桃乌龙鲜奶茶",
+      "englishName": "Peach Oolong Fresh Milk Tea (Hot)",
+      "cupSize": "700ml",
+      "sugarOptions": ["全糖", "半糖", "无糖", "30%糖"],
+      "description": "桂花冻（已含）+ 白桃乌龙茶 + 有机牛奶；大杯",
+      "steps": [
+        { "vessel": "cup",    "text": "出品杯底加入桂花冻 100g" },
+        { "vessel": "shaker", "text": "新搅拌杯：热白桃乌龙茶 250ml" },
+        { "vessel": "shaker", "text": "有机牛奶 70ml + 咖奶（Evaporated Milk）30ml" },
+        { "vessel": "shaker", "text": "按糖表加糖（全糖 / 半糖 / 30%糖 / 无糖）" },
+        { "vessel": "cup",    "text": "搅拌均匀，倒入出品杯，热饮套出品" },
+        { "vessel": "note",   "text": "⚠️ 热饮出品，请用热饮套", "isWarning": true }
+      ],
+      "lessIce": {
+        "full": "热饮，正常热度出品",
+        "less": "温热：稍降温后出品（顾客要求时）"
+      },
+      "toppings": ["桂花冻（已含）", "黑珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"]
     }
   ],
   "checklistOpen": [
+    { "id": "o-power",      "text": "开电视 → 点餐机 → 开音乐 → 擦拭前台 → 扫地与拖地" },
     { "id": "o-clock",      "text": "员工打卡" },
-    { "id": "o-power",      "text": "开电视 → 点餐机 → 开音乐" },
-    { "id": "o-clean",      "text": "擦拭前台 / 扫地与拖地" },
-    { "id": "o-menu",       "text": "检查菜单上架状态（确认可售饮品）" },
-    { "id": "o-menu-w",     "text": "⚠️ 珍珠未煮好前：珍珠奶茶、海盐芝士、珍珠、奶茶 先下架", "isWarning": true },
+    { "id": "o-menu",       "text": "检查商品上/下架是否正确" },
+    { "id": "o-menu-w",     "text": "⚠️ 珍珠奶茶、海盐芝士、珍珠、奶茶在珍珠未煮好前需下架", "isWarning": true },
     { "id": "o-coffee",     "text": "咖啡机开机、补水、清洁蒸汽头" },
     { "id": "o-ice",        "text": "清理冰槽并补满冰块" },
-    { "id": "o-tea",        "text": "⚠️ 绿茶 & 桂花乌龙：从冰箱取出新鲜茶液（严禁使用隔夜茶）", "isWarning": true },
+    { "id": "o-tea",        "text": "⚠️ 绿茶 & 桂花乌龙必须从冰箱中取出新鲜茶液，不可使用隔夜茶", "isWarning": true },
     { "id": "o-left",       "text": "左侧工作台：脆啵啵、厚椰乳、草莓/芒果/桃子酱、水与干净抹布" },
-    { "id": "o-right",      "text": "右侧工作台：橙子酱、西柚酱、kiwi 酱、葡萄酱、百香果酱、芒果酱" },
     { "id": "o-tools",      "text": "工具准备：榨汁棒、搅拌棒、100ml & 250ml & 0.5oz 量杯" },
-    { "id": "o-nodrip",     "text": "确认工作台与冰箱外部无水果残渍" },
-    { "id": "o-supplies",   "text": "前台补货：700ml 杯子、杯盖、厚椰乳；吸管架摆满；打包袋、热饮套、餐巾纸" },
-    { "id": "o-table",      "text": "客席区：桌面干净、纸巾充足" },
-    { "id": "o-slices",     "text": "切片水果（先进先出）：橙子满盆，青柠半盆以上，柠檬约 1/3 盆，西柚片半～一个" },
-    { "id": "o-juice",      "text": "柑橘果汁：橙汁 ≥ 1L，西柚汁 ≈ 600ml" },
-    { "id": "o-grapefruit", "text": "西柚粒：戴手套剥好并用摇杯散开" },
-    { "id": "o-mango",      "text": "芒果捣一整层七排" },
-    { "id": "o-straw",      "text": "草莓捣 1 排" },
-    { "id": "o-kiwi",       "text": "准备 5–10 个 kiwi 杯" },
-    { "id": "o-bobo",       "text": "检查脆啵啵库存（不足时提前联系厨房）" },
-    { "id": "o-fifo",       "text": "水果杯区确认：说明哪一侧旧货先用" },
-    { "id": "o-coffeestock","text": "检查关键库存：咖啡豆、牛奶、厚椰乳、half & half、creamer 是否充足" },
-    { "id": "o-kitchen",    "text": "⚠️ 紫薯/芋头需 3 小时、西米/果冻需 1–2 小时 → 提前通知厨房", "isWarning": true }
+    { "id": "o-right",      "text": "右侧工作台：橙子酱、西柚酱、kiwi 酱、葡萄酱、百香果酱、芒果酱" },
+    { "id": "o-nodrip",     "text": "工作台与冰箱外部必须无水果残渍" },
+    { "id": "o-supplies",   "text": "前台补货：备足杯子、杯盖、吸管、热饮套、餐巾纸" },
+    { "id": "o-table",      "text": "客席区：桌面干净、纸巾充足" }
   ],
   "checklistClose": [
     { "id": "c-floor",   "text": "全店地面清洁（扫地 + 拖地）" },
-    { "id": "c-fridge",  "text": "所有原料回入冷藏（果酱、茶液、牛奶等）" },
-    { "id": "c-counter", "text": "工作台与前台台面清洁" },
-    { "id": "c-seats",   "text": "客席区桌面清洁" },
+    { "id": "c-fridge",  "text": "所有原料回入冷藏" },
+    { "id": "c-counter", "text": "台面与座位区清洁" },
     { "id": "c-ice",     "text": "清理冰槽并倒空" },
-    { "id": "c-coffee",  "text": "咖啡机：收水与清洁（蒸汽头排空 + 擦净）" },
+    { "id": "c-coffee",  "text": "咖啡机收水与清洁（蒸汽头排空 + 擦净）" },
     { "id": "c-tools",   "text": "清洗全部工具（榨汁棒、搅拌棒、量杯等）" },
     { "id": "c-power",   "text": "关闭所有电器与灯" }
+  ],
+  "checklistStock": [
+    { "id": "s-fifo",      "text": "码柜区：切片水果遵守先进先出（FIFO）" },
+    { "id": "s-slices",    "text": "橙子片满盆，青柠半盆以上，柠檬约 1/3 盆，西柚片半个～一个" },
+    { "id": "s-juice",     "text": "柑橘类果汁：橙汁 ≥ 1L，西柚汁 ≈ 600ml" },
+    { "id": "s-grapefruit","text": "西柚粒须戴手套剥好并用摇杯散开" },
+    { "id": "s-kitchen",   "text": "⚠️ 西瓜片、西米、果冻提前确认库存（备货时间需 1–2 小时）", "isWarning": true },
+    { "id": "s-bobo",      "text": "脆啵啵用量大，需随时补充" },
+    { "id": "s-fruit",     "text": "水果杯区（Kiwi、西瓜捣碎、葡萄等）严格先进先出，交接时明确哪一侧旧货先用" },
+    { "id": "s-coffee",    "text": "咖啡区：确保咖啡机水与咖啡豆足够，咖啡头定时清洁" },
+    { "id": "s-steam",     "text": "蒸汽喷头每次使用后立即擦净并排空蒸汽" },
+    { "id": "s-dairy",     "text": "咖啡机下冷藏区：两种牛奶、half & half、creamer 分区放置" },
+    { "id": "s-yam",       "text": "⚠️ 紫薯和芋头提前沟通备料（需要 3 小时）", "isWarning": true },
+    { "id": "s-foam",      "text": "奶盖使用后确认干净" },
+    { "id": "s-ratio",     "text": "咖啡奶比例：30g 咖啡奶 + 70g organic milk" }
   ],
   "fruitWeights": [
     { "item": "草莓",   "weight": "120g（不含杯重）" },
