@@ -1,0 +1,718 @@
+{
+  "drinks": [
+    {
+      "id": 1,
+      "category": "Exclusive Bobo",
+      "chineseName": "西瓜啵啵椰",
+      "englishName": "Watermelon Bobo Coco",
+      "cupSize": "700ml",
+      "sugarOptions": ["无糖"],
+      "description": "无额外加糖；无咖啡因",
+      "steps": [
+        { "vessel": "cup",    "text": "杯底加入啵啵 一勺" },
+        { "vessel": "shaker", "text": "西瓜块 200g" },
+        { "vessel": "shaker", "text": "Coco椰汁 100ml" },
+        { "vessel": "shaker", "text": "加冰（少冰：换成 50ml water 代替冰）" },
+        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯" }
+      ],
+      "lessIce": {
+        "full": "正常加冰",
+        "less": "少冰：用 50ml water 代替冰块",
+        "noIce": "去冰：不加冰，加 50ml water"
+      },
+      "toppings": ["啵啵（已含）"]
+    },
+    {
+      "id": 2,
+      "category": "Exclusive Bobo",
+      "chineseName": "芒果啵啵椰",
+      "englishName": "Mango Bobo Coco",
+      "cupSize": "700ml",
+      "sugarOptions": ["全糖 20g", "半糖 10g"],
+      "description": "手打芒果 + 椰汁底",
+      "steps": [
+        { "vessel": "cup",    "text": "杯底加入芒果碎 120g" },
+        { "vessel": "cup",    "text": "杯底加入啵啵 一勺" },
+        { "vessel": "shaker", "text": "加糖 20g（半糖：10g）" },
+        { "vessel": "shaker", "text": "芒果果酱 一勺" },
+        { "vessel": "shaker", "text": "Tea 120ml（少冰：150ml）" },
+        { "vessel": "shaker", "text": "Coco椰汁 80ml（少冰：100ml）" },
+        { "vessel": "shaker", "text": "加冰" },
+        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯" }
+      ],
+      "lessIce": {
+        "full": "正常加冰；Tea 120ml；Coco 80ml",
+        "less": "少冰：Tea 150ml；Coco 100ml",
+        "noIce": "去冰：Tea 150ml；Coco 100ml；不加冰"
+      },
+      "toppings": ["啵啵（已含）"]
+    },
+    {
+      "id": 3,
+      "category": "Exclusive Bobo",
+      "chineseName": "草莓啵啵椰",
+      "englishName": "Strawberry Bobo Coco",
+      "cupSize": "700ml",
+      "sugarOptions": ["全糖 20g", "半糖 10g"],
+      "description": "手打草莓 + 椰汁底",
+      "steps": [
+        { "vessel": "cup",    "text": "杯底加入草莓碎 120g" },
+        { "vessel": "cup",    "text": "杯底加入啵啵 一勺" },
+        { "vessel": "shaker", "text": "加糖 20g（半糖：10g）" },
+        { "vessel": "shaker", "text": "草莓果酱 一勺" },
+        { "vessel": "shaker", "text": "Tea 120ml（少冰：150ml）" },
+        { "vessel": "shaker", "text": "Coco椰汁 80ml（少冰：100ml）" },
+        { "vessel": "shaker", "text": "加冰" },
+        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯" }
+      ],
+      "lessIce": {
+        "full": "正常加冰；Tea 120ml；Coco 80ml",
+        "less": "少冰：Tea 150ml；Coco 100ml",
+        "noIce": "去冰：Tea 150ml；Coco 100ml；不加冰"
+      },
+      "toppings": ["啵啵（已含）"]
+    },
+    {
+      "id": 4,
+      "category": "Exclusive Bobo",
+      "chineseName": "芒果啵啵",
+      "englishName": "Mango Bobo",
+      "cupSize": "700ml",
+      "sugarOptions": ["全糖 20g", "半糖 10g"],
+      "description": "手打芒果 + 绿茶底，可加奶盖",
+      "steps": [
+        { "vessel": "cup",    "text": "杯底加入啵啵 一勺" },
+        { "vessel": "shaker", "text": "加入芒果碎 120g" },
+        { "vessel": "shaker", "text": "加糖 20g（半糖：10g）" },
+        { "vessel": "shaker", "text": "芒果果酱 一勺" },
+        { "vessel": "shaker", "text": "Tea 200ml（少冰：250ml）" },
+        { "vessel": "shaker", "text": "加冰" },
+        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯" }
+      ],
+      "lessIce": {
+        "full": "正常加冰；Tea 200ml",
+        "less": "少冰：Tea 250ml",
+        "noIce": "去冰：Tea 250ml；不加冰"
+      },
+      "toppings": ["啵啵（已含）", "奶盖（选加）"]
+    },
+    {
+      "id": 5,
+      "category": "Exclusive Bobo",
+      "chineseName": "草莓啵啵",
+      "englishName": "Strawberry Bobo",
+      "cupSize": "700ml",
+      "sugarOptions": ["全糖 20g", "半糖 10g"],
+      "description": "手打草莓 + 绿茶底，可加奶盖",
+      "steps": [
+        { "vessel": "cup",    "text": "杯底加入啵啵 一勺" },
+        { "vessel": "shaker", "text": "加入草莓碎 120g" },
+        { "vessel": "shaker", "text": "加糖 20g（半糖：10g）" },
+        { "vessel": "shaker", "text": "草莓果酱 一勺" },
+        { "vessel": "shaker", "text": "Tea 200ml（少冰：250ml）" },
+        { "vessel": "shaker", "text": "加冰" },
+        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯" }
+      ],
+      "lessIce": {
+        "full": "正常加冰；Tea 200ml",
+        "less": "少冰：Tea 250ml",
+        "noIce": "去冰：Tea 250ml；不加冰"
+      },
+      "toppings": ["啵啵（已含）", "奶盖（选加）"]
+    },
+    {
+      "id": 6,
+      "category": "Exclusive Bobo",
+      "chineseName": "奇异果啵啵",
+      "englishName": "Kiwi Bobo",
+      "cupSize": "700ml",
+      "sugarOptions": ["全糖 20g", "半糖 10g"],
+      "description": "整个奇异果捣碎 + 绿茶底 + 奶盖",
+      "steps": [
+        { "vessel": "cup",    "text": "杯底加入啵啵 一勺" },
+        { "vessel": "shaker", "text": "加入 2个奇异果，捣碎" },
+        { "vessel": "shaker", "text": "加糖 20g（半糖：10g）" },
+        { "vessel": "shaker", "text": "奇异果果酱 一勺" },
+        { "vessel": "shaker", "text": "Tea 200ml（少冰：250ml）" },
+        { "vessel": "shaker", "text": "加冰" },
+        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯" }
+      ],
+      "lessIce": {
+        "full": "正常加冰；Tea 200ml",
+        "less": "少冰：Tea 250ml",
+        "noIce": "去冰：Tea 250ml；不加冰"
+      },
+      "toppings": ["啵啵（已含）", "奶盖（选加）"]
+    },
+    {
+      "id": 7,
+      "category": "Exclusive Bobo",
+      "chineseName": "菠萝百香果啵啵",
+      "englishName": "Pineapple Passion Bobo",
+      "cupSize": "700ml",
+      "sugarOptions": ["全糖 20g", "半糖 10g"],
+      "description": "手打菠萝 + 百香果酱 + 绿茶底",
+      "steps": [
+        { "vessel": "cup",    "text": "杯底加入啵啵 一勺" },
+        { "vessel": "shaker", "text": "加入菠萝碎 120g，捣碎" },
+        { "vessel": "shaker", "text": "加糖 20g（半糖：10g）" },
+        { "vessel": "shaker", "text": "百香果酱 一勺" },
+        { "vessel": "shaker", "text": "Tea 200ml（少冰：250ml）" },
+        { "vessel": "shaker", "text": "加冰" },
+        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯" }
+      ],
+      "lessIce": {
+        "full": "正常加冰；Tea 200ml",
+        "less": "少冰：Tea 250ml",
+        "noIce": "去冰：Tea 250ml；不加冰"
+      },
+      "toppings": ["啵啵（已含）"]
+    },
+    {
+      "id": 8,
+      "category": "Exclusive Bobo",
+      "chineseName": "白月光青柠啵啵",
+      "englishName": "Lime Bobo Coco",
+      "cupSize": "700ml",
+      "sugarOptions": ["无糖", "无咖啡因"],
+      "description": "无添加糖；无咖啡因；⚠️ 建议20分钟内饮用",
+      "steps": [
+        { "vessel": "cup",    "text": "杯底加入啵啵 一勺" },
+        { "vessel": "shaker", "text": "青柠 4片，捣碎" },
+        { "vessel": "shaker", "text": "加冰" },
+        { "vessel": "shaker", "text": "Coco椰汁 300ml（少冰：350ml）" },
+        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯" },
+        { "vessel": "note",   "text": "⚠️ 含青柠，建议告知顾客20分钟内饮用", "isWarning": true }
+      ],
+      "lessIce": {
+        "full": "正常加冰；Coco 300ml",
+        "less": "少冰：Coco 350ml",
+        "noIce": "去冰：Coco 350ml；不加冰"
+      },
+      "toppings": ["啵啵（已含）"]
+    },
+    {
+      "id": 29,
+      "category": "Fresh Fruit Tea",
+      "chineseName": "鲜橙冻冻",
+      "englishName": "Fresh Orange Dongdong",
+      "cupSize": "700ml",
+      "sugarOptions": ["无糖（不加糖）"],
+      "description": "⚠️ 不加糖；桂花冻打底 + 四片橙铺底 + orange syrup + 到冰550",
+      "steps": [
+        { "vessel": "cup",    "text": "杯底加入桂花冻" },
+        { "vessel": "cup",    "text": "四片橙子铺底" },
+        { "vessel": "shaker", "text": "橙汁 150ml" },
+        { "vessel": "shaker", "text": "Tea 150ml（少冰：200ml）" },
+        { "vessel": "shaker", "text": "Orange syrup 适量" },
+        { "vessel": "shaker", "text": "加冰至 550ml" },
+        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯" },
+        { "vessel": "note",   "text": "⚠️ 不加糖，请勿额外加糖", "isWarning": true }
+      ],
+      "lessIce": {
+        "full": "到冰 550ml",
+        "less": "少冰：Tea 200ml；到冰约 500ml",
+        "noIce": "去冰：不加冰"
+      },
+      "toppings": ["桂花冻（已含）"]
+    },
+    {
+      "id": 9,
+      "category": "Fresh Fruit Tea",
+      "chineseName": "超级水果",
+      "englishName": "Super Fruit Tea",
+      "cupSize": "700ml",
+      "sugarOptions": ["全糖 20g", "半糖 10g"],
+      "description": "双柠压汁 + 橙片/西柚片装饰 + 西瓜汁补满",
+      "steps": [
+        { "vessel": "cup",    "text": "奶茶杯：2个青柠 + 2个柠檬，入杯压汁" },
+        { "vessel": "cup",    "text": "1片橙子 + 1片西柚，入杯贴杯壁" },
+        { "vessel": "shaker", "text": "加糖 20g（半糖：10g）" },
+        { "vessel": "shaker", "text": "百香果酱 一勺" },
+        { "vessel": "shaker", "text": "Tea 250ml（少冰：300ml）" },
+        { "vessel": "shaker", "text": "加冰" },
+        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯" },
+        { "vessel": "cup",    "text": "加入西瓜汁补至满杯" }
+      ],
+      "lessIce": {
+        "full": "正常加冰；Tea 250ml",
+        "less": "少冰：Tea 300ml",
+        "noIce": "去冰：Tea 300ml；不加冰"
+      },
+      "toppings": ["无"]
+    },
+    {
+      "id": 10,
+      "category": "Fresh Fruit Tea",
+      "chineseName": "暴打西瓜柠檬",
+      "englishName": "Watermelon Lime",
+      "cupSize": "700ml",
+      "sugarOptions": ["全糖 45g", "半糖 35g"],
+      "description": "⚠️ 含青柠，建议20分钟内饮用",
+      "steps": [
+        { "vessel": "shaker", "text": "西瓜块 140g + 柠檬 2片，捣碎" },
+        { "vessel": "shaker", "text": "加糖 45g（半糖：35g）" },
+        { "vessel": "shaker", "text": "Tea 200ml（少冰：250ml）" },
+        { "vessel": "shaker", "text": "加冰" },
+        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，装杯" },
+        { "vessel": "note",   "text": "⚠️ 含青柠，建议告知顾客20分钟内饮用", "isWarning": true }
+      ],
+      "lessIce": {
+        "full": "正常加冰；Tea 200ml",
+        "less": "少冰：Tea 250ml",
+        "noIce": "去冰：Tea 250ml；不加冰"
+      },
+      "toppings": ["无"]
+    },
+    {
+      "id": 12,
+      "category": "Fresh Fruit Tea",
+      "chineseName": "满杯西柚",
+      "englishName": "Full Cup Grapefruit",
+      "cupSize": "700ml",
+      "sugarOptions": ["全糖 30g", "半糖 20g"],
+      "description": "3/4西柚片贴壁 + 1勺西柚粒 + 到冰 600",
+      "steps": [
+        { "vessel": "cup",    "text": "西柚片 3/4 贴杯壁" },
+        { "vessel": "cup",    "text": "西柚粒 1勺" },
+        { "vessel": "shaker", "text": "西柚汁水 150ml" },
+        { "vessel": "shaker", "text": "Tea 150ml（少冰：200ml）" },
+        { "vessel": "shaker", "text": "Grapefruit syrup 适量" },
+        { "vessel": "shaker", "text": "加糖 30g（半糖：20g）" },
+        { "vessel": "shaker", "text": "加冰至 600ml" },
+        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯" }
+      ],
+      "lessIce": {
+        "full": "到冰 600ml；Tea 150ml",
+        "less": "少冰：Tea 200ml；到冰约 550ml",
+        "noIce": "去冰：Tea 200ml；不加冰"
+      },
+      "toppings": ["西柚粒（已含）"]
+    },
+    {
+      "id": 13,
+      "category": "Fresh Fruit Tea",
+      "chineseName": "草莓酒酿冰奶",
+      "englishName": "Strawberry Fermented Rice Milk",
+      "cupSize": "700ml",
+      "sugarOptions": ["无糖", "无咖啡因"],
+      "description": "无咖啡因；含微量酒精（0.5%vol）",
+      "steps": [
+        { "vessel": "cup",    "text": "出品杯：杯底加入草莓块 120g" },
+        { "vessel": "cup",    "text": "米酒娘 3勺" },
+        { "vessel": "cup",    "text": "Heavy Cream 30ml" },
+        { "vessel": "shaker", "text": "小shaker：草莓果糖浆 一勺 + 无乳糖牛奶 200ml（少冰：250ml）搅拌" },
+        { "vessel": "cup",    "text": "加冰至满，出杯" },
+        { "vessel": "note",   "text": "⚠️ 无咖啡因；含微量酒精（0.5%vol）需告知顾客", "isWarning": true }
+      ],
+      "lessIce": {
+        "full": "正常加冰；牛奶 200ml",
+        "less": "少冰：牛奶 250ml",
+        "noIce": "去冰：牛奶 250ml；不加冰"
+      },
+      "toppings": ["无"]
+    },
+    {
+      "id": 14,
+      "category": "Cheese Foam Slush",
+      "chineseName": "芝芝芒芒",
+      "englishName": "Mango Cheese Slush",
+      "cupSize": "700ml",
+      "sugarOptions": ["全糖 40g", "半糖 30g"],
+      "description": "芒果 Blender 打碎 + 奶盖",
+      "steps": [
+        { "vessel": "cup",     "text": "奶茶杯：芒果块 40g 捣碎" },
+        { "vessel": "blender", "text": "芒果块 80g" },
+        { "vessel": "blender", "text": "芒果果酱 一勺" },
+        { "vessel": "blender", "text": "糖 40g（半糖：30g）" },
+        { "vessel": "blender", "text": "Tea 150ml" },
+        { "vessel": "blender", "text": "加冰" },
+        { "vessel": "blender", "text": "Blender 搅拌，全部倒入奶茶杯" },
+        { "vessel": "cup",     "text": "奶盖加满杯" }
+      ],
+      "lessIce": {
+        "full": "正常加冰",
+        "less": "少冰：减少blender冰量",
+        "noIce": "去冰：不加冰，奶昔会更稀"
+      },
+      "toppings": ["奶盖（已含）"]
+    },
+    {
+      "id": 15,
+      "category": "Cheese Foam Slush",
+      "chineseName": "芝芝草莓",
+      "englishName": "Strawberry Cheese Slush",
+      "cupSize": "700ml",
+      "sugarOptions": ["全糖 30g", "半糖 20g"],
+      "description": "草莓 Blender 打碎 + 奶盖",
+      "steps": [
+        { "vessel": "cup",     "text": "奶茶杯：草莓块 40g 捣碎" },
+        { "vessel": "blender", "text": "草莓块 80g" },
+        { "vessel": "blender", "text": "草莓果酱 一勺" },
+        { "vessel": "blender", "text": "糖 30g（半糖：20g）" },
+        { "vessel": "blender", "text": "Tea 150ml" },
+        { "vessel": "blender", "text": "加冰" },
+        { "vessel": "blender", "text": "Blender 搅拌，全部倒入奶茶杯" },
+        { "vessel": "cup",     "text": "奶盖加满杯" }
+      ],
+      "lessIce": {
+        "full": "正常加冰",
+        "less": "少冰：减少blender冰量",
+        "noIce": "去冰：不加冰"
+      },
+      "toppings": ["奶盖（已含）"]
+    },
+    {
+      "id": 16,
+      "category": "Cheese Foam Slush",
+      "chineseName": "芝芝黑提",
+      "englishName": "Black Grape Cheese Slush",
+      "cupSize": "700ml",
+      "sugarOptions": ["全糖 20g", "半糖 10g"],
+      "description": "黑提 Blender 打碎 + 奶盖",
+      "steps": [
+        { "vessel": "blender", "text": "黑提块 120g" },
+        { "vessel": "blender", "text": "黑提果酱 一勺" },
+        { "vessel": "blender", "text": "糖 20g（半糖：10g）" },
+        { "vessel": "blender", "text": "Tea 150ml" },
+        { "vessel": "blender", "text": "加冰" },
+        { "vessel": "blender", "text": "Blender 搅拌，全部倒入奶茶杯" },
+        { "vessel": "cup",     "text": "奶盖加满杯" }
+      ],
+      "lessIce": {
+        "full": "正常加冰",
+        "less": "少冰：减少blender冰量",
+        "noIce": "去冰：不加冰"
+      },
+      "toppings": ["奶盖（已含）"]
+    },
+    {
+      "id": 17,
+      "category": "Cheese Foam Slush",
+      "chineseName": "芝芝西瓜",
+      "englishName": "Watermelon Cheese Slush",
+      "cupSize": "700ml",
+      "sugarOptions": ["无糖", "无咖啡因"],
+      "description": "西瓜 + 桃子果酱 Blender + 奶盖；无添加糖；无咖啡因",
+      "steps": [
+        { "vessel": "blender", "text": "西瓜 300g" },
+        { "vessel": "blender", "text": "桃子果酱 一勺" },
+        { "vessel": "blender", "text": "加冰" },
+        { "vessel": "blender", "text": "Blender 搅拌，全部倒入奶茶杯" },
+        { "vessel": "cup",     "text": "奶盖加满杯" }
+      ],
+      "lessIce": {
+        "full": "正常加冰",
+        "less": "少冰：减少blender冰量",
+        "noIce": "去冰：不加冰；无咖啡因"
+      },
+      "toppings": ["奶盖（已含）"]
+    },
+    {
+      "id": 18,
+      "category": "Cheese Foam Slush",
+      "chineseName": "杨枝甘露",
+      "englishName": "Mango Sago",
+      "cupSize": "700ml",
+      "sugarOptions": ["按需加糖"],
+      "description": "芒果碎 + 米西 + 椰奶底；Blender 打碎 + 西柚果肉补满",
+      "steps": [
+        { "vessel": "cup",     "text": "出品杯：芒果碎 40g" },
+        { "vessel": "cup",     "text": "米西（西米）一勺" },
+        { "vessel": "cup",     "text": "Coco Milk 50ml" },
+        { "vessel": "blender", "text": "芒果块 80g" },
+        { "vessel": "blender", "text": "Mango Syrup 一勺" },
+        { "vessel": "blender", "text": "按需加糖" },
+        { "vessel": "blender", "text": "Tea 150ml" },
+        { "vessel": "blender", "text": "加冰，搅拌机搅拌" },
+        { "vessel": "cup",     "text": "将 Blender 内容全部倒入出品杯" },
+        { "vessel": "cup",     "text": "倒入西柚果肉补至满杯，出杯" }
+      ],
+      "lessIce": {
+        "full": "正常加冰",
+        "less": "少冰：减少blender冰量",
+        "noIce": "去冰：不加冰"
+      },
+      "toppings": ["米西（已含）", "西柚果肉（已含）"]
+    },
+    {
+      "id": 19,
+      "category": "Milk Tea",
+      "chineseName": "珍珠奶茶 500ml",
+      "englishName": "Classic Bubble Tea 500ml",
+      "cupSize": "500ml",
+      "sugarOptions": ["按糖表"],
+      "description": "经典珍珠奶茶",
+      "steps": [
+        { "vessel": "cup", "text": "珍珠 一勺" },
+        { "vessel": "cup", "text": "奶茶 250ml（少冰：300ml）" },
+        { "vessel": "cup", "text": "加冰满杯" }
+      ],
+      "lessIce": {
+        "full": "正常加冰；奶茶 250ml",
+        "less": "少冰：奶茶 300ml",
+        "noIce": "去冰：奶茶 300ml；不加冰"
+      },
+      "toppings": ["珍珠（已含）", "布丁", "仙草"]
+    },
+    {
+      "id": 20,
+      "category": "Milk Tea",
+      "chineseName": "珍珠奶茶 700ml",
+      "englishName": "Classic Bubble Tea 700ml",
+      "cupSize": "700ml",
+      "sugarOptions": ["按糖表"],
+      "description": "经典珍珠奶茶",
+      "steps": [
+        { "vessel": "cup", "text": "珍珠 一勺" },
+        { "vessel": "cup", "text": "奶茶 350ml（少冰：400ml）" },
+        { "vessel": "cup", "text": "加冰满杯" }
+      ],
+      "lessIce": {
+        "full": "正常加冰；奶茶 350ml",
+        "less": "少冰：奶茶 400ml",
+        "noIce": "去冰：奶茶 400ml；不加冰"
+      },
+      "toppings": ["珍珠（已含）", "布丁", "仙草"]
+    },
+    {
+      "id": 21,
+      "category": "Milk Tea",
+      "chineseName": "桂花乌龙鲜奶茶",
+      "englishName": "Osmanthus Oolong Milk Tea",
+      "cupSize": "700ml",
+      "sugarOptions": ["全糖 30g", "半糖 20g", "30%糖 10g", "无糖 0g"],
+      "description": "桂花冻 + 桂花乌龙茶 + 混合奶；搅拌机打6秒",
+      "steps": [
+        { "vessel": "cup",    "text": "出品杯底加入桂花冻 100g" },
+        { "vessel": "shaker", "text": "新搅拌杯：桂花乌龙茶 200ml（少冰：+50ml = 250ml）" },
+        { "vessel": "shaker", "text": "混合奶：牛奶 70ml + 咖奶（Evaporated Milk）30ml" },
+        { "vessel": "shaker", "text": "按糖表加糖（全糖30g / 半糖20g / 30%糖10g / 无糖0g）" },
+        { "vessel": "shaker", "text": "新搅拌机打 6秒" },
+        { "vessel": "cup",    "text": "倒入奶茶杯，加冰块，出品" }
+      ],
+      "lessIce": {
+        "full": "正常加冰；乌龙茶 200ml",
+        "less": "少冰：乌龙茶 250ml",
+        "noIce": "去冰：乌龙茶 250ml；不加冰"
+      },
+      "toppings": ["桂花冻（已含）", "珍珠"]
+    },
+    {
+      "id": 22,
+      "category": "Milk Tea",
+      "chineseName": "白桃乌龙鲜奶茶",
+      "englishName": "Peach Oolong Fresh Milk Tea",
+      "cupSize": "700ml",
+      "sugarOptions": ["全糖 30g", "半糖 20g", "30%糖 10g", "无糖 0g"],
+      "description": "桂花冻 + 白桃乌龙茶 + 混合奶；搅拌机打6秒",
+      "steps": [
+        { "vessel": "cup",    "text": "出品杯底加入桂花冻 100g" },
+        { "vessel": "shaker", "text": "新搅拌杯：白桃乌龙茶 200ml（少冰：+50ml = 250ml）" },
+        { "vessel": "shaker", "text": "混合奶：牛奶 70ml + 咖奶（Evaporated Milk）30ml" },
+        { "vessel": "shaker", "text": "按糖表加糖（全糖30g / 半糖20g / 30%糖10g / 无糖0g）" },
+        { "vessel": "shaker", "text": "新搅拌机打 6秒" },
+        { "vessel": "cup",    "text": "倒入奶茶杯，加冰块，出品" }
+      ],
+      "lessIce": {
+        "full": "正常加冰；乌龙茶 200ml",
+        "less": "少冰：乌龙茶 250ml",
+        "noIce": "去冰：乌龙茶 250ml；不加冰"
+      },
+      "toppings": ["桂花冻（已含）", "珍珠"]
+    },
+    {
+      "id": 23,
+      "category": "Milk Tea",
+      "chineseName": "紫薯奶茶 500ml",
+      "englishName": "Purple Yam Milk 500ml",
+      "cupSize": "500ml",
+      "sugarOptions": ["按需"],
+      "description": "手捣紫薯贴杯壁；无粉末；口感有颗粒感，首次顾客须告知",
+      "steps": [
+        { "vessel": "cup",  "text": "紫薯 三大勺，贴杯壁" },
+        { "vessel": "cup",  "text": "冰块 4-6 块" },
+        { "vessel": "cup",  "text": "补满 Milk（有机牛奶 或 无乳糖牛奶）" },
+        { "vessel": "note", "text": "⚠️ 手捣紫薯会有颗粒感，首次顾客必须提供试饮或告知", "isWarning": true }
+      ],
+      "lessIce": {
+        "full": "4-6块冰",
+        "less": "少冰：2-3块冰",
+        "noIce": "去冰：不加冰，多补一点牛奶"
+      },
+      "toppings": ["珍珠（选加）"]
+    },
+    {
+      "id": 24,
+      "category": "Milk Tea",
+      "chineseName": "桂花酒酿冰奶 700ml",
+      "englishName": "Osmanthus Fermented Rice Milk 700ml",
+      "cupSize": "700ml",
+      "sugarOptions": ["无糖", "无咖啡因"],
+      "description": "无咖啡因；含微量酒精（0.5%vol）",
+      "steps": [
+        { "vessel": "cup",  "text": "出品杯底加入桂花冻" },
+        { "vessel": "cup",  "text": "米酒娘 3勺" },
+        { "vessel": "cup",  "text": "Heavy Cream 30ml" },
+        { "vessel": "cup",  "text": "无乳糖牛奶 200ml（少冰：250ml）" },
+        { "vessel": "cup",  "text": "加冰至满，出杯" },
+        { "vessel": "note", "text": "⚠️ 无咖啡因；含微量酒精（0.5%vol）需告知顾客", "isWarning": true }
+      ],
+      "lessIce": {
+        "full": "正常加冰；牛奶 200ml",
+        "less": "少冰：牛奶 250ml",
+        "noIce": "去冰：牛奶 250ml；不加冰"
+      },
+      "toppings": ["桂花冻（已含）"]
+    },
+    {
+      "id": 25,
+      "category": "Milk Tea",
+      "chineseName": "桂花酒酿冰奶 500ml",
+      "englishName": "Osmanthus Fermented Rice Milk 500ml",
+      "cupSize": "500ml",
+      "sugarOptions": ["无糖", "无咖啡因"],
+      "description": "无咖啡因；含微量酒精（0.5%vol）",
+      "steps": [
+        { "vessel": "cup",  "text": "出品杯底加入桂花冻" },
+        { "vessel": "cup",  "text": "米酒娘 3勺" },
+        { "vessel": "cup",  "text": "Heavy Cream 30ml" },
+        { "vessel": "cup",  "text": "无乳糖牛奶 150ml（少冰：200ml）" },
+        { "vessel": "cup",  "text": "加冰至满，出杯" },
+        { "vessel": "note", "text": "⚠️ 无咖啡因；含微量酒精（0.5%vol）需告知顾客", "isWarning": true }
+      ],
+      "lessIce": {
+        "full": "正常加冰；牛奶 150ml",
+        "less": "少冰：牛奶 200ml",
+        "noIce": "去冰：牛奶 200ml；不加冰"
+      },
+      "toppings": ["桂花冻（已含）"]
+    },
+    {
+      "id": 26,
+      "category": "Milk Tea",
+      "chineseName": "海盐芝士鲜奶绿 中杯 (Pink Salt M)",
+      "englishName": "Pink Salt Fresh Green Milk Tea 500ml",
+      "cupSize": "500ml（用700ml杯做）",
+      "sugarOptions": ["按糖表"],
+      "description": "黑珍珠底 + 无乳糖牛奶 + 淡奶 + 绿茶 + 粉盐 + 奶盖",
+      "steps": [
+        { "vessel": "cup",    "text": "出品杯（700ml杯）：黑珍珠 1勺" },
+        { "vessel": "shaker", "text": "淡奶（Evaporated Milk）50ml" },
+        { "vessel": "shaker", "text": "无乳糖牛奶 100ml" },
+        { "vessel": "shaker", "text": "绿茶 100ml（少冰：150ml）" },
+        { "vessel": "shaker", "text": "按糖表加糖" },
+        { "vessel": "shaker", "text": "粉盐（Pink Salt）一点点" },
+        { "vessel": "shaker", "text": "搅拌均匀" },
+        { "vessel": "cup",    "text": "倒入出品杯" },
+        { "vessel": "cup",    "text": "加冰至满杯" },
+        { "vessel": "cup",    "text": "加奶盖（Cheese Foam）" }
+      ],
+      "lessIce": {
+        "full": "正常加冰；绿茶 100ml",
+        "less": "少冰：绿茶 150ml",
+        "noIce": "去冰：绿茶 150ml；不加冰"
+      },
+      "toppings": ["黑珍珠（已含）", "奶盖（已含）"]
+    },
+    {
+      "id": 30,
+      "category": "Milk Tea",
+      "chineseName": "海盐芝士鲜奶绿 大杯 (Pink Salt L)",
+      "englishName": "Pink Salt Fresh Green Milk Tea 700ml",
+      "cupSize": "700ml",
+      "sugarOptions": ["按糖表"],
+      "description": "黑珍珠底 + 无乳糖牛奶 + 淡奶 + 绿茶 + 粉盐 + 奶盖",
+      "steps": [
+        { "vessel": "cup",    "text": "出品杯：黑珍珠 1勺" },
+        { "vessel": "shaker", "text": "淡奶（Evaporated Milk）70ml" },
+        { "vessel": "shaker", "text": "无乳糖牛奶 150ml" },
+        { "vessel": "shaker", "text": "绿茶 150ml（少冰：200ml）" },
+        { "vessel": "shaker", "text": "按糖表加糖" },
+        { "vessel": "shaker", "text": "粉盐（Pink Salt）一点点" },
+        { "vessel": "shaker", "text": "搅拌均匀" },
+        { "vessel": "cup",    "text": "倒入出品杯" },
+        { "vessel": "cup",    "text": "加冰至满杯" },
+        { "vessel": "cup",    "text": "加奶盖（Cheese Foam）" }
+      ],
+      "lessIce": {
+        "full": "正常加冰；绿茶 150ml",
+        "less": "少冰：绿茶 200ml",
+        "noIce": "去冰：绿茶 200ml；不加冰"
+      },
+      "toppings": ["黑珍珠（已含）", "奶盖（已含）"]
+    },
+    {
+      "id": 27,
+      "category": "Coffee",
+      "chineseName": "鲜橙C拿铁 500ml",
+      "englishName": "Sparkling Orange Latte 500ml",
+      "cupSize": "500ml",
+      "sugarOptions": ["无糖"],
+      "description": "橙片贴壁 + 鲜橙C汽水 + 咖啡",
+      "steps": [
+        { "vessel": "cup",  "text": "橙子 2片，贴壁打底" },
+        { "vessel": "cup",  "text": "鲜橙C汽水 200ml" },
+        { "vessel": "cup",  "text": "加块冰" },
+        { "vessel": "cup",  "text": "咖啡豆 18.7g（每次必须称量）→ 萃取出 36g 咖啡，约 36 秒" },
+        { "vessel": "note", "text": "⚠️ 咖啡豆每次必须称量 18.7g；出杯 36g；萃取时间约 36 秒", "isWarning": true }
+      ],
+      "lessIce": {
+        "full": "加一块冰",
+        "less": "少冰：不加冰",
+        "noIce": "去冰：不加冰"
+      },
+      "toppings": ["无"]
+    },
+    {
+      "id": 28,
+      "category": "Coffee",
+      "chineseName": "鲜橙C拿铁 700ml",
+      "englishName": "Sparkling Orange Latte 700ml",
+      "cupSize": "700ml",
+      "sugarOptions": ["无糖"],
+      "description": "橙片贴壁 + 鲜橙C汽水 + 咖啡",
+      "steps": [
+        { "vessel": "cup",  "text": "橙子 4片，贴壁打底" },
+        { "vessel": "cup",  "text": "鲜橙C汽水 330ml" },
+        { "vessel": "cup",  "text": "加块冰" },
+        { "vessel": "cup",  "text": "咖啡豆 18.7g（每次必须称量）→ 萃取出 36g 咖啡，约 36 秒" },
+        { "vessel": "note", "text": "⚠️ 咖啡豆每次必须称量 18.7g；出杯 36g；萃取时间约 36 秒", "isWarning": true }
+      ],
+      "lessIce": {
+        "full": "加一块冰",
+        "less": "少冰：不加冰",
+        "noIce": "去冰：不加冰"
+      },
+      "toppings": ["无"]
+    }
+  ],
+  "checklist": [
+    { "id": "menu",    "text": "检查 menu availability（菜单上架状态）" },
+    { "id": "floor",   "text": "拖地" },
+    { "id": "coffee",  "text": "清洗咖啡机，检查咖啡机有水" },
+    { "id": "cups",    "text": "补杯子 / 盖子 / 打包用品" },
+    { "id": "mango",   "text": "芒果捣一整层七排" },
+    { "id": "straw",   "text": "草莓捣 1排" },
+    { "id": "fruit",   "text": "准备水果 slices（橙子/西柚/草莓等）" },
+    { "id": "kiwi",    "text": "准备 5-10 个 kiwi 杯" },
+    { "id": "700cup",  "text": "补满 700ml 杯子、厚椰乳、杯盖" },
+    { "id": "straw2",  "text": "吸管摆上补满" },
+    { "id": "bobo",    "text": "检查脆波波库存" },
+    { "id": "stock",   "text": "检查所有货物储存量" },
+    { "id": "kitchen", "text": "⚠️ 珍珠、茶冻、紫薯、芋头、西米 需 1-3 小时制作，提前通知厨房", "isWarning": true }
+  ],
+  "fruitWeights": [
+    { "item": "草莓",   "weight": "120g（不含杯重）" },
+    { "item": "芒果",   "weight": "120g（不含杯重）" },
+    { "item": "葡萄",   "weight": "120g + 20g 苹果（不含杯重）" },
+    { "item": "西瓜",   "weight": "140g / 200g / 300g（需盖盖子）" },
+    { "item": "柿子",   "weight": "半个或一个，60-80g" },
+    { "item": "奇异果", "weight": "整个" }
+  ],
+  "contacts": [
+    { "name": "Haoran",                    "role": "店长",   "phone": "(254) 214-9013", "emoji": "👨‍💼" },
+    { "name": "Uber Eats Merchant Support","role": "外卖平台","phone": "(833) 275-3287", "emoji": "🛵" },
+    { "name": "DoorDash Merchant Support", "role": "外卖平台","phone": "(855) 222-8111", "emoji": "🚗" }
+  ]
+}
