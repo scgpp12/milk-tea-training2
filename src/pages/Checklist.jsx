@@ -3,11 +3,13 @@ import db from "../data/drinks.json";
 
 const OPEN_ITEMS  = db.checklistOpen;
 const CLOSE_ITEMS = db.checklistClose;
+const STOCK_ITEMS = db.checklistStock;
 const FRUIT_WEIGHTS = db.fruitWeights;
 
 const TABS = [
   { k: "open",  label: "开班清单", icon: "🌅", items: OPEN_ITEMS },
   { k: "close", label: "打烊清单", icon: "🌙", items: CLOSE_ITEMS },
+  { k: "stock", label: "备货管理", icon: "📦", items: STOCK_ITEMS },
 ];
 
 function ChecklistSection({ items, checked, toggle }) {

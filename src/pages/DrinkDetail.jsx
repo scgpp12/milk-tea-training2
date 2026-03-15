@@ -90,9 +90,8 @@ export default function DrinkDetail({ drink, setPage, setSimDrinkId }) {
             </h3>
             <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
               {[
-                ["full",  "正常冰"],
-                ["less",  "少冰"],
-                ["noIce", "去冰"],
+                ["full", "正常冰"],
+                ["less", "少冰"],
               ].map(([k, l], i, a) => (
                 <div
                   key={k}

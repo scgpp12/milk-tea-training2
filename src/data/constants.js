@@ -5,6 +5,7 @@ export const CATEGORIES = [
   "Cheese Foam Slush",
   "Milk Tea",
   "Coffee",
+  "Hot Drinks",
 ];
 
 export const CAT_META = {
@@ -42,6 +43,13 @@ export const CAT_META = {
     bg: "bg-stone-100",
     border: "border-stone-300",
     text: "text-stone-700",
+  },
+  "Hot Drinks": {
+    emoji: "🔥",
+    badge: "bg-orange-600 text-white",
+    bg: "bg-orange-50",
+    border: "border-orange-200",
+    text: "text-orange-700",
   },
 };
 
