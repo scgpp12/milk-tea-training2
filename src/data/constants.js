@@ -11,10 +11,10 @@ export const CATEGORIES = [
 export const CAT_META = {
   "Exclusive Bobo": {
     emoji: "🫧",
-    badge: "bg-amber-500 text-white",
-    bg: "bg-amber-50",
-    border: "border-amber-200",
-    text: "text-amber-700",
+    badge: "bg-green-600 text-white",
+    bg: "bg-green-50",
+    border: "border-green-200",
+    text: "text-green-700",
   },
   "Fresh Fruit Tea": {
     emoji: "🍊",

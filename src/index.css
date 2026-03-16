@@ -2,20 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  -webkit-tap-highlight-color: transparent;
+@layer base {
+  :root {
+    --color-brand:        #16a34a;
+    --color-brand-light:  #dcfce7;
+    --color-brand-dark:   #14532d;
+    --color-surface:      #f0fdf4;
+    --color-sidebar:      #14532d;
+    --color-sidebar-hover:#166534;
+    --color-border:       #bbf7d0;
+    --color-text:         #14532d;
+    --color-muted:        #4b7a5e;
+    --color-subtle:       #86efac;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+      "Noto Sans SC", "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--color-surface);
+    color: var(--color-text);
+  }
+
+  h1, h2, h3 {
+    letter-spacing: -0.02em;
+  }
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC",
-    "Helvetica Neue", Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
+  /* Decorative blob for hero sections */
+  .blob {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
 }

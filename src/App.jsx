@@ -24,34 +24,38 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-[#f0fdf4]">
       <Nav page={page} setPage={navigate} open={sidebarOpen} setOpen={setSidebarOpen} />
 
       {/* Mobile overlay */}
       {sidebarOpen && (
         <div
-          className="fixed inset-0 z-20 bg-gray-900/50 lg:hidden"
+          className="fixed inset-0 z-20 bg-green-950/60 backdrop-blur-sm lg:hidden"
           onClick={() => setSidebarOpen(false)}
         />
       )}
 
-      {/* Main content shifts right on desktop to make room for sidebar */}
-      <div className="lg:pl-64">
+      {/* Main content */}
+      <div className="lg:pl-60">
         {/* Mobile top bar */}
-        <div className="sticky top-0 z-10 flex h-14 items-center gap-3 border-b border-gray-200 bg-white px-4 shadow-sm lg:hidden">
+        <div className="sticky top-0 z-10 flex h-14 items-center gap-3 border-b border-green-100 bg-green-50/80 backdrop-blur-md px-4 lg:hidden">
           <button
             onClick={() => setSidebarOpen(true)}
-            className="rounded-md p-1.5 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+            className="rounded-md p-1.5 text-green-700 hover:bg-green-100 transition-colors"
           >
             <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
           </button>
-          <span className="text-xl">🧋</span>
-          <span className="font-semibold text-gray-900 text-sm">Rui Tea 培训手册</span>
+          <div className="flex items-center gap-2">
+            <div className="flex h-7 w-7 items-center justify-center rounded-md bg-green-500 text-sm">
+              🧋
+            </div>
+            <span className="font-semibold text-green-900 text-sm tracking-tight">Rui Tea</span>
+          </div>
         </div>
 
-        <main className="py-8 px-4 sm:px-6 lg:px-8 max-w-4xl">
+        <main className="py-10 px-6 sm:px-8 lg:px-10 max-w-3xl">
           {page === "home"      && <Home setPage={setPage} setSelId={setSelId} />}
           {page === "drink"     && drink && (
             <DrinkDetail drink={drink} setPage={setPage} setSimDrinkId={setSimDrinkId} />
