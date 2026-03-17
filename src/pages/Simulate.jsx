@@ -56,6 +56,11 @@ export default function Simulate({ initDrinkId, setPage }) {
     if (timeLeft === 0 && phase === "playing") checkResult();
   }, [timeLeft]); // eslint-disable-line
 
+  // Shaker ingredient steps (adding stuff to shaker) are order-independent.
+  // Only the shake step itself ("摇匀") is position-sensitive.
+  const isShakeStep       = (s) => s.vessel === "shaker" && s.text.includes("摇匀");
+  const isShakeIngredient = (s) => s.vessel === "shaker" && !isShakeStep(s);
+
   function checkResult() {
     if (!drink) return;
     setTimerActive(false);
@@ -63,10 +68,22 @@ export default function Simulate({ initDrinkId, setPage }) {
     const current      = orderRef.current;
     const correctSteps = drink.steps.filter((s) => !s.isWarning);
     const userSteps    = current.filter((s) => s.real);
-    let correct = 0;
-    correctSteps.forEach((step, i) => {
-      if (userSteps[i] && userSteps[i].text === step.text) correct++;
+
+    // Set-based scoring for shaker ingredient steps
+    const correctShakerSet = new Set(correctSteps.filter(isShakeIngredient).map((s) => s.text));
+    const userShakerSet    = new Set(userSteps.filter(isShakeIngredient).map((s) => s.text));
+    let shakerCorrect = 0;
+    correctShakerSet.forEach((t) => { if (userShakerSet.has(t)) shakerCorrect++; });
+
+    // Position-based scoring for non-shaker-ingredient steps
+    const correctOrdered = correctSteps.filter((s) => !isShakeIngredient(s));
+    const userOrdered    = userSteps.filter((s) => !isShakeIngredient(s));
+    let posCorrect = 0;
+    correctOrdered.forEach((step, i) => {
+      if (userOrdered[i] && userOrdered[i].text === step.text) posCorrect++;
     });
+
+    const correct = shakerCorrect + posCorrect;
     setResult({ correct, total: correctSteps.length, fakeCount: current.filter((s) => !s.real).length, userSteps });
     setPhase("result");
   }
@@ -98,6 +115,7 @@ export default function Simulate({ initDrinkId, setPage }) {
           <ul className="space-y-0.5 text-sm text-green-800">
             <li>• 从候选步骤中点击，按正确顺序加入「制作顺序」</li>
             <li>• 候选步骤中含有干扰项，注意甄别</li>
+            <li>• 🧉 Shaker 材料加入顺序不影响评分，只需全部加入并摇匀即可</li>
             <li>• 每步骤限时 15 秒，超时自动提交</li>
           </ul>
         </div>
@@ -214,6 +232,7 @@ export default function Simulate({ initDrinkId, setPage }) {
           <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-2">
             候选步骤（含干扰项，请仔细判断）
           </p>
+          <p className="text-xs text-green-600 mb-2">🧉 Shaker 材料加入顺序不限，只需全部加入即可</p>
           <div className="space-y-1.5">
             {pool.map((step) => {
               const vs = VESSEL_STYLE[step.vessel] || VESSEL_STYLE.cup;
@@ -287,8 +306,10 @@ export default function Simulate({ initDrinkId, setPage }) {
           <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-3">标准制作步骤</p>
           <div className="space-y-1.5">
             {(() => {
-              const correctSteps = drink.steps.filter((s) => !s.isWarning);
               const userSteps    = result.userSteps || [];
+              const userShakerSet = new Set(userSteps.filter(isShakeIngredient).map((s) => s.text));
+              // For position-sensitive steps, track index separately
+              const userOrdered  = userSteps.filter((s) => !isShakeIngredient(s));
               let ci = 0;
               return drink.steps.map((step, i) => {
                 const vs = VESSEL_STYLE[step.vessel] || VESSEL_STYLE.cup;
@@ -301,9 +322,17 @@ export default function Simulate({ initDrinkId, setPage }) {
                     </div>
                   );
                 }
-                const j          = ci++;
-                const userPlaced = userSteps[j];
-                const isRight    = userPlaced && userPlaced.text === step.text;
+                let isRight;
+                let userPlaced;
+                if (isShakeIngredient(step)) {
+                  // Order-free: just check if this ingredient is in user's shaker set
+                  isRight = userShakerSet.has(step.text);
+                  userPlaced = null; // no single "placed" step to show
+                } else {
+                  const j  = ci++;
+                  userPlaced = userOrdered[j];
+                  isRight    = userPlaced && userPlaced.text === step.text;
+                }
                 return (
                   <div key={i} className={`flex items-center gap-2 border rounded-xl px-3 py-2.5 ${isRight ? "bg-emerald-50 border-emerald-200" : "bg-white border-zinc-200"}`}>
                     <span className={`w-5 h-5 rounded-full flex items-center justify-center text-xs font-bold text-white flex-shrink-0 ${isRight ? "bg-emerald-500" : "bg-red-400"}`}>
@@ -312,8 +341,15 @@ export default function Simulate({ initDrinkId, setPage }) {
                     <span className="text-sm">{vs.icon}</span>
                     <div className="flex-1 min-w-0">
                       <p className="text-sm text-zinc-700">{step.text}</p>
-                      {!isRight && userPlaced && <p className="text-xs text-red-500 mt-0.5">你填写了：{userPlaced.text}</p>}
-                      {!isRight && !userPlaced && <p className="text-xs text-red-400 mt-0.5">未填写</p>}
+                      {isShakeIngredient(step) && !isRight && (
+                        <p className="text-xs text-red-400 mt-0.5">未加入</p>
+                      )}
+                      {!isShakeIngredient(step) && !isRight && userPlaced && (
+                        <p className="text-xs text-red-500 mt-0.5">你填写了：{userPlaced.text}</p>
+                      )}
+                      {!isShakeIngredient(step) && !isRight && !userPlaced && (
+                        <p className="text-xs text-red-400 mt-0.5">未填写</p>
+                      )}
                     </div>
                     <span className="flex-shrink-0">{isRight ? "✅" : "❌"}</span>
                   </div>
