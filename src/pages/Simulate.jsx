@@ -26,10 +26,20 @@ export default function Simulate({ initDrinkId, setPage }) {
 
   function startGame(d) {
     const realSteps = d.steps.map((s, i) => ({ ...s, id: `real-${i}`, real: true, idx: i }));
-    const distractors = shuffle(
+
+    // Deduplicate fakes: exclude any text that already appears in real steps or other fakes
+    const seenTexts = new Set(realSteps.map((s) => s.text));
+    const uniqueFakes = [];
+    for (const s of shuffle(
       DRINKS.filter((x) => x.id !== d.id).flatMap((x) => x.steps).filter((s) => !s.isWarning)
-    ).slice(0, Math.min(4, realSteps.length));
-    const fakes = distractors.map((s, i) => ({ ...s, id: `fake-${i}`, real: false }));
+    )) {
+      if (!seenTexts.has(s.text)) {
+        seenTexts.add(s.text);
+        uniqueFakes.push(s);
+        if (uniqueFakes.length >= Math.min(4, realSteps.length)) break;
+      }
+    }
+    const fakes = uniqueFakes.map((s, i) => ({ ...s, id: `fake-${i}`, real: false }));
 
     setPool(shuffle([...realSteps, ...fakes]));
     setOrder([]);
