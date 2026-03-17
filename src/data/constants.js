@@ -72,6 +72,12 @@ export const VESSEL_STYLE = {
     bg: "bg-purple-50 border-purple-200",
     dot: "bg-purple-400",
   },
+  mug: {
+    icon: "☕",
+    label: "咖啡杯",
+    bg: "bg-orange-50 border-orange-200",
+    dot: "bg-orange-400",
+  },
   note: {
     icon: "⚠️",
     label: "注意",

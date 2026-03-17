@@ -747,16 +747,16 @@
       "sugarOptions": ["按需加糖"],
       "description": "无咖啡因；手打芒果 + 西米 + 椰奶底 + 西柚果肉；温热出品",
       "steps": [
-        { "vessel": "cup",     "text": "出品杯：芒果碎 40g" },
-        { "vessel": "cup",     "text": "西米 一勺" },
-        { "vessel": "cup",     "text": "Coco Milk 50ml（温热）" },
-        { "vessel": "blender", "text": "芒果块 80g" },
-        { "vessel": "blender", "text": "Mango Syrup 一勺" },
-        { "vessel": "blender", "text": "按需加糖" },
-        { "vessel": "blender", "text": "温热茶 150ml，搅拌机搅拌" },
-        { "vessel": "cup",     "text": "将 Blender 内容全部倒入出品杯" },
-        { "vessel": "cup",     "text": "倒入西柚果肉补至满杯，出杯" },
-        { "vessel": "note",    "text": "⚠️ 无咖啡因；温热出品，请用热饮套", "isWarning": true }
+        { "vessel": "cup", "text": "出品杯：芒果碎 120g 捣碎" },
+        { "vessel": "cup", "text": "西米 一大勺" },
+        { "vessel": "cup", "text": "西柚果肉 3勺" },
+        { "vessel": "cup", "text": "Coco Milk 100ml，搅拌均匀" },
+        { "vessel": "mug", "text": "芒果糖浆 一勺" },
+        { "vessel": "mug", "text": "糖 20g（半糖：10g）" },
+        { "vessel": "mug", "text": "热水 1/3杯" },
+        { "vessel": "mug", "text": "左侧蒸汽按钮按下加热（自动停止）" },
+        { "vessel": "cup", "text": "将咖啡杯内容倒入出品杯至满，搅拌均匀出杯" },
+        { "vessel": "note", "text": "⚠️ 无咖啡因；温热出品，请用热饮套", "isWarning": true }
       ],
       "lessIce": {
         "full": "温热出品，不加冰",
