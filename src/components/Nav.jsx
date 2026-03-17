@@ -46,7 +46,10 @@ const NAV_ITEMS = [
   },
 ];
 
+import { useAuth } from "../context/AuthContext";
+
 function SidebarContent({ page, setPage, onClose }) {
+  const { user, logout } = useAuth();
   return (
     <div className="flex h-full flex-col" style={{ background: "linear-gradient(180deg, #14532d 0%, #166534 100%)" }}>
       {/* Decorative blobs */}
@@ -105,14 +108,31 @@ function SidebarContent({ page, setPage, onClose }) {
         })}
       </nav>
 
-      {/* Footer */}
-      <div className="relative border-t border-green-800/50 px-5 py-4">
+      {/* Footer: user info + logout */}
+      <div className="relative border-t border-green-800/50 px-4 py-3">
+        {user && (
+          <div className="flex items-center gap-2 mb-2">
+            <div className="flex h-7 w-7 items-center justify-center rounded-full bg-green-500/30 text-green-300 text-xs font-bold flex-shrink-0">
+              {user.name.charAt(0).toUpperCase()}
+            </div>
+            <div className="min-w-0 flex-1">
+              <p className="text-xs font-medium text-green-200 truncate">{user.name}</p>
+              <p className="text-[10px] text-green-600 truncate">{user.email}</p>
+            </div>
+            <button
+              onClick={logout}
+              title="退出登录"
+              className="flex-shrink-0 p-1 rounded-md text-green-500 hover:text-green-200 hover:bg-green-800/50 transition-colors"
+            >
+              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75" />
+              </svg>
+            </button>
+          </div>
+        )}
         <div className="flex items-center gap-2">
           <div className="h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
-          <div className="min-w-0">
-            <p className="text-xs text-green-300/60 truncate">Jersey City, NJ</p>
-            <p className="text-xs text-green-600 truncate">10 Provost Street</p>
-          </div>
+          <p className="text-xs text-green-600 truncate">Jersey City · 10 Provost St</p>
         </div>
       </div>
     </div>

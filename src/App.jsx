@@ -6,11 +6,16 @@ import Simulate   from "./pages/Simulate";
 import Quiz       from "./pages/Quiz";
 import Checklist  from "./pages/Checklist";
 import Contacts   from "./pages/Contacts";
+import Login      from "./pages/Login";
+import Register   from "./pages/Register";
+import { useAuth } from "./context/AuthContext";
 import db         from "./data/drinks.json";
 
 const DRINKS = db.drinks;
 
 export default function App() {
+  const { user } = useAuth();
+  const [authPage, setAuthPage] = useState("login"); // "login" | "register"
   const [page,        setPage]        = useState("home");
   const [selId,       setSelId]       = useState(null);
   const [simDrinkId,  setSimDrinkId]  = useState(null);
@@ -21,6 +26,13 @@ export default function App() {
   function navigate(p) {
     setPage(p);
     setSidebarOpen(false);
+  }
+
+  // Show auth pages when not logged in
+  if (!user) {
+    if (authPage === "register")
+      return <Register onGoLogin={() => setAuthPage("login")} />;
+    return <Login onGoRegister={() => setAuthPage("register")} />;
   }
 
   return (
