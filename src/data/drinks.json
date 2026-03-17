@@ -125,7 +125,7 @@
       "description": "整个奇异果捣碎 + 绿茶底 + 奶盖",
       "steps": [
         { "vessel": "cup",    "text": "杯底加入啵啵 一勺" },
-        { "vessel": "shaker", "text": "加入 2个奇异果，捣碎" },
+        { "vessel": "shaker", "text": "加入 1个奇异果，去皮，切成2片，捣碎" },
         { "vessel": "shaker", "text": "加糖 20g（半糖：10g）" },
         { "vessel": "shaker", "text": "奇异果果酱 一勺" },
         { "vessel": "shaker", "text": "Tea 200ml（少冰：250ml）" },
@@ -217,8 +217,8 @@
       "description": "双柠压汁 + 橙片/西柚片装饰 + 西瓜汁补满",
       "steps": [
         { "vessel": "cup",    "text": "奶茶杯：2个青柠 + 2个柠檬，入杯压汁" },
-        { "vessel": "cup",    "text": "1片橙子 + 1片西柚，入杯贴杯壁" },
-        { "vessel": "shaker", "text": "加糖 20g（半糖：10g）" },
+        { "vessel": "cup",    "text": "2片橙子 + 1片西柚，入杯贴杯壁" },
+        { "vessel": "shaker", "text": "加糖 45g（半糖：35g）" },
         { "vessel": "shaker", "text": "百香果酱 一勺" },
         { "vessel": "shaker", "text": "Tea 250ml（少冰：300ml）" },
         { "vessel": "shaker", "text": "加冰" },
@@ -306,10 +306,10 @@
       "englishName": "Mandarin (New)",
       "cupSize": "700ml",
       "sugarOptions": ["全糖", "半糖", "无糖", "30%糖"],
-      "description": "手剥大橘 + 茉莉绿茶；无啵啵",
+      "description": "手剥大橘 + 绿茶；无啵啵",
       "steps": [
         { "vessel": "cup",    "text": "手剥大橘果肉放入杯底" },
-        { "vessel": "shaker", "text": "茉莉绿茶 250ml（少冰：300ml）" },
+        { "vessel": "shaker", "text": "绿茶 250ml（少冰：300ml）" },
         { "vessel": "shaker", "text": "按糖量加糖" },
         { "vessel": "shaker", "text": "加冰" },
         { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯" }
@@ -688,6 +688,7 @@
       "description": "经典热珍珠奶茶；珍珠已含",
       "steps": [
         { "vessel": "cup", "text": "珍珠 一勺放入杯底" },
+        { "vessel": "cup", "text": "奶茶加热至适宜温度" },
         { "vessel": "cup", "text": "热奶茶 300ml（调好糖量）倒入杯中" },
         { "vessel": "note", "text": "⚠️ 热饮出品，请用热饮套", "isWarning": true }
       ],
@@ -707,6 +708,7 @@
       "description": "手捣紫薯 + 热牛奶；无粉末；口感有颗粒感，首次顾客须告知；可选奶茶底/有机奶/无乳糖奶",
       "steps": [
         { "vessel": "cup", "text": "紫薯 三大勺放入杯中" },
+        { "vessel": "cup", "text": "奶茶/牛奶加热至适宜温度" },
         { "vessel": "cup", "text": "按顾客选择倒入热奶茶 / 热有机牛奶 / 热无乳糖牛奶至满杯" },
         { "vessel": "note", "text": "⚠️ 手捣紫薯有颗粒感，首次顾客必须提供试饮或告知；热饮请用热饮套", "isWarning": true }
       ],
@@ -726,6 +728,7 @@
       "description": "手捣芋头 + 热牛奶；无粉末；口感有颗粒感，首次顾客须告知；可选奶茶底/有机奶/无乳糖奶",
       "steps": [
         { "vessel": "cup", "text": "芋头 三大勺放入杯中" },
+        { "vessel": "cup", "text": "奶茶/牛奶加热至适宜温度" },
         { "vessel": "cup", "text": "按顾客选择倒入热奶茶 / 热有机牛奶 / 热无乳糖牛奶至满杯" },
         { "vessel": "note", "text": "⚠️ 手捣芋头有颗粒感，首次顾客必须提供试饮或告知；热饮请用热饮套", "isWarning": true }
       ],
@@ -774,6 +777,7 @@
         { "vessel": "shaker", "text": "新搅拌杯：热桂花乌龙茶 250ml" },
         { "vessel": "shaker", "text": "有机牛奶 70ml + 咖奶（Evaporated Milk）30ml" },
         { "vessel": "shaker", "text": "按糖表加糖（全糖 / 半糖 / 30%糖 / 无糖）" },
+        { "vessel": "shaker", "text": "奶茶加热至适宜温度" },
         { "vessel": "cup",    "text": "搅拌均匀，倒入出品杯，热饮套出品" },
         { "vessel": "note",   "text": "⚠️ 热饮出品，请用热饮套", "isWarning": true }
       ],
@@ -796,6 +800,7 @@
         { "vessel": "shaker", "text": "新搅拌杯：热白桃乌龙茶 250ml" },
         { "vessel": "shaker", "text": "有机牛奶 70ml + 咖奶（Evaporated Milk）30ml" },
         { "vessel": "shaker", "text": "按糖表加糖（全糖 / 半糖 / 30%糖 / 无糖）" },
+        { "vessel": "shaker", "text": "奶茶加热至适宜温度" },
         { "vessel": "cup",    "text": "搅拌均匀，倒入出品杯，热饮套出品" },
         { "vessel": "note",   "text": "⚠️ 热饮出品，请用热饮套", "isWarning": true }
       ],
