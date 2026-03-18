@@ -4,7 +4,7 @@ import RecipeSteps from "../components/RecipeSteps";
 import { useLanguage } from "../contexts/LanguageContext";
 
 export default function DrinkDetail({ drink, setPage, setSimDrinkId }) {
-  const { t, pick } = useLanguage();
+  const { t, pick, lang } = useLanguage();
   const [tab, setTab] = useState("recipe");
   const meta = getCatMeta(drink.category);
   const TABS = [
@@ -47,6 +47,22 @@ export default function DrinkDetail({ drink, setPage, setSimDrinkId }) {
           </div>
         </div>
       </div>
+
+      {/* Video demo */}
+      {drink.video && (
+        <div className="mb-3">
+          <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-2">
+            🎬 {lang === "en" ? "Demo Video" : "制作演示"}
+          </p>
+          <video
+            src={`/${drink.video}`}
+            controls
+            playsInline
+            className="w-full rounded-xl border border-zinc-200 bg-black"
+            style={{ maxHeight: "360px" }}
+          />
+        </div>
+      )}
 
       {/* Practice CTA */}
       <button
