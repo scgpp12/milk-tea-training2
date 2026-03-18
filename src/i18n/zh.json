@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "subtitle": "员工培训手册",
+    "section": "导航",
+    "menu": "饮品菜单",
+    "simulate": "模拟制作",
+    "quiz": "知识测验",
+    "checklist": "开班清单",
+    "contacts": "紧急联系",
+    "logout": "退出登录",
+    "location": "Jersey City · 10 Provost St"
+  },
+  "home": {
+    "brand": "Rui Tea · Jersey City",
+    "title": "饮品菜单",
+    "count": "款饮品",
+    "results": "款",
+    "searchPlaceholder": "搜索饮品...",
+    "all": "全部",
+    "empty": "没有找到相关饮品",
+    "emptyHint": "请尝试其他关键词"
+  },
+  "drink": {
+    "back": "返回菜单",
+    "practice": "模拟制作练习",
+    "tabs": {
+      "recipe": "配方步骤",
+      "ice": "冰量 / 甜度",
+      "toppings": "配料"
+    },
+    "ice": {
+      "title": "冰量调整",
+      "full": "正常冰",
+      "less": "少冰"
+    },
+    "sugar": {
+      "title": "甜度选项"
+    },
+    "toppings": {
+      "title": "配料"
+    }
+  },
+  "vessel": {
+    "cup": "出品杯",
+    "shaker": "Shaker杯",
+    "blender": "Blender",
+    "mug": "咖啡杯",
+    "note": "注意",
+    "legend": "容器图例"
+  },
+  "checklist": {
+    "title": "开班清单",
+    "subtitle": "出品前必须完成所有步骤",
+    "tabs": {
+      "open": "开店",
+      "close": "收店",
+      "stock": "备料"
+    },
+    "progress": {
+      "done": "全部完成",
+      "pending": "待完成"
+    },
+    "reset": "重置",
+    "coffee": {
+      "title": "咖啡机操作",
+      "ratio": "咖啡豆：18.7g → 萃取出 36g 咖啡（约36秒）",
+      "beans": "每次必须称量，不可估量",
+      "steam": "蒸汽头：用后立即清洁，否则凝固难清"
+    },
+    "fruitWeights": "水果称重参考"
+  },
+  "quiz": {
+    "title": "知识测验",
+    "subtitle": "测试你的饮品知识",
+    "types": {
+      "guess": { "title": "猜饮品", "desc": "根据制作步骤猜饮品名称" },
+      "steps": { "title": "辨别真假步骤", "desc": "找出该饮品的正确步骤" },
+      "ice":   { "title": "冰量测验",    "desc": "匹配正确的少冰/去冰说明" },
+      "vessel":{ "title": "容器测验",    "desc": "判断步骤应用哪个容器操作" }
+    },
+    "selectDrink": "选择一款饮品开始测验",
+    "result": {
+      "pass": "答对了！",
+      "fail": "答错了",
+      "correct": "正确答案",
+      "next": "下一题",
+      "finish": "完成测验"
+    }
+  },
+  "simulate": {
+    "title": "模拟制作",
+    "subtitle": "选择饮品，按正确顺序排列制作步骤",
+    "badge": "实操练习",
+    "instructions": {
+      "title": "游戏说明",
+      "hint1": "从候选池中点击加入「制作顺序」，排除干扰项",
+      "hint2": "顺序不影响评分，只需选出所有正确步骤即可",
+      "hint3": "每步骤限时 15 秒，超时自动提交"
+    },
+    "search": "搜索饮品...",
+    "ordered": "已排步骤",
+    "pool": "候选步骤（含干扰项，请仔细判断）",
+    "orderFree": "顺序不限，选出所有正确步骤即可得分",
+    "submit": "提交答案",
+    "result": {
+      "perfect": "完美！",
+      "good": "不错！",
+      "ok": "还可以",
+      "retry": "继续练习",
+      "score": "分",
+      "correct": "正确步骤",
+      "wrong": "错误步骤",
+      "missing": "遗漏步骤"
+    },
+    "timeout": "时间到，已自动提交"
+  },
+  "contacts": {
+    "title": "紧急联系",
+    "subtitle": "遇到问题随时联系",
+    "call": "拨打",
+    "roles": {
+      "store_manager": "店长",
+      "delivery": "外卖平台"
+    }
+  },
+  "lang": {
+    "toggle": "EN",
+    "current": "中文"
+  }
+}

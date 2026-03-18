@@ -2,10 +2,12 @@ import { useState } from "react";
 import { CATEGORIES, getCatMeta } from "../data/constants";
 import DrinkCard from "../components/DrinkCard";
 import db from "../data/drinks.json";
+import { useLanguage } from "../contexts/LanguageContext";
 
 const DRINKS = db.drinks;
 
 export default function Home({ setPage, setSelId }) {
+  const { t } = useLanguage();
   const [cat, setCat] = useState("All");
   const [q,   setQ]   = useState("");
 
@@ -22,10 +24,10 @@ export default function Home({ setPage, setSelId }) {
       {/* Page header */}
       <div className="mb-8">
         <p className="text-xs font-semibold tracking-widest text-green-600 uppercase mb-1">
-          Rui Tea · Jersey City
+          {t("home.brand")}
         </p>
-        <h1 className="text-2xl font-bold text-zinc-900 tracking-tight">饮品菜单</h1>
-        <p className="text-zinc-500 text-sm mt-1">{DRINKS.length} 款饮品</p>
+        <h1 className="text-2xl font-bold text-zinc-900 tracking-tight">{t("home.title")}</h1>
+        <p className="text-zinc-500 text-sm mt-1">{DRINKS.length} {t("home.count")}</p>
       </div>
 
       {/* Search */}
@@ -38,7 +40,7 @@ export default function Home({ setPage, setSelId }) {
         <input
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder="搜索饮品..."
+          placeholder={t("home.searchPlaceholder")}
           className="w-full pl-10 pr-4 py-2.5 border border-zinc-200 rounded-xl text-sm bg-white text-zinc-900 placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-green-500/30 focus:border-green-500 transition-all"
         />
       </div>
@@ -58,7 +60,7 @@ export default function Home({ setPage, setSelId }) {
               }`}
             >
               {c !== "All" && <span>{getCatMeta(c).emoji}</span>}
-              <span>{c === "All" ? "全部" : c}</span>
+              <span>{c === "All" ? t("home.all") : c}</span>
             </button>
           );
         })}
@@ -66,7 +68,7 @@ export default function Home({ setPage, setSelId }) {
 
       {/* Results count */}
       <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-4">
-        {filtered.length} 款
+        {filtered.length} {t("home.results")}
       </p>
 
       {/* Drink list */}
@@ -90,8 +92,8 @@ export default function Home({ setPage, setSelId }) {
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
             </svg>
           </div>
-          <p className="text-zinc-700 font-semibold text-sm">没有找到相关饮品</p>
-          <p className="text-zinc-400 text-xs mt-1">请尝试其他关键词</p>
+          <p className="text-zinc-700 font-semibold text-sm">{t("home.empty")}</p>
+          <p className="text-zinc-400 text-xs mt-1">{t("home.emptyHint")}</p>
         </div>
       )}
     </div>

@@ -1,14 +1,16 @@
 import db from "../data/drinks.json";
+import { useLanguage } from "../contexts/LanguageContext";
 
 const CONTACTS = db.contacts;
 
 export default function Contacts() {
+  const { t, lang, pick } = useLanguage();
   return (
     <div>
       <div className="mb-8">
-        <p className="text-xs font-semibold tracking-widest text-green-600 uppercase mb-1">遇事不决</p>
-        <h2 className="text-2xl font-bold text-zinc-900 tracking-tight">紧急联系</h2>
-        <p className="text-zinc-500 text-sm mt-1">遇到问题时的联系方式</p>
+        <p className="text-xs font-semibold tracking-widest text-green-600 uppercase mb-1">{t("contacts.subtitle")}</p>
+        <h2 className="text-2xl font-bold text-zinc-900 tracking-tight">{t("contacts.title")}</h2>
+        <p className="text-zinc-500 text-sm mt-1">{t("contacts.subtitle")}</p>
       </div>
 
       <div className="space-y-2.5 mb-8">
@@ -22,7 +24,7 @@ export default function Contacts() {
             </div>
             <div className="flex-1 min-w-0">
               <p className="font-semibold text-zinc-900 text-sm">{c.name}</p>
-              <p className="text-zinc-400 text-xs mt-0.5">{c.role}</p>
+              <p className="text-zinc-400 text-xs mt-0.5">{pick(c, "role")}</p>
               <a
                 href={`tel:${c.phone.replace(/\D/g, "")}`}
                 className="text-green-600 font-bold text-sm hover:text-green-700 mt-1 block transition-colors"
@@ -44,7 +46,7 @@ export default function Contacts() {
 
       {/* Store info */}
       <div className="bg-zinc-900 text-white rounded-xl p-5">
-        <p className="text-xs font-semibold tracking-widest text-zinc-500 uppercase mb-3">店铺地址</p>
+        <p className="text-xs font-semibold tracking-widest text-zinc-500 uppercase mb-3">{lang === "en" ? "Store Address" : "店铺地址"}</p>
         <p className="text-zinc-100 font-semibold">10 Provost Street</p>
         <p className="text-zinc-400 text-sm">Jersey City, NJ 07302</p>
         <a
@@ -53,7 +55,7 @@ export default function Contacts() {
           rel="noopener noreferrer"
           className="inline-flex items-center gap-1.5 mt-4 text-green-500 text-sm font-medium hover:text-green-400 transition-colors"
         >
-          在 Google Maps 中查看
+          {lang === "en" ? "View on Google Maps" : "在 Google Maps 中查看"}
           <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
           </svg>

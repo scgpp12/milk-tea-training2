@@ -1,8 +1,12 @@
 import { getCatMeta } from "../data/constants";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export default function DrinkCard({ drink, onClick }) {
+  const { lang, pick } = useLanguage();
   const meta      = getCatMeta(drink.category);
   const stepCount = drink.steps.filter((s) => !s.isWarning).length;
+  const primaryName   = lang === "en" ? drink.englishName : drink.chineseName;
+  const secondaryName = lang === "en" ? drink.chineseName : drink.englishName;
 
   return (
     <button
@@ -18,14 +22,14 @@ export default function DrinkCard({ drink, onClick }) {
         {/* Info */}
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-0.5">
-            <p className="text-sm font-semibold text-zinc-900 truncate">{drink.chineseName}</p>
+            <p className="text-sm font-semibold text-zinc-900 truncate">{primaryName}</p>
             <span className={`flex-shrink-0 text-[10px] font-semibold px-2 py-0.5 rounded-full ${meta.badge}`}>
               {drink.category}
             </span>
           </div>
-          <p className="text-zinc-400 text-xs truncate">{drink.englishName}</p>
+          <p className="text-zinc-400 text-xs truncate">{secondaryName}</p>
           <div className="flex items-center gap-3 mt-1.5 text-[11px] text-zinc-400">
-            <span>{stepCount} 步制作</span>
+            <span>{stepCount} {lang === "en" ? "steps" : "步制作"}</span>
             <span className="text-zinc-200">·</span>
             <span>{drink.cupSize}</span>
             <span className="text-zinc-200">·</span>

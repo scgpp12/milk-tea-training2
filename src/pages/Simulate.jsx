@@ -1,10 +1,12 @@
 import { useState, useEffect, useRef } from "react";
 import { getCatMeta, VESSEL_STYLE, shuffle } from "../data/constants";
 import db from "../data/drinks.json";
+import { useLanguage } from "../contexts/LanguageContext";
 
 const DRINKS = db.drinks;
 
 export default function Simulate({ initDrinkId, setPage }) {
+  const { t, lang, pick } = useLanguage();
   const [drinkId,     setDrinkId]     = useState(initDrinkId);
   const [phase,       setPhase]       = useState("select");
   const [pool,        setPool]        = useState([]);
@@ -104,17 +106,17 @@ export default function Simulate({ initDrinkId, setPage }) {
     return (
       <div>
         <div className="mb-8">
-          <p className="text-xs font-semibold tracking-widest text-green-600 uppercase mb-1">实操练习</p>
-          <h2 className="text-2xl font-bold text-zinc-900 tracking-tight">模拟制作</h2>
-          <p className="text-zinc-500 text-sm mt-1">选择饮品，按正确顺序排列制作步骤</p>
+          <p className="text-xs font-semibold tracking-widest text-green-600 uppercase mb-1">{t("simulate.badge")}</p>
+          <h2 className="text-2xl font-bold text-zinc-900 tracking-tight">{t("simulate.title")}</h2>
+          <p className="text-zinc-500 text-sm mt-1">{t("simulate.subtitle")}</p>
         </div>
 
         <div className="bg-green-50 border border-green-200 rounded-xl p-4 mb-5">
-          <p className="text-sm font-semibold text-green-900 mb-1.5">📌 游戏说明</p>
+          <p className="text-sm font-semibold text-green-900 mb-1.5">📌 {t("simulate.instructions.title")}</p>
           <ul className="space-y-0.5 text-sm text-green-800">
-            <li>• 从候选步骤中点击加入「制作顺序」，排除干扰项</li>
-            <li>• 顺序不影响评分，只需选出所有正确步骤即可</li>
-            <li>• 每步骤限时 15 秒，超时自动提交</li>
+            <li>• {t("simulate.instructions.hint1")}</li>
+            <li>• {t("simulate.instructions.hint2")}</li>
+            <li>• {t("simulate.instructions.hint3")}</li>
           </ul>
         </div>
 
@@ -127,7 +129,7 @@ export default function Simulate({ initDrinkId, setPage }) {
           <input
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="搜索饮品..."
+            placeholder={t("simulate.search")}
             className="w-full pl-10 pr-4 py-2.5 border border-zinc-200 rounded-xl text-sm bg-white text-zinc-900 placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-green-500/30 focus:border-green-500 transition-all"
           />
         </div>
@@ -149,10 +151,10 @@ export default function Simulate({ initDrinkId, setPage }) {
                       </span>
                       <span className="text-xs text-zinc-400 font-mono">{d.cupSize}</span>
                     </div>
-                    <p className="font-semibold text-zinc-900 text-sm">{d.chineseName}</p>
-                    <p className="text-zinc-400 text-xs mt-0.5 truncate">{d.englishName}</p>
+                    <p className="font-semibold text-zinc-900 text-sm">{lang === "en" ? d.englishName : d.chineseName}</p>
+                    <p className="text-zinc-400 text-xs mt-0.5 truncate">{lang === "en" ? d.chineseName : d.englishName}</p>
                     <p className="text-[11px] text-zinc-400 mt-1.5">
-                      {d.steps.filter((s) => !s.isWarning).length} 个操作步骤
+                      {d.steps.filter((s) => !s.isWarning).length} {lang === "en" ? "steps" : "个操作步骤"}
                     </p>
                   </div>
                   <div className="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-xl bg-zinc-50 border border-zinc-100 text-xl">
@@ -178,8 +180,8 @@ export default function Simulate({ initDrinkId, setPage }) {
         {/* Header */}
         <div className="flex items-center justify-between mb-4">
           <div>
-            <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest">正在制作</p>
-            <h3 className="font-bold text-zinc-900 text-lg mt-0.5 tracking-tight">{drink.chineseName}</h3>
+            <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest">{lang === "en" ? "Making" : "正在制作"}</p>
+            <h3 className="font-bold text-zinc-900 text-lg mt-0.5 tracking-tight">{lang === "en" ? drink.englishName : drink.chineseName}</h3>
           </div>
           <div className={`flex flex-col items-center justify-center w-14 h-14 rounded-full border-[3px] font-bold text-lg ${
             timerPct > 0.4  ? "border-emerald-400 text-emerald-600" :
@@ -201,11 +203,11 @@ export default function Simulate({ initDrinkId, setPage }) {
         {/* Order area */}
         <div className="mb-4">
           <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-2">
-            已排步骤 ({order.length}/{realCount})
+            {t("simulate.ordered")} ({order.length}/{realCount})
           </p>
           <div className="min-h-[4rem] bg-zinc-50 border-2 border-dashed border-zinc-200 rounded-xl p-2 space-y-1.5">
             {!order.length && (
-              <p className="text-center text-zinc-300 text-sm py-4">点击下方步骤加入这里 ↓</p>
+              <p className="text-center text-zinc-300 text-sm py-4">{lang === "en" ? "Click steps below to add here ↓" : "点击下方步骤加入这里 ↓"}</p>
             )}
             {order.map((step, i) => {
               const vs = VESSEL_STYLE[step.vessel] || VESSEL_STYLE.cup;
@@ -215,7 +217,7 @@ export default function Simulate({ initDrinkId, setPage }) {
                     {i + 1}
                   </span>
                   <span className="text-sm">{vs.icon}</span>
-                  <span className="text-sm text-zinc-700 flex-1">{step.text}</span>
+                  <span className="text-sm text-zinc-700 flex-1">{pick(step, "text")}</span>
                   <button onClick={() => removeFromOrder(step)} className="text-zinc-300 hover:text-red-400 text-lg leading-none p-0.5 transition-colors">
                     ×
                   </button>
@@ -228,9 +230,9 @@ export default function Simulate({ initDrinkId, setPage }) {
         {/* Pool */}
         <div className="mb-5">
           <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-2">
-            候选步骤（含干扰项，请仔细判断）
+            {t("simulate.pool")}
           </p>
-          <p className="text-xs text-green-600 mb-2">顺序不限，选出所有正确步骤即可得分</p>
+          <p className="text-xs text-green-600 mb-2">{t("simulate.orderFree")}</p>
           <div className="space-y-1.5">
             {pool.map((step) => {
               const vs = VESSEL_STYLE[step.vessel] || VESSEL_STYLE.cup;
@@ -241,8 +243,8 @@ export default function Simulate({ initDrinkId, setPage }) {
                   className={`w-full text-left flex items-center gap-2 border rounded-xl px-3 py-2.5 ${vs.bg} hover:shadow-sm active:scale-[0.99] transition-all duration-150`}
                 >
                   <span className="text-sm flex-shrink-0">{vs.icon}</span>
-                  <span className="text-xs text-zinc-400 w-14 flex-shrink-0">{vs.label}</span>
-                  <span className="text-sm text-zinc-700 flex-1">{step.text}</span>
+                  <span className="text-xs text-zinc-400 w-14 flex-shrink-0">{t(`vessel.${step.vessel}`) || vs.label}</span>
+                  <span className="text-sm text-zinc-700 flex-1">{pick(step, "text")}</span>
                   <svg className="h-4 w-4 text-zinc-300 flex-shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
                   </svg>
@@ -250,7 +252,7 @@ export default function Simulate({ initDrinkId, setPage }) {
               );
             })}
             {!pool.length && (
-              <p className="text-center text-zinc-300 text-sm py-3">所有步骤已排列完毕</p>
+              <p className="text-center text-zinc-300 text-sm py-3">{lang === "en" ? "All steps selected" : "所有步骤已排列完毕"}</p>
             )}
           </div>
         </div>
@@ -262,7 +264,7 @@ export default function Simulate({ initDrinkId, setPage }) {
           <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
           </svg>
-          提交答案
+          {t("simulate.submit")}
         </button>
       </div>
     );
@@ -279,8 +281,8 @@ export default function Simulate({ initDrinkId, setPage }) {
         <div className={`rounded-xl p-5 mb-5 border ${pass ? "bg-emerald-50 border-emerald-200" : "bg-red-50 border-red-200"}`}>
           <div className="flex items-start justify-between">
             <div>
-              <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-1">制作结果</p>
-              <h3 className="text-xl font-bold text-zinc-900 tracking-tight">{drink.chineseName}</h3>
+              <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-1">{lang === "en" ? "Result" : "制作结果"}</p>
+              <h3 className="text-xl font-bold text-zinc-900 tracking-tight">{lang === "en" ? drink.englishName : drink.chineseName}</h3>
             </div>
             <span className="text-4xl">{score === 100 ? "🏆" : pass ? "👍" : "💪"}</span>
           </div>
@@ -289,11 +291,11 @@ export default function Simulate({ initDrinkId, setPage }) {
               <p className={`text-5xl font-black tracking-tight ${pass ? "text-emerald-600" : "text-red-500"}`}>
                 {score}<span className="text-2xl font-normal">%</span>
               </p>
-              <p className="text-zinc-500 text-sm mt-0.5">{result.correct}/{result.total} 步骤正确</p>
+              <p className="text-zinc-500 text-sm mt-0.5">{result.correct}/{result.total} {lang === "en" ? "steps correct" : "步骤正确"}</p>
             </div>
             {result.fakeCount > 0 && (
               <div className="bg-red-100 text-red-600 px-3 py-1.5 rounded-lg text-xs font-semibold">
-                ⚠️ 加入了 {result.fakeCount} 个干扰步骤
+                ⚠️ {lang === "en" ? `${result.fakeCount} distractor(s) included` : `加入了 ${result.fakeCount} 个干扰步骤`}
               </div>
             )}
           </div>
@@ -301,7 +303,7 @@ export default function Simulate({ initDrinkId, setPage }) {
 
         {/* Step comparison */}
         <div className="mb-5">
-          <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-3">标准制作步骤</p>
+          <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-3">{lang === "en" ? "Standard Recipe" : "标准制作步骤"}</p>
           <div className="space-y-1.5">
             {(() => {
               const userSteps  = result.userSteps || [];
@@ -325,8 +327,8 @@ export default function Simulate({ initDrinkId, setPage }) {
                     </span>
                     <span className="text-sm">{vs.icon}</span>
                     <div className="flex-1 min-w-0">
-                      <p className="text-sm text-zinc-700">{step.text}</p>
-                      {!isRight && <p className="text-xs text-red-400 mt-0.5">未加入</p>}
+                      <p className="text-sm text-zinc-700">{pick(step, "text")}</p>
+                      {!isRight && <p className="text-xs text-red-400 mt-0.5">{lang === "en" ? "Not selected" : "未加入"}</p>}
                     </div>
                     <span className="flex-shrink-0">{isRight ? "✅" : "❌"}</span>
                   </div>
@@ -341,13 +343,13 @@ export default function Simulate({ initDrinkId, setPage }) {
             onClick={() => startGame(drink)}
             className="flex-1 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-xl transition-colors shadow-sm shadow-green-200"
           >
-            🔄 重新练习
+            🔄 {lang === "en" ? "Try Again" : "重新练习"}
           </button>
           <button
             onClick={() => { setPhase("select"); setSearch(""); }}
             className="flex-1 py-3 bg-zinc-100 hover:bg-zinc-200 text-zinc-700 font-semibold rounded-xl transition-colors"
           >
-            换一款
+            {lang === "en" ? "Change Drink" : "换一款"}
           </button>
         </div>
       </div>

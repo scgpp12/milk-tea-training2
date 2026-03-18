@@ -1,6 +1,8 @@
 import { VESSEL_STYLE } from "../data/constants";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export default function RecipeSteps({ steps }) {
+  const { t, pick } = useLanguage();
   return (
     <div className="space-y-1.5">
       {steps.map((step, i) => {
@@ -33,12 +35,12 @@ export default function RecipeSteps({ steps }) {
               <p className={`text-[10px] font-semibold uppercase tracking-widest mb-0.5 ${
                 isWarning ? "text-amber-600" : "text-zinc-400"
               }`}>
-                {vs.label}
+                {t(`vessel.${step.vessel}`) || vs.label}
               </p>
               <p className={`text-sm leading-relaxed ${
                 isWarning ? "text-amber-700 font-medium" : "text-zinc-700"
               }`}>
-                {step.text}
+                {pick(step, "text")}
               </p>
             </div>
           </div>
@@ -47,12 +49,12 @@ export default function RecipeSteps({ steps }) {
 
       {/* Vessel legend */}
       <div className="mt-4 bg-zinc-50 border border-zinc-200 rounded-xl px-4 py-3">
-        <p className="text-[10px] font-semibold text-zinc-400 uppercase tracking-widest mb-2">容器图例</p>
+        <p className="text-[10px] font-semibold text-zinc-400 uppercase tracking-widest mb-2">{t("vessel.legend")}</p>
         <div className="flex flex-wrap gap-4">
           {Object.entries(VESSEL_STYLE).map(([k, v]) => (
             <span key={k} className="flex items-center gap-1.5 text-xs text-zinc-500">
               <span>{v.icon}</span>
-              <span>{v.label}</span>
+              <span>{t(`vessel.${k}`) || v.label}</span>
             </span>
           ))}
         </div>

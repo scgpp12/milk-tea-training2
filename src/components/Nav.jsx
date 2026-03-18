@@ -47,9 +47,18 @@ const NAV_ITEMS = [
 ];
 
 import { useAuth } from "../context/AuthContext";
+import { useLanguage } from "../contexts/LanguageContext";
 
 function SidebarContent({ page, setPage, onClose }) {
   const { user, logout } = useAuth();
+  const { t, toggle } = useLanguage();
+  const navItems = [
+    { k: "home",      label: t("nav.menu"),      icon: NAV_ITEMS[0].icon },
+    { k: "simulate",  label: t("nav.simulate"),   icon: NAV_ITEMS[1].icon },
+    { k: "quiz",      label: t("nav.quiz"),        icon: NAV_ITEMS[2].icon },
+    { k: "checklist", label: t("nav.checklist"),   icon: NAV_ITEMS[3].icon },
+    { k: "contacts",  label: t("nav.contacts"),    icon: NAV_ITEMS[4].icon },
+  ];
   return (
     <div className="flex h-full flex-col" style={{ background: "linear-gradient(180deg, #14532d 0%, #166534 100%)" }}>
       {/* Decorative blobs */}
@@ -63,7 +72,7 @@ function SidebarContent({ page, setPage, onClose }) {
         </div>
         <div className="min-w-0">
           <p className="font-semibold text-white text-sm leading-tight tracking-tight">Rui Tea</p>
-          <p className="text-xs text-green-300/70 truncate">员工培训手册</p>
+          <p className="text-xs text-green-300/70 truncate">{t("nav.subtitle")}</p>
         </div>
         {onClose && (
           <button
@@ -80,9 +89,9 @@ function SidebarContent({ page, setPage, onClose }) {
       {/* Navigation */}
       <nav className="relative flex-1 px-3 py-4 space-y-0.5 overflow-y-auto scrollbar-hide">
         <p className="px-3 mb-2 text-[10px] font-semibold tracking-widest text-green-600 uppercase">
-          导航
+          {t("nav.section")}
         </p>
-        {NAV_ITEMS.map((n) => {
+        {navItems.map((n) => {
           const active = page === n.k || (page === "drink" && n.k === "home");
           return (
             <button
@@ -121,7 +130,7 @@ function SidebarContent({ page, setPage, onClose }) {
             </div>
             <button
               onClick={logout}
-              title="退出登录"
+              title={t("nav.logout")}
               className="flex-shrink-0 p-1 rounded-md text-green-500 hover:text-green-200 hover:bg-green-800/50 transition-colors"
             >
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
@@ -130,9 +139,17 @@ function SidebarContent({ page, setPage, onClose }) {
             </button>
           </div>
         )}
-        <div className="flex items-center gap-2">
-          <div className="h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
-          <p className="text-xs text-green-600 truncate">Jersey City · 10 Provost St</p>
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <div className="h-1.5 w-1.5 rounded-full bg-emerald-400 flex-shrink-0" />
+            <p className="text-xs text-green-600 truncate">{t("nav.location")}</p>
+          </div>
+          <button
+            onClick={toggle}
+            className="flex-shrink-0 px-2 py-0.5 rounded-md text-[10px] font-bold tracking-widest bg-green-800/60 text-green-300 hover:bg-green-700/60 hover:text-green-100 transition-colors border border-green-700/40"
+          >
+            {t("lang.toggle")}
+          </button>
         </div>
       </div>
     </div>

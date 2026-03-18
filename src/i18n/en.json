@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "subtitle": "Staff Training Manual",
+    "section": "Navigation",
+    "menu": "Drink Menu",
+    "simulate": "Practice",
+    "quiz": "Knowledge Quiz",
+    "checklist": "Shift Checklist",
+    "contacts": "Emergency Contacts",
+    "logout": "Log Out",
+    "location": "Jersey City · 10 Provost St"
+  },
+  "home": {
+    "brand": "Rui Tea · Jersey City",
+    "title": "Drink Menu",
+    "count": "drinks",
+    "results": "results",
+    "searchPlaceholder": "Search drinks...",
+    "all": "All",
+    "empty": "No drinks found",
+    "emptyHint": "Try a different keyword"
+  },
+  "drink": {
+    "back": "Back to Menu",
+    "practice": "Practice Making This",
+    "tabs": {
+      "recipe": "Recipe Steps",
+      "ice": "Ice / Sugar",
+      "toppings": "Toppings"
+    },
+    "ice": {
+      "title": "Ice Adjustment",
+      "full": "Regular Ice",
+      "less": "Less Ice"
+    },
+    "sugar": {
+      "title": "Sugar Options"
+    },
+    "toppings": {
+      "title": "Toppings"
+    }
+  },
+  "vessel": {
+    "cup": "Serving Cup",
+    "shaker": "Shaker Cup",
+    "blender": "Blender",
+    "mug": "Coffee Mug",
+    "note": "Note",
+    "legend": "Vessel Legend"
+  },
+  "checklist": {
+    "title": "Shift Checklist",
+    "subtitle": "Complete all steps before serving",
+    "tabs": {
+      "open": "Opening",
+      "close": "Closing",
+      "stock": "Stocking"
+    },
+    "progress": {
+      "done": "All Done",
+      "pending": "Pending"
+    },
+    "reset": "Reset",
+    "coffee": {
+      "title": "Espresso Machine",
+      "ratio": "Beans: 18.7g → pull 36g espresso (~36 sec)",
+      "beans": "Always weigh beans — do not estimate",
+      "steam": "Steam wand: clean immediately after use or it hardens"
+    },
+    "fruitWeights": "Fruit Weight Reference"
+  },
+  "quiz": {
+    "title": "Knowledge Quiz",
+    "subtitle": "Test your drink knowledge",
+    "types": {
+      "guess": { "title": "Guess the Drink", "desc": "Identify the drink from its recipe steps" },
+      "steps": { "title": "True or False Steps", "desc": "Find the correct steps for a drink" },
+      "ice":   { "title": "Ice Level Quiz",   "desc": "Match the correct less-ice instructions" },
+      "vessel":{ "title": "Vessel Quiz",       "desc": "Identify which vessel each step uses" }
+    },
+    "selectDrink": "Select a drink to start",
+    "result": {
+      "pass": "Correct!",
+      "fail": "Incorrect",
+      "correct": "Correct Answer",
+      "next": "Next Question",
+      "finish": "Finish Quiz"
+    }
+  },
+  "simulate": {
+    "title": "Practice Making",
+    "subtitle": "Select a drink and arrange the steps in order",
+    "badge": "Hands-On Practice",
+    "instructions": {
+      "title": "How to Play",
+      "hint1": "Click steps from the pool to add to your sequence — ignore the distractors",
+      "hint2": "Order doesn't affect your score — just select all the correct steps",
+      "hint3": "15 seconds per step — auto-submits when time runs out"
+    },
+    "search": "Search drinks...",
+    "ordered": "Selected Steps",
+    "pool": "Candidate Steps (includes distractors — choose carefully)",
+    "orderFree": "Order doesn't matter — select all correct steps to score",
+    "submit": "Submit Answer",
+    "result": {
+      "perfect": "Perfect!",
+      "good": "Nice!",
+      "ok": "Not bad",
+      "retry": "Try Again",
+      "score": "pts",
+      "correct": "Correct",
+      "wrong": "Wrong",
+      "missing": "Missed"
+    },
+    "timeout": "Time's up — auto-submitted"
+  },
+  "contacts": {
+    "title": "Emergency Contacts",
+    "subtitle": "Reach out anytime you need help",
+    "call": "Call",
+    "roles": {
+      "store_manager": "Store Manager",
+      "delivery": "Delivery Platform"
+    }
+  },
+  "lang": {
+    "toggle": "中文",
+    "current": "EN"
+  }
+}

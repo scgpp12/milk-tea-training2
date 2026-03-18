@@ -1,16 +1,17 @@
 import { useState } from "react";
 import { getCatMeta } from "../data/constants";
 import RecipeSteps from "../components/RecipeSteps";
-
-const TABS = [
-  { k: "recipe",   l: "配方步骤" },
-  { k: "ice",      l: "冰量 / 甜度" },
-  { k: "toppings", l: "配料" },
-];
+import { useLanguage } from "../contexts/LanguageContext";
 
 export default function DrinkDetail({ drink, setPage, setSimDrinkId }) {
+  const { t, pick } = useLanguage();
   const [tab, setTab] = useState("recipe");
   const meta = getCatMeta(drink.category);
+  const TABS = [
+    { k: "recipe",   l: t("drink.tabs.recipe") },
+    { k: "ice",      l: t("drink.tabs.ice") },
+    { k: "toppings", l: t("drink.tabs.toppings") },
+  ];
 
   return (
     <div>
@@ -22,7 +23,7 @@ export default function DrinkDetail({ drink, setPage, setSimDrinkId }) {
         <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
         </svg>
-        返回菜单
+        {t("drink.back")}
       </button>
 
       {/* Hero card */}
@@ -42,7 +43,7 @@ export default function DrinkDetail({ drink, setPage, setSimDrinkId }) {
             </div>
             <h2 className="text-xl font-bold text-zinc-900 tracking-tight">{drink.chineseName}</h2>
             <p className="text-zinc-400 text-sm mt-0.5">{drink.englishName}</p>
-            <p className="text-zinc-500 text-xs mt-2 leading-relaxed">{drink.description}</p>
+            <p className="text-zinc-500 text-xs mt-2 leading-relaxed">{pick(drink, "description")}</p>
           </div>
         </div>
       </div>
@@ -58,7 +59,7 @@ export default function DrinkDetail({ drink, setPage, setSimDrinkId }) {
         <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
         </svg>
-        模拟制作练习
+        {t("drink.practice")}
       </button>
 
       {/* Tab navigation */}
@@ -85,26 +86,26 @@ export default function DrinkDetail({ drink, setPage, setSimDrinkId }) {
       {tab === "ice" && (
         <div className="space-y-6">
           <div>
-            <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-3">🧊 冰量调整</p>
+            <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-3">🧊 {t("drink.ice.title")}</p>
             <div className="bg-white border border-zinc-200 rounded-xl overflow-hidden">
               {[
-                ["full", "正常冰"],
-                ["less", "少冰"],
+                ["full", t("drink.ice.full")],
+                ["less", t("drink.ice.less")],
               ].map(([k, l], i, a) => (
                 <div
                   key={k}
                   className={`px-4 py-3.5 ${i < a.length - 1 ? "border-b border-zinc-100" : ""}`}
                 >
                   <p className={`text-[10px] font-bold uppercase tracking-widest mb-1 ${meta.text}`}>{l}</p>
-                  <p className="text-zinc-700 text-sm">{drink.lessIce[k]}</p>
+                  <p className="text-zinc-700 text-sm">{pick(drink.lessIce, k)}</p>
                 </div>
               ))}
             </div>
           </div>
           <div>
-            <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-3">🍬 甜度选项</p>
+            <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-3">🍬 {t("drink.sugar.title")}</p>
             <div className="flex flex-wrap gap-2">
-              {drink.sugarOptions.map((s) => (
+              {(pick(drink, "sugarOptions") || drink.sugarOptions).map((s) => (
                 <span
                   key={s}
                   className="bg-zinc-50 border border-zinc-200 text-zinc-700 px-4 py-2 rounded-lg text-sm font-semibold"
@@ -120,17 +121,17 @@ export default function DrinkDetail({ drink, setPage, setSimDrinkId }) {
       {/* Toppings tab */}
       {tab === "toppings" && (
         <div>
-          <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-3">🫧 配料</p>
+          <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-3">🫧 {t("drink.toppings.title")}</p>
           <div className="grid grid-cols-2 gap-2">
-            {drink.toppings.map((t) => (
+            {(pick(drink, "toppings") || drink.toppings).map((item) => (
               <div
-                key={t}
+                key={item}
                 className="bg-white border border-zinc-200 rounded-lg px-4 py-3 text-zinc-700 text-sm font-medium flex items-center gap-2"
               >
                 <svg className="h-3.5 w-3.5 text-emerald-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                 </svg>
-                {t}
+                {item}
               </div>
             ))}
           </div>
