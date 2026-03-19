@@ -2,20 +2,45 @@
   "drinks": [
     {
       "id": 1,
+      "video": "videos/WatermelonBobo.mp4",
       "category": "Exclusive Bobo",
       "chineseName": "西瓜啵啵椰",
       "englishName": "Watermelon Bobo Coco",
       "cupSize": "700ml",
-      "sugarOptions": ["无糖"],
-      "sugarOptionsEn": ["No Sugar"],
+      "sugarOptions": [
+        "无糖"
+      ],
+      "sugarOptionsEn": [
+        "No Sugar"
+      ],
       "description": "无额外加糖；无咖啡因",
       "descriptionEn": "No added sugar; caffeine-free",
       "steps": [
-        { "vessel": "cup",    "text": "杯底加入啵啵 一勺",                                              "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop" },
-        { "vessel": "shaker", "text": "西瓜块 200g",                                                    "textEn": "Watermelon chunks 200g" },
-        { "vessel": "shaker", "text": "Coco椰汁 100ml",                                                 "textEn": "Coco coconut juice 100ml" },
-        { "vessel": "shaker", "text": "加冰（少冰：换成 50ml water 代替冰）",                           "textEn": "Add ice (less ice: substitute 50ml water instead of ice)" },
-        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯",                              "textEn": "Shake well, pour into serving cup" }
+        {
+          "vessel": "cup",
+          "text": "杯底加入啵啵 一勺",
+          "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "西瓜块 200g",
+          "textEn": "Watermelon chunks 200g"
+        },
+        {
+          "vessel": "shaker",
+          "text": "Coco椰汁 100ml",
+          "textEn": "Coco coconut juice 100ml"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加冰（少冰：换成 50ml water 代替冰）",
+          "textEn": "Add ice (less ice: substitute 50ml water instead of ice)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "放入 Shaker，前后摇匀，倒入奶茶杯",
+          "textEn": "Shake well, pour into serving cup"
+        }
       ],
       "lessIce": {
         "full": "正常加冰",
@@ -25,8 +50,22 @@
         "full": "Normal ice",
         "less": "Less ice: substitute 50ml water instead of ice cubes"
       },
-      "toppings": ["啵啵（已含）", "换黑珍珠（免费）", "黑珍珠（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）", "桂花冻（+$1.00）"],
-      "toppingsEn": ["Bobo — included", "Swap for Black Pearl (free)", "Black Pearl (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)", "Osmanthus Jelly (+$1.00)"]
+      "toppings": [
+        "啵啵（已含）",
+        "换黑珍珠（免费）",
+        "黑珍珠（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）",
+        "桂花冻（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Bobo — included",
+        "Swap for Black Pearl (free)",
+        "Black Pearl (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)",
+        "Osmanthus Jelly (+$1.00)"
+      ]
     },
     {
       "id": 2,
@@ -34,19 +73,57 @@
       "chineseName": "芒果啵啵椰",
       "englishName": "Mango Bobo Coco",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖 20g", "半糖 10g"],
-      "sugarOptionsEn": ["Full Sugar 20g", "Half Sugar 10g"],
+      "sugarOptions": [
+        "全糖 20g",
+        "半糖 10g"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar 20g",
+        "Half Sugar 10g"
+      ],
       "description": "手打芒果 + 椰汁底",
       "descriptionEn": "Hand-crushed mango + coconut juice base",
       "steps": [
-        { "vessel": "cup",    "text": "杯底加入芒果碎 120g",                                           "textEn": "Add crushed mango 120g to cup base" },
-        { "vessel": "cup",    "text": "杯底加入啵啵 一勺",                                             "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop" },
-        { "vessel": "shaker", "text": "加糖 20g（半糖：10g）",                                         "textEn": "Add sugar 20g (half sugar: 10g)" },
-        { "vessel": "shaker", "text": "芒果果酱 一勺",                                                  "textEn": "Mango jam — 1 scoop" },
-        { "vessel": "shaker", "text": "Tea 120ml（少冰：150ml）",                                       "textEn": "Tea 120ml (less ice: 150ml)" },
-        { "vessel": "shaker", "text": "Coco椰汁 80ml（少冰：100ml）",                                   "textEn": "Coco coconut juice 80ml (less ice: 100ml)" },
-        { "vessel": "shaker", "text": "加冰",                                                           "textEn": "Add ice" },
-        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯",                              "textEn": "Shake well, pour into serving cup" }
+        {
+          "vessel": "cup",
+          "text": "杯底加入芒果碎 120g",
+          "textEn": "Add crushed mango 120g to cup base"
+        },
+        {
+          "vessel": "cup",
+          "text": "杯底加入啵啵 一勺",
+          "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加糖 20g（半糖：10g）",
+          "textEn": "Add sugar 20g (half sugar: 10g)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "芒果果酱 一勺",
+          "textEn": "Mango jam — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "Tea 120ml（少冰：150ml）",
+          "textEn": "Tea 120ml (less ice: 150ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "Coco椰汁 80ml（少冰：100ml）",
+          "textEn": "Coco coconut juice 80ml (less ice: 100ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加冰",
+          "textEn": "Add ice"
+        },
+        {
+          "vessel": "shaker",
+          "text": "放入 Shaker，前后摇匀，倒入奶茶杯",
+          "textEn": "Shake well, pour into serving cup"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；Tea 120ml；Coco 80ml",
@@ -56,28 +133,81 @@
         "full": "Normal ice; Tea 120ml; Coco 80ml",
         "less": "Less ice: Tea 150ml; Coco 100ml"
       },
-      "toppings": ["啵啵（已含）", "换黑珍珠（免费）", "黑珍珠（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）", "桂花冻（+$1.00）"],
-      "toppingsEn": ["Bobo — included", "Swap for Black Pearl (free)", "Black Pearl (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)", "Osmanthus Jelly (+$1.00)"]
+      "toppings": [
+        "啵啵（已含）",
+        "换黑珍珠（免费）",
+        "黑珍珠（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）",
+        "桂花冻（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Bobo — included",
+        "Swap for Black Pearl (free)",
+        "Black Pearl (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)",
+        "Osmanthus Jelly (+$1.00)"
+      ]
     },
     {
       "id": 3,
+      "video": "videos/StrawberryBoboCoco.mp4",
       "category": "Exclusive Bobo",
       "chineseName": "草莓啵啵椰",
       "englishName": "Strawberry Bobo Coco",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖 20g", "半糖 10g"],
-      "sugarOptionsEn": ["Full Sugar 20g", "Half Sugar 10g"],
+      "sugarOptions": [
+        "全糖 20g",
+        "半糖 10g"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar 20g",
+        "Half Sugar 10g"
+      ],
       "description": "手打草莓 + 椰汁底",
       "descriptionEn": "Hand-crushed strawberry + coconut juice base",
       "steps": [
-        { "vessel": "cup",    "text": "杯底加入草莓碎 120g",                                           "textEn": "Add crushed strawberry 120g to cup base" },
-        { "vessel": "cup",    "text": "杯底加入啵啵 一勺",                                             "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop" },
-        { "vessel": "shaker", "text": "加糖 20g（半糖：10g）",                                         "textEn": "Add sugar 20g (half sugar: 10g)" },
-        { "vessel": "shaker", "text": "草莓果酱 一勺",                                                  "textEn": "Strawberry jam — 1 scoop" },
-        { "vessel": "shaker", "text": "Tea 120ml（少冰：150ml）",                                       "textEn": "Tea 120ml (less ice: 150ml)" },
-        { "vessel": "shaker", "text": "Coco椰汁 80ml（少冰：100ml）",                                   "textEn": "Coco coconut juice 80ml (less ice: 100ml)" },
-        { "vessel": "shaker", "text": "加冰",                                                           "textEn": "Add ice" },
-        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯",                              "textEn": "Shake well, pour into serving cup" }
+        {
+          "vessel": "cup",
+          "text": "杯底加入草莓碎 120g",
+          "textEn": "Add crushed strawberry 120g to cup base"
+        },
+        {
+          "vessel": "cup",
+          "text": "杯底加入啵啵 一勺",
+          "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加糖 20g（半糖：10g）",
+          "textEn": "Add sugar 20g (half sugar: 10g)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "草莓果酱 一勺",
+          "textEn": "Strawberry jam — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "Tea 120ml（少冰：150ml）",
+          "textEn": "Tea 120ml (less ice: 150ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "Coco椰汁 80ml（少冰：100ml）",
+          "textEn": "Coco coconut juice 80ml (less ice: 100ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加冰",
+          "textEn": "Add ice"
+        },
+        {
+          "vessel": "shaker",
+          "text": "放入 Shaker，前后摇匀，倒入奶茶杯",
+          "textEn": "Shake well, pour into serving cup"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；Tea 120ml；Coco 80ml",
@@ -87,8 +217,22 @@
         "full": "Normal ice; Tea 120ml; Coco 80ml",
         "less": "Less ice: Tea 150ml; Coco 100ml"
       },
-      "toppings": ["啵啵（已含）", "换黑珍珠（免费）", "黑珍珠（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）", "桂花冻（+$1.00）"],
-      "toppingsEn": ["Bobo — included", "Swap for Black Pearl (free)", "Black Pearl (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)", "Osmanthus Jelly (+$1.00)"]
+      "toppings": [
+        "啵啵（已含）",
+        "换黑珍珠（免费）",
+        "黑珍珠（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）",
+        "桂花冻（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Bobo — included",
+        "Swap for Black Pearl (free)",
+        "Black Pearl (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)",
+        "Osmanthus Jelly (+$1.00)"
+      ]
     },
     {
       "id": 4,
@@ -97,18 +241,52 @@
       "chineseName": "芒果啵啵",
       "englishName": "Mango Bobo",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖 20g", "半糖 10g"],
-      "sugarOptionsEn": ["Full Sugar 20g", "Half Sugar 10g"],
+      "sugarOptions": [
+        "全糖 20g",
+        "半糖 10g"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar 20g",
+        "Half Sugar 10g"
+      ],
       "description": "手打芒果 + 绿茶底，可加奶盖",
       "descriptionEn": "Hand-crushed mango + green tea base, optional Cheese Foam",
       "steps": [
-        { "vessel": "cup",    "text": "杯底加入啵啵 一勺",                                             "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop" },
-        { "vessel": "shaker", "text": "加入芒果碎 120g",                                               "textEn": "Add crushed mango 120g" },
-        { "vessel": "shaker", "text": "加糖 20g（半糖：10g）",                                         "textEn": "Add sugar 20g (half sugar: 10g)" },
-        { "vessel": "shaker", "text": "芒果果酱 一勺",                                                  "textEn": "Mango jam — 1 scoop" },
-        { "vessel": "shaker", "text": "Tea 200ml（少冰：250ml）",                                       "textEn": "Tea 200ml (less ice: 250ml)" },
-        { "vessel": "shaker", "text": "加冰",                                                           "textEn": "Add ice" },
-        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯",                              "textEn": "Shake well, pour into serving cup" }
+        {
+          "vessel": "cup",
+          "text": "杯底加入啵啵 一勺",
+          "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加入芒果碎 120g",
+          "textEn": "Add crushed mango 120g"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加糖 20g（半糖：10g）",
+          "textEn": "Add sugar 20g (half sugar: 10g)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "芒果果酱 一勺",
+          "textEn": "Mango jam — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "Tea 200ml（少冰：250ml）",
+          "textEn": "Tea 200ml (less ice: 250ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加冰",
+          "textEn": "Add ice"
+        },
+        {
+          "vessel": "shaker",
+          "text": "放入 Shaker，前后摇匀，倒入奶茶杯",
+          "textEn": "Shake well, pour into serving cup"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；Tea 200ml",
@@ -118,27 +296,76 @@
         "full": "Normal ice; Tea 200ml",
         "less": "Less ice: Tea 250ml"
       },
-      "toppings": ["啵啵（已含）", "换黑珍珠（免费）", "黑珍珠（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）", "桂花冻（+$1.00）"],
-      "toppingsEn": ["Bobo — included", "Swap for Black Pearl (free)", "Black Pearl (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)", "Osmanthus Jelly (+$1.00)"]
+      "toppings": [
+        "啵啵（已含）",
+        "换黑珍珠（免费）",
+        "黑珍珠（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）",
+        "桂花冻（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Bobo — included",
+        "Swap for Black Pearl (free)",
+        "Black Pearl (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)",
+        "Osmanthus Jelly (+$1.00)"
+      ]
     },
     {
       "id": 5,
+      "video": "videos/StrawberryBobo.mp4",
       "category": "Exclusive Bobo",
       "chineseName": "草莓啵啵",
       "englishName": "Strawberry Bobo",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖 20g", "半糖 10g"],
-      "sugarOptionsEn": ["Full Sugar 20g", "Half Sugar 10g"],
+      "sugarOptions": [
+        "全糖 20g",
+        "半糖 10g"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar 20g",
+        "Half Sugar 10g"
+      ],
       "description": "手打草莓 + 绿茶底，可加奶盖",
       "descriptionEn": "Hand-crushed strawberry + green tea base, optional Cheese Foam",
       "steps": [
-        { "vessel": "cup",    "text": "杯底加入啵啵 一勺",                                             "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop" },
-        { "vessel": "shaker", "text": "加入草莓碎 120g",                                               "textEn": "Add crushed strawberry 120g" },
-        { "vessel": "shaker", "text": "加糖 20g（半糖：10g）",                                         "textEn": "Add sugar 20g (half sugar: 10g)" },
-        { "vessel": "shaker", "text": "草莓果酱 一勺",                                                  "textEn": "Strawberry jam — 1 scoop" },
-        { "vessel": "shaker", "text": "Tea 200ml（少冰：250ml）",                                       "textEn": "Tea 200ml (less ice: 250ml)" },
-        { "vessel": "shaker", "text": "加冰",                                                           "textEn": "Add ice" },
-        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯",                              "textEn": "Shake well, pour into serving cup" }
+        {
+          "vessel": "cup",
+          "text": "杯底加入啵啵 一勺",
+          "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加入草莓碎 120g",
+          "textEn": "Add crushed strawberry 120g"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加糖 20g（半糖：10g）",
+          "textEn": "Add sugar 20g (half sugar: 10g)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "草莓果酱 一勺",
+          "textEn": "Strawberry jam — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "Tea 200ml（少冰：250ml）",
+          "textEn": "Tea 200ml (less ice: 250ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加冰",
+          "textEn": "Add ice"
+        },
+        {
+          "vessel": "shaker",
+          "text": "放入 Shaker，前后摇匀，倒入奶茶杯",
+          "textEn": "Shake well, pour into serving cup"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；Tea 200ml",
@@ -148,27 +375,76 @@
         "full": "Normal ice; Tea 200ml",
         "less": "Less ice: Tea 250ml"
       },
-      "toppings": ["啵啵（已含）", "换黑珍珠（免费）", "黑珍珠（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）", "桂花冻（+$1.00）"],
-      "toppingsEn": ["Bobo — included", "Swap for Black Pearl (free)", "Black Pearl (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)", "Osmanthus Jelly (+$1.00)"]
+      "toppings": [
+        "啵啵（已含）",
+        "换黑珍珠（免费）",
+        "黑珍珠（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）",
+        "桂花冻（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Bobo — included",
+        "Swap for Black Pearl (free)",
+        "Black Pearl (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)",
+        "Osmanthus Jelly (+$1.00)"
+      ]
     },
     {
       "id": 6,
+      "video": "videos/KiwiBobo.mp4",
       "category": "Exclusive Bobo",
       "chineseName": "奇异果啵啵",
       "englishName": "Kiwi Bobo",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖 20g", "半糖 10g"],
-      "sugarOptionsEn": ["Full Sugar 20g", "Half Sugar 10g"],
+      "sugarOptions": [
+        "全糖 20g",
+        "半糖 10g"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar 20g",
+        "Half Sugar 10g"
+      ],
       "description": "整个奇异果捣碎 + 绿茶底 + 奶盖",
       "descriptionEn": "Whole kiwi mashed + green tea base + Cheese Foam",
       "steps": [
-        { "vessel": "cup",    "text": "杯底加入啵啵 一勺",                                             "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop" },
-        { "vessel": "shaker", "text": "加入 1个奇异果，去皮，切成2片，捣碎",                           "textEn": "Add 1 kiwi, peeled, sliced into 2 pieces, mashed" },
-        { "vessel": "shaker", "text": "加糖 20g（半糖：10g）",                                         "textEn": "Add sugar 20g (half sugar: 10g)" },
-        { "vessel": "shaker", "text": "奇异果果酱 一勺",                                                "textEn": "Kiwi jam — 1 scoop" },
-        { "vessel": "shaker", "text": "Tea 200ml（少冰：250ml）",                                       "textEn": "Tea 200ml (less ice: 250ml)" },
-        { "vessel": "shaker", "text": "加冰",                                                           "textEn": "Add ice" },
-        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯",                              "textEn": "Shake well, pour into serving cup" }
+        {
+          "vessel": "cup",
+          "text": "杯底加入啵啵 一勺",
+          "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加入 1个奇异果，去皮，切成2片，捣碎",
+          "textEn": "Add 1 kiwi, peeled, sliced into 2 pieces, mashed"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加糖 20g（半糖：10g）",
+          "textEn": "Add sugar 20g (half sugar: 10g)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "奇异果果酱 一勺",
+          "textEn": "Kiwi jam — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "Tea 200ml（少冰：250ml）",
+          "textEn": "Tea 200ml (less ice: 250ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加冰",
+          "textEn": "Add ice"
+        },
+        {
+          "vessel": "shaker",
+          "text": "放入 Shaker，前后摇匀，倒入奶茶杯",
+          "textEn": "Shake well, pour into serving cup"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；Tea 200ml",
@@ -178,8 +454,22 @@
         "full": "Normal ice; Tea 200ml",
         "less": "Less ice: Tea 250ml"
       },
-      "toppings": ["啵啵（已含）", "换黑珍珠（免费）", "黑珍珠（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）", "桂花冻（+$1.00）"],
-      "toppingsEn": ["Bobo — included", "Swap for Black Pearl (free)", "Black Pearl (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)", "Osmanthus Jelly (+$1.00)"]
+      "toppings": [
+        "啵啵（已含）",
+        "换黑珍珠（免费）",
+        "黑珍珠（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）",
+        "桂花冻（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Bobo — included",
+        "Swap for Black Pearl (free)",
+        "Black Pearl (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)",
+        "Osmanthus Jelly (+$1.00)"
+      ]
     },
     {
       "id": 7,
@@ -187,18 +477,52 @@
       "chineseName": "菠萝百香果啵啵",
       "englishName": "Pineapple Passion Bobo",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖 20g", "半糖 10g"],
-      "sugarOptionsEn": ["Full Sugar 20g", "Half Sugar 10g"],
+      "sugarOptions": [
+        "全糖 20g",
+        "半糖 10g"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar 20g",
+        "Half Sugar 10g"
+      ],
       "description": "手打菠萝 + 百香果酱 + 绿茶底",
       "descriptionEn": "Hand-crushed pineapple + passion fruit jam + green tea base",
       "steps": [
-        { "vessel": "cup",    "text": "杯底加入啵啵 一勺",                                             "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop" },
-        { "vessel": "shaker", "text": "加入菠萝碎 120g，捣碎",                                         "textEn": "Add crushed pineapple 120g, mashed" },
-        { "vessel": "shaker", "text": "加糖 20g（半糖：10g）",                                         "textEn": "Add sugar 20g (half sugar: 10g)" },
-        { "vessel": "shaker", "text": "百香果酱 一勺",                                                  "textEn": "Passion fruit jam — 1 scoop" },
-        { "vessel": "shaker", "text": "Tea 200ml（少冰：250ml）",                                       "textEn": "Tea 200ml (less ice: 250ml)" },
-        { "vessel": "shaker", "text": "加冰",                                                           "textEn": "Add ice" },
-        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯",                              "textEn": "Shake well, pour into serving cup" }
+        {
+          "vessel": "cup",
+          "text": "杯底加入啵啵 一勺",
+          "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加入菠萝碎 120g，捣碎",
+          "textEn": "Add crushed pineapple 120g, mashed"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加糖 20g（半糖：10g）",
+          "textEn": "Add sugar 20g (half sugar: 10g)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "百香果酱 一勺",
+          "textEn": "Passion fruit jam — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "Tea 200ml（少冰：250ml）",
+          "textEn": "Tea 200ml (less ice: 250ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加冰",
+          "textEn": "Add ice"
+        },
+        {
+          "vessel": "shaker",
+          "text": "放入 Shaker，前后摇匀，倒入奶茶杯",
+          "textEn": "Shake well, pour into serving cup"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；Tea 200ml",
@@ -208,26 +532,72 @@
         "full": "Normal ice; Tea 200ml",
         "less": "Less ice: Tea 250ml"
       },
-      "toppings": ["啵啵（已含）", "换黑珍珠（免费）", "黑珍珠（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）", "桂花冻（+$1.00）"],
-      "toppingsEn": ["Bobo — included", "Swap for Black Pearl (free)", "Black Pearl (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)", "Osmanthus Jelly (+$1.00)"]
+      "toppings": [
+        "啵啵（已含）",
+        "换黑珍珠（免费）",
+        "黑珍珠（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）",
+        "桂花冻（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Bobo — included",
+        "Swap for Black Pearl (free)",
+        "Black Pearl (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)",
+        "Osmanthus Jelly (+$1.00)"
+      ]
     },
     {
       "id": 8,
+      "video": "videos/CoCoLimeBobo.mp4",
       "category": "Exclusive Bobo",
       "chineseName": "白月光青柠啵啵",
       "englishName": "Lime Bobo Coco",
       "cupSize": "700ml",
-      "sugarOptions": ["无糖", "无咖啡因"],
-      "sugarOptionsEn": ["No Sugar", "Caffeine-Free"],
+      "sugarOptions": [
+        "无糖",
+        "无咖啡因"
+      ],
+      "sugarOptionsEn": [
+        "No Sugar",
+        "Caffeine-Free"
+      ],
       "description": "无添加糖；无咖啡因；⚠️ 建议20分钟内饮用",
       "descriptionEn": "No added sugar; caffeine-free; ⚠️ Recommend consuming within 20 minutes",
       "steps": [
-        { "vessel": "cup",    "text": "杯底加入啵啵 一勺",                                             "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop" },
-        { "vessel": "shaker", "text": "青柠 4片，捣碎",                                                 "textEn": "Lime 4 slices, mashed" },
-        { "vessel": "shaker", "text": "加冰",                                                           "textEn": "Add ice" },
-        { "vessel": "shaker", "text": "Coco椰汁 300ml（少冰：350ml）",                                  "textEn": "Coco coconut juice 300ml (less ice: 350ml)" },
-        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯",                              "textEn": "Shake well, pour into serving cup" },
-        { "vessel": "note",   "text": "⚠️ 含青柠，建议告知顾客20分钟内饮用", "isWarning": true,       "textEn": "⚠️ Contains lime — inform customer to consume within 20 minutes" }
+        {
+          "vessel": "cup",
+          "text": "杯底加入啵啵 一勺",
+          "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "青柠 4片，捣碎",
+          "textEn": "Lime 4 slices, mashed"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加冰",
+          "textEn": "Add ice"
+        },
+        {
+          "vessel": "shaker",
+          "text": "Coco椰汁 300ml（少冰：350ml）",
+          "textEn": "Coco coconut juice 300ml (less ice: 350ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "放入 Shaker，前后摇匀，倒入奶茶杯",
+          "textEn": "Shake well, pour into serving cup"
+        },
+        {
+          "vessel": "note",
+          "text": "⚠️ 含青柠，建议告知顾客20分钟内饮用",
+          "isWarning": true,
+          "textEn": "⚠️ Contains lime — inform customer to consume within 20 minutes"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；Coco 300ml",
@@ -237,28 +607,80 @@
         "full": "Normal ice; Coco 300ml",
         "less": "Less ice: Coco 350ml"
       },
-      "toppings": ["啵啵（已含）", "换黑珍珠（免费）", "黑珍珠（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）", "桂花冻（+$1.00）"],
-      "toppingsEn": ["Bobo — included", "Swap for Black Pearl (free)", "Black Pearl (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)", "Osmanthus Jelly (+$1.00)"]
+      "toppings": [
+        "啵啵（已含）",
+        "换黑珍珠（免费）",
+        "黑珍珠（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）",
+        "桂花冻（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Bobo — included",
+        "Swap for Black Pearl (free)",
+        "Black Pearl (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)",
+        "Osmanthus Jelly (+$1.00)"
+      ]
     },
     {
       "id": 29,
+      "video": "videos/Orangefruit.mp4",
       "category": "Fresh Fruit Tea",
       "chineseName": "鲜橙冻冻",
       "englishName": "Fresh Orange Dongdong",
       "cupSize": "700ml",
-      "sugarOptions": ["无糖（不加糖）"],
-      "sugarOptionsEn": ["No Sugar (no added sugar)"],
+      "sugarOptions": [
+        "无糖（不加糖）"
+      ],
+      "sugarOptionsEn": [
+        "No Sugar (no added sugar)"
+      ],
       "description": "⚠️ 不加糖；桂花冻打底 + 四片橙铺底 + orange syrup + 到冰550",
       "descriptionEn": "⚠️ No added sugar; Osmanthus Jelly base + 4 orange slices on bottom + orange syrup + ice to 550",
       "steps": [
-        { "vessel": "cup",    "text": "杯底加入桂花冻",                                                 "textEn": "Add Osmanthus Jelly to cup base" },
-        { "vessel": "cup",    "text": "四片橙子铺底",                                                   "textEn": "Lay 4 orange slices on the bottom" },
-        { "vessel": "shaker", "text": "橙汁 150ml",                                                     "textEn": "Orange juice 150ml" },
-        { "vessel": "shaker", "text": "Tea 150ml（少冰：200ml）",                                       "textEn": "Tea 150ml (less ice: 200ml)" },
-        { "vessel": "shaker", "text": "Orange syrup 适量",                                              "textEn": "Orange syrup as needed" },
-        { "vessel": "shaker", "text": "加冰至 550ml",                                                   "textEn": "Add ice to 550ml" },
-        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯",                              "textEn": "Shake well, pour into serving cup" },
-        { "vessel": "note",   "text": "⚠️ 不加糖，请勿额外加糖", "isWarning": true,                    "textEn": "⚠️ No added sugar — do not add extra sugar" }
+        {
+          "vessel": "cup",
+          "text": "杯底加入桂花冻",
+          "textEn": "Add Osmanthus Jelly to cup base"
+        },
+        {
+          "vessel": "cup",
+          "text": "四片橙子铺底",
+          "textEn": "Lay 4 orange slices on the bottom"
+        },
+        {
+          "vessel": "shaker",
+          "text": "橙汁 150ml",
+          "textEn": "Orange juice 150ml"
+        },
+        {
+          "vessel": "shaker",
+          "text": "Tea 150ml（少冰：200ml）",
+          "textEn": "Tea 150ml (less ice: 200ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "Orange syrup 适量",
+          "textEn": "Orange syrup as needed"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加冰至 550ml",
+          "textEn": "Add ice to 550ml"
+        },
+        {
+          "vessel": "shaker",
+          "text": "放入 Shaker，前后摇匀，倒入奶茶杯",
+          "textEn": "Shake well, pour into serving cup"
+        },
+        {
+          "vessel": "note",
+          "text": "⚠️ 不加糖，请勿额外加糖",
+          "isWarning": true,
+          "textEn": "⚠️ No added sugar — do not add extra sugar"
+        }
       ],
       "lessIce": {
         "full": "到冰 550ml",
@@ -268,28 +690,79 @@
         "full": "Ice to 550ml",
         "less": "Less ice: Tea 200ml; ice to approx. 500ml"
       },
-      "toppings": ["桂花冻（已含）", "珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）"],
-      "toppingsEn": ["Osmanthus Jelly — included", "Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)"]
+      "toppings": [
+        "桂花冻（已含）",
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Osmanthus Jelly — included",
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)"
+      ]
     },
     {
       "id": 9,
+      "video": "videos/Superfruit.mp4",
       "category": "Fresh Fruit Tea",
       "chineseName": "超级水果",
       "englishName": "Super Fruit Tea",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖 20g", "半糖 10g"],
-      "sugarOptionsEn": ["Full Sugar 20g", "Half Sugar 10g"],
+      "sugarOptions": [
+        "全糖 20g",
+        "半糖 10g"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar 20g",
+        "Half Sugar 10g"
+      ],
       "description": "双柠压汁 + 橙片/西柚片装饰 + 西瓜汁补满",
       "descriptionEn": "Double citrus pressed juice + orange/grapefruit slice garnish + watermelon juice to fill",
       "steps": [
-        { "vessel": "cup",    "text": "奶茶杯：2个青柠 + 2个柠檬，入杯压汁",                           "textEn": "Serving cup: press juice from 2 limes + 2 lemons into cup" },
-        { "vessel": "cup",    "text": "2片橙子 + 1片西柚，入杯贴杯壁",                                  "textEn": "2 orange slices + 1 grapefruit slice — pressed against cup wall" },
-        { "vessel": "shaker", "text": "加糖 45g（半糖：35g）",                                         "textEn": "Add sugar 45g (half sugar: 35g)" },
-        { "vessel": "shaker", "text": "百香果酱 一勺",                                                  "textEn": "Passion fruit jam — 1 scoop" },
-        { "vessel": "shaker", "text": "Tea 250ml（少冰：300ml）",                                       "textEn": "Tea 250ml (less ice: 300ml)" },
-        { "vessel": "shaker", "text": "加冰",                                                           "textEn": "Add ice" },
-        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯",                              "textEn": "Shake well, pour into serving cup" },
-        { "vessel": "cup",    "text": "加入西瓜汁补至满杯",                                             "textEn": "Top up with watermelon juice to fill cup" }
+        {
+          "vessel": "cup",
+          "text": "奶茶杯：2个青柠 + 2个柠檬，入杯压汁",
+          "textEn": "Serving cup: press juice from 2 limes + 2 lemons into cup"
+        },
+        {
+          "vessel": "cup",
+          "text": "2片橙子 + 1片西柚，入杯贴杯壁",
+          "textEn": "2 orange slices + 1 grapefruit slice — pressed against cup wall"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加糖 45g（半糖：35g）",
+          "textEn": "Add sugar 45g (half sugar: 35g)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "百香果酱 一勺",
+          "textEn": "Passion fruit jam — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "Tea 250ml（少冰：300ml）",
+          "textEn": "Tea 250ml (less ice: 300ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加冰",
+          "textEn": "Add ice"
+        },
+        {
+          "vessel": "shaker",
+          "text": "放入 Shaker，前后摇匀，倒入奶茶杯",
+          "textEn": "Shake well, pour into serving cup"
+        },
+        {
+          "vessel": "cup",
+          "text": "加入西瓜汁补至满杯",
+          "textEn": "Top up with watermelon juice to fill cup"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；Tea 250ml",
@@ -299,26 +772,70 @@
         "full": "Normal ice; Tea 250ml",
         "less": "Less ice: Tea 300ml"
       },
-      "toppings": ["珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）", "桂花冻（+$1.00）"],
-      "toppingsEn": ["Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)", "Osmanthus Jelly (+$1.00)"]
+      "toppings": [
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）",
+        "桂花冻（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)",
+        "Osmanthus Jelly (+$1.00)"
+      ]
     },
     {
       "id": 10,
+      "video": "videos/WatermelonLime.mp4",
       "category": "Fresh Fruit Tea",
       "chineseName": "暴打西瓜柠檬",
       "englishName": "Watermelon Lime",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖 45g", "半糖 35g"],
-      "sugarOptionsEn": ["Full Sugar 45g", "Half Sugar 35g"],
+      "sugarOptions": [
+        "全糖 45g",
+        "半糖 35g"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar 45g",
+        "Half Sugar 35g"
+      ],
       "description": "⚠️ 含青柠，建议20分钟内饮用",
       "descriptionEn": "⚠️ Contains lime — recommend consuming within 20 minutes",
       "steps": [
-        { "vessel": "shaker", "text": "西瓜块 140g + 柠檬 2片，捣碎",                                  "textEn": "Watermelon chunks 140g + lemon 2 slices, mashed" },
-        { "vessel": "shaker", "text": "加糖 45g（半糖：35g）",                                         "textEn": "Add sugar 45g (half sugar: 35g)" },
-        { "vessel": "shaker", "text": "Tea 200ml（少冰：250ml）",                                       "textEn": "Tea 200ml (less ice: 250ml)" },
-        { "vessel": "shaker", "text": "加冰",                                                           "textEn": "Add ice" },
-        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，装杯",                                    "textEn": "Shake well, pour into serving cup" },
-        { "vessel": "note",   "text": "⚠️ 含青柠，建议告知顾客20分钟内饮用", "isWarning": true,       "textEn": "⚠️ Contains lime — inform customer to consume within 20 minutes" }
+        {
+          "vessel": "shaker",
+          "text": "西瓜块 140g + 柠檬 2片，捣碎",
+          "textEn": "Watermelon chunks 140g + lemon 2 slices, mashed"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加糖 45g（半糖：35g）",
+          "textEn": "Add sugar 45g (half sugar: 35g)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "Tea 200ml（少冰：250ml）",
+          "textEn": "Tea 200ml (less ice: 250ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加冰",
+          "textEn": "Add ice"
+        },
+        {
+          "vessel": "shaker",
+          "text": "放入 Shaker，前后摇匀，装杯",
+          "textEn": "Shake well, pour into serving cup"
+        },
+        {
+          "vessel": "note",
+          "text": "⚠️ 含青柠，建议告知顾客20分钟内饮用",
+          "isWarning": true,
+          "textEn": "⚠️ Contains lime — inform customer to consume within 20 minutes"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；Tea 200ml",
@@ -328,28 +845,79 @@
         "full": "Normal ice; Tea 200ml",
         "less": "Less ice: Tea 250ml"
       },
-      "toppings": ["珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）", "桂花冻（+$1.00）"],
-      "toppingsEn": ["Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)", "Osmanthus Jelly (+$1.00)"]
+      "toppings": [
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）",
+        "桂花冻（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)",
+        "Osmanthus Jelly (+$1.00)"
+      ]
     },
     {
       "id": 12,
+      "video": "videos/Grapefruit.mp4",
       "category": "Fresh Fruit Tea",
       "chineseName": "满杯西柚",
       "englishName": "Full Cup Grapefruit",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖 30g", "半糖 20g"],
-      "sugarOptionsEn": ["Full Sugar 30g", "Half Sugar 20g"],
+      "sugarOptions": [
+        "全糖 30g",
+        "半糖 20g"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar 30g",
+        "Half Sugar 20g"
+      ],
       "description": "3/4西柚片贴壁 + 1勺西柚粒 + 到冰 600",
       "descriptionEn": "3/4 grapefruit slices pressed against cup wall + 1 scoop grapefruit segments + ice to 600",
       "steps": [
-        { "vessel": "cup",    "text": "西柚片 3/4 贴杯壁",                                              "textEn": "Grapefruit slices 3/4 pressed against cup wall" },
-        { "vessel": "cup",    "text": "西柚粒 1勺",                                                     "textEn": "Grapefruit segments — 1 scoop" },
-        { "vessel": "shaker", "text": "西柚汁水 150ml",                                                 "textEn": "Grapefruit juice 150ml" },
-        { "vessel": "shaker", "text": "Tea 150ml（少冰：200ml）",                                       "textEn": "Tea 150ml (less ice: 200ml)" },
-        { "vessel": "shaker", "text": "Grapefruit syrup 适量",                                          "textEn": "Grapefruit syrup as needed" },
-        { "vessel": "shaker", "text": "加糖 30g（半糖：20g）",                                         "textEn": "Add sugar 30g (half sugar: 20g)" },
-        { "vessel": "shaker", "text": "加冰至 600ml",                                                   "textEn": "Add ice to 600ml" },
-        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯",                              "textEn": "Shake well, pour into serving cup" }
+        {
+          "vessel": "cup",
+          "text": "西柚片 3/4 贴杯壁",
+          "textEn": "Grapefruit slices 3/4 pressed against cup wall"
+        },
+        {
+          "vessel": "cup",
+          "text": "西柚粒 1勺",
+          "textEn": "Grapefruit segments — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "西柚汁水 150ml",
+          "textEn": "Grapefruit juice 150ml"
+        },
+        {
+          "vessel": "shaker",
+          "text": "Tea 150ml（少冰：200ml）",
+          "textEn": "Tea 150ml (less ice: 200ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "Grapefruit syrup 适量",
+          "textEn": "Grapefruit syrup as needed"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加糖 30g（半糖：20g）",
+          "textEn": "Add sugar 30g (half sugar: 20g)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加冰至 600ml",
+          "textEn": "Add ice to 600ml"
+        },
+        {
+          "vessel": "shaker",
+          "text": "放入 Shaker，前后摇匀，倒入奶茶杯",
+          "textEn": "Shake well, pour into serving cup"
+        }
       ],
       "lessIce": {
         "full": "到冰 600ml；Tea 150ml",
@@ -359,8 +927,22 @@
         "full": "Ice to 600ml; Tea 150ml",
         "less": "Less ice: Tea 200ml; ice to approx. 550ml"
       },
-      "toppings": ["西柚粒（已含）", "珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）", "桂花冻（+$1.00）"],
-      "toppingsEn": ["Grapefruit segments — included", "Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)", "Osmanthus Jelly (+$1.00)"]
+      "toppings": [
+        "西柚粒（已含）",
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）",
+        "桂花冻（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Grapefruit segments — included",
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)",
+        "Osmanthus Jelly (+$1.00)"
+      ]
     },
     {
       "id": 13,
@@ -368,17 +950,48 @@
       "chineseName": "草莓酒酿冰奶",
       "englishName": "Strawberry Fermented Rice Milk",
       "cupSize": "700ml",
-      "sugarOptions": ["无糖", "无咖啡因"],
-      "sugarOptionsEn": ["No Sugar", "Caffeine-Free"],
+      "sugarOptions": [
+        "无糖",
+        "无咖啡因"
+      ],
+      "sugarOptionsEn": [
+        "No Sugar",
+        "Caffeine-Free"
+      ],
       "description": "无咖啡因；含微量酒精（0.5%vol）",
       "descriptionEn": "Caffeine-free; contains trace alcohol (0.5%vol)",
       "steps": [
-        { "vessel": "cup",    "text": "出品杯：杯底加入草莓块 120g",                                    "textEn": "Serving cup: add strawberry chunks 120g to cup base" },
-        { "vessel": "cup",    "text": "米酒娘 3勺",                                                     "textEn": "Fermented Rice Wine — 3 scoops" },
-        { "vessel": "cup",    "text": "Heavy Cream 30ml",                                               "textEn": "Heavy Cream 30ml" },
-        { "vessel": "shaker", "text": "小shaker：草莓果糖浆 一勺 + 无乳糖牛奶 200ml（少冰：250ml）搅拌","textEn": "Small shaker: strawberry syrup 1 scoop + lactose-free milk 200ml (less ice: 250ml), stir" },
-        { "vessel": "cup",    "text": "加冰至满，出杯",                                                 "textEn": "Add ice to full cup, serve" },
-        { "vessel": "note",   "text": "⚠️ 无咖啡因；含微量酒精（0.5%vol）需告知顾客", "isWarning": true,"textEn": "⚠️ Caffeine-free; contains trace alcohol (0.5%vol) — inform customer" }
+        {
+          "vessel": "cup",
+          "text": "出品杯：杯底加入草莓块 120g",
+          "textEn": "Serving cup: add strawberry chunks 120g to cup base"
+        },
+        {
+          "vessel": "cup",
+          "text": "米酒娘 3勺",
+          "textEn": "Fermented Rice Wine — 3 scoops"
+        },
+        {
+          "vessel": "cup",
+          "text": "Heavy Cream 30ml",
+          "textEn": "Heavy Cream 30ml"
+        },
+        {
+          "vessel": "shaker",
+          "text": "小shaker：草莓果糖浆 一勺 + 无乳糖牛奶 200ml（少冰：250ml）搅拌",
+          "textEn": "Small shaker: strawberry syrup 1 scoop + lactose-free milk 200ml (less ice: 250ml), stir"
+        },
+        {
+          "vessel": "cup",
+          "text": "加冰至满，出杯",
+          "textEn": "Add ice to full cup, serve"
+        },
+        {
+          "vessel": "note",
+          "text": "⚠️ 无咖啡因；含微量酒精（0.5%vol）需告知顾客",
+          "isWarning": true,
+          "textEn": "⚠️ Caffeine-free; contains trace alcohol (0.5%vol) — inform customer"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；牛奶 200ml",
@@ -388,8 +1001,20 @@
         "full": "Normal ice; milk 200ml",
         "less": "Less ice: milk 250ml"
       },
-      "toppings": ["珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）", "桂花冻（+$1.00）"],
-      "toppingsEn": ["Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)", "Osmanthus Jelly (+$1.00)"]
+      "toppings": [
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）",
+        "桂花冻（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)",
+        "Osmanthus Jelly (+$1.00)"
+      ]
     },
     {
       "id": 31,
@@ -397,16 +1022,46 @@
       "chineseName": "爆汁大橘（新品）",
       "englishName": "Mandarin (New)",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖", "半糖", "无糖", "30%糖"],
-      "sugarOptionsEn": ["Full Sugar", "Half Sugar", "No Sugar", "30% Sugar"],
+      "sugarOptions": [
+        "全糖",
+        "半糖",
+        "无糖",
+        "30%糖"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar",
+        "Half Sugar",
+        "No Sugar",
+        "30% Sugar"
+      ],
       "description": "手剥大橘 + 绿茶；无啵啵",
       "descriptionEn": "Hand-peeled mandarin + green tea; no Bobo",
       "steps": [
-        { "vessel": "cup",    "text": "手剥大橘果肉放入杯底",                                           "textEn": "Hand-peel mandarin segments and place at cup base" },
-        { "vessel": "shaker", "text": "绿茶 250ml（少冰：300ml）",                                      "textEn": "Green tea 250ml (less ice: 300ml)" },
-        { "vessel": "shaker", "text": "按糖量加糖",                                                     "textEn": "Add sugar per sugar chart" },
-        { "vessel": "shaker", "text": "加冰",                                                           "textEn": "Add ice" },
-        { "vessel": "shaker", "text": "放入 Shaker，前后摇匀，倒入奶茶杯",                              "textEn": "Shake well, pour into serving cup" }
+        {
+          "vessel": "cup",
+          "text": "手剥大橘果肉放入杯底",
+          "textEn": "Hand-peel mandarin segments and place at cup base"
+        },
+        {
+          "vessel": "shaker",
+          "text": "绿茶 250ml（少冰：300ml）",
+          "textEn": "Green tea 250ml (less ice: 300ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "按糖量加糖",
+          "textEn": "Add sugar per sugar chart"
+        },
+        {
+          "vessel": "shaker",
+          "text": "加冰",
+          "textEn": "Add ice"
+        },
+        {
+          "vessel": "shaker",
+          "text": "放入 Shaker，前后摇匀，倒入奶茶杯",
+          "textEn": "Shake well, pour into serving cup"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；茶 250ml",
@@ -416,28 +1071,79 @@
         "full": "Normal ice; tea 250ml",
         "less": "Less ice: tea 300ml"
       },
-      "toppings": ["珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）", "桂花冻（+$1.00）"],
-      "toppingsEn": ["Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)", "Osmanthus Jelly (+$1.00)"]
+      "toppings": [
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）",
+        "桂花冻（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)",
+        "Osmanthus Jelly (+$1.00)"
+      ]
     },
     {
       "id": 14,
+      "video": "videos/Mango.mp4",
       "category": "Cheese Foam Slush",
       "chineseName": "芝芝芒芒",
       "englishName": "Mango Cheese Slush",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖 40g", "半糖 30g"],
-      "sugarOptionsEn": ["Full Sugar 40g", "Half Sugar 30g"],
+      "sugarOptions": [
+        "全糖 40g",
+        "半糖 30g"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar 40g",
+        "Half Sugar 30g"
+      ],
       "description": "芒果 Blender 打碎 + 奶盖",
       "descriptionEn": "Mango blended + Cheese Foam",
       "steps": [
-        { "vessel": "cup",     "text": "奶茶杯：芒果块 40g 捣碎",                                      "textEn": "Serving cup: mango chunks 40g, mashed" },
-        { "vessel": "blender", "text": "芒果块 80g",                                                    "textEn": "Mango chunks 80g" },
-        { "vessel": "blender", "text": "芒果果酱 一勺",                                                  "textEn": "Mango jam — 1 scoop" },
-        { "vessel": "blender", "text": "糖 40g（半糖：30g）",                                           "textEn": "Sugar 40g (half sugar: 30g)" },
-        { "vessel": "blender", "text": "Tea 150ml",                                                     "textEn": "Tea 150ml" },
-        { "vessel": "blender", "text": "加冰",                                                           "textEn": "Add ice" },
-        { "vessel": "blender", "text": "Blender 搅拌，全部倒入奶茶杯",                                  "textEn": "Blend, pour everything into serving cup" },
-        { "vessel": "cup",     "text": "奶盖加满杯",                                                    "textEn": "Top with Cheese Foam to fill cup" }
+        {
+          "vessel": "cup",
+          "text": "奶茶杯：芒果块 40g 捣碎",
+          "textEn": "Serving cup: mango chunks 40g, mashed"
+        },
+        {
+          "vessel": "blender",
+          "text": "芒果块 80g",
+          "textEn": "Mango chunks 80g"
+        },
+        {
+          "vessel": "blender",
+          "text": "芒果果酱 一勺",
+          "textEn": "Mango jam — 1 scoop"
+        },
+        {
+          "vessel": "blender",
+          "text": "糖 40g（半糖：30g）",
+          "textEn": "Sugar 40g (half sugar: 30g)"
+        },
+        {
+          "vessel": "blender",
+          "text": "Tea 150ml",
+          "textEn": "Tea 150ml"
+        },
+        {
+          "vessel": "blender",
+          "text": "加冰",
+          "textEn": "Add ice"
+        },
+        {
+          "vessel": "blender",
+          "text": "Blender 搅拌，全部倒入奶茶杯",
+          "textEn": "Blend, pour everything into serving cup"
+        },
+        {
+          "vessel": "cup",
+          "text": "奶盖加满杯",
+          "textEn": "Top with Cheese Foam to fill cup"
+        }
       ],
       "lessIce": {
         "full": "正常加冰",
@@ -447,28 +1153,77 @@
         "full": "Normal ice",
         "less": "Less ice: reduce ice in blender"
       },
-      "toppings": ["奶盖（已含）", "珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"],
-      "toppingsEn": ["Cheese Foam — included", "Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)"]
+      "toppings": [
+        "奶盖（已含）",
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Cheese Foam — included",
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)"
+      ]
     },
     {
       "id": 15,
+      "video": "videos/Strawberry.mp4",
       "category": "Cheese Foam Slush",
       "chineseName": "芝芝草莓",
       "englishName": "Strawberry Cheese Slush",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖 30g", "半糖 20g"],
-      "sugarOptionsEn": ["Full Sugar 30g", "Half Sugar 20g"],
+      "sugarOptions": [
+        "全糖 30g",
+        "半糖 20g"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar 30g",
+        "Half Sugar 20g"
+      ],
       "description": "草莓 Blender 打碎 + 奶盖",
       "descriptionEn": "Strawberry blended + Cheese Foam",
       "steps": [
-        { "vessel": "cup",     "text": "奶茶杯：草莓块 40g 捣碎",                                      "textEn": "Serving cup: strawberry chunks 40g, mashed" },
-        { "vessel": "blender", "text": "草莓块 80g",                                                    "textEn": "Strawberry chunks 80g" },
-        { "vessel": "blender", "text": "草莓果酱 一勺",                                                  "textEn": "Strawberry jam — 1 scoop" },
-        { "vessel": "blender", "text": "糖 30g（半糖：20g）",                                           "textEn": "Sugar 30g (half sugar: 20g)" },
-        { "vessel": "blender", "text": "Tea 150ml",                                                     "textEn": "Tea 150ml" },
-        { "vessel": "blender", "text": "加冰",                                                           "textEn": "Add ice" },
-        { "vessel": "blender", "text": "Blender 搅拌，全部倒入奶茶杯",                                  "textEn": "Blend, pour everything into serving cup" },
-        { "vessel": "cup",     "text": "奶盖加满杯",                                                    "textEn": "Top with Cheese Foam to fill cup" }
+        {
+          "vessel": "cup",
+          "text": "奶茶杯：草莓块 40g 捣碎",
+          "textEn": "Serving cup: strawberry chunks 40g, mashed"
+        },
+        {
+          "vessel": "blender",
+          "text": "草莓块 80g",
+          "textEn": "Strawberry chunks 80g"
+        },
+        {
+          "vessel": "blender",
+          "text": "草莓果酱 一勺",
+          "textEn": "Strawberry jam — 1 scoop"
+        },
+        {
+          "vessel": "blender",
+          "text": "糖 30g（半糖：20g）",
+          "textEn": "Sugar 30g (half sugar: 20g)"
+        },
+        {
+          "vessel": "blender",
+          "text": "Tea 150ml",
+          "textEn": "Tea 150ml"
+        },
+        {
+          "vessel": "blender",
+          "text": "加冰",
+          "textEn": "Add ice"
+        },
+        {
+          "vessel": "blender",
+          "text": "Blender 搅拌，全部倒入奶茶杯",
+          "textEn": "Blend, pour everything into serving cup"
+        },
+        {
+          "vessel": "cup",
+          "text": "奶盖加满杯",
+          "textEn": "Top with Cheese Foam to fill cup"
+        }
       ],
       "lessIce": {
         "full": "正常加冰",
@@ -478,27 +1233,72 @@
         "full": "Normal ice",
         "less": "Less ice: reduce ice in blender"
       },
-      "toppings": ["奶盖（已含）", "珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"],
-      "toppingsEn": ["Cheese Foam — included", "Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)"]
+      "toppings": [
+        "奶盖（已含）",
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Cheese Foam — included",
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)"
+      ]
     },
     {
       "id": 16,
+      "video": "videos/BlackGrape.mp4",
       "category": "Cheese Foam Slush",
       "chineseName": "芝芝黑提",
       "englishName": "Black Grape Cheese Slush",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖 20g", "半糖 10g"],
-      "sugarOptionsEn": ["Full Sugar 20g", "Half Sugar 10g"],
+      "sugarOptions": [
+        "全糖 20g",
+        "半糖 10g"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar 20g",
+        "Half Sugar 10g"
+      ],
       "description": "黑提 Blender 打碎 + 奶盖",
       "descriptionEn": "Black grape blended + Cheese Foam",
       "steps": [
-        { "vessel": "blender", "text": "黑提块 120g",                                                   "textEn": "Black grape chunks 120g" },
-        { "vessel": "blender", "text": "黑提果酱 一勺",                                                  "textEn": "Black grape jam — 1 scoop" },
-        { "vessel": "blender", "text": "糖 20g（半糖：10g）",                                           "textEn": "Sugar 20g (half sugar: 10g)" },
-        { "vessel": "blender", "text": "Tea 150ml",                                                     "textEn": "Tea 150ml" },
-        { "vessel": "blender", "text": "加冰",                                                           "textEn": "Add ice" },
-        { "vessel": "blender", "text": "Blender 搅拌，全部倒入奶茶杯",                                  "textEn": "Blend, pour everything into serving cup" },
-        { "vessel": "cup",     "text": "奶盖加满杯",                                                    "textEn": "Top with Cheese Foam to fill cup" }
+        {
+          "vessel": "blender",
+          "text": "黑提块 120g",
+          "textEn": "Black grape chunks 120g"
+        },
+        {
+          "vessel": "blender",
+          "text": "黑提果酱 一勺",
+          "textEn": "Black grape jam — 1 scoop"
+        },
+        {
+          "vessel": "blender",
+          "text": "糖 20g（半糖：10g）",
+          "textEn": "Sugar 20g (half sugar: 10g)"
+        },
+        {
+          "vessel": "blender",
+          "text": "Tea 150ml",
+          "textEn": "Tea 150ml"
+        },
+        {
+          "vessel": "blender",
+          "text": "加冰",
+          "textEn": "Add ice"
+        },
+        {
+          "vessel": "blender",
+          "text": "Blender 搅拌，全部倒入奶茶杯",
+          "textEn": "Blend, pour everything into serving cup"
+        },
+        {
+          "vessel": "cup",
+          "text": "奶盖加满杯",
+          "textEn": "Top with Cheese Foam to fill cup"
+        }
       ],
       "lessIce": {
         "full": "正常加冰",
@@ -508,25 +1308,62 @@
         "full": "Normal ice",
         "less": "Less ice: reduce ice in blender"
       },
-      "toppings": ["奶盖（已含）", "珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"],
-      "toppingsEn": ["Cheese Foam — included", "Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)"]
+      "toppings": [
+        "奶盖（已含）",
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Cheese Foam — included",
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)"
+      ]
     },
     {
       "id": 17,
+      "video": "videos/Watermelon.mp4",
       "category": "Cheese Foam Slush",
       "chineseName": "芝芝西瓜",
       "englishName": "Watermelon Cheese Slush",
       "cupSize": "700ml",
-      "sugarOptions": ["无糖", "无咖啡因"],
-      "sugarOptionsEn": ["No Sugar", "Caffeine-Free"],
+      "sugarOptions": [
+        "无糖",
+        "无咖啡因"
+      ],
+      "sugarOptionsEn": [
+        "No Sugar",
+        "Caffeine-Free"
+      ],
       "description": "西瓜 + 桃子果酱 Blender + 奶盖；无添加糖；无咖啡因",
       "descriptionEn": "Watermelon + peach jam blended + Cheese Foam; no added sugar; caffeine-free",
       "steps": [
-        { "vessel": "blender", "text": "西瓜 300g",                                                     "textEn": "Watermelon 300g" },
-        { "vessel": "blender", "text": "桃子果酱 一勺",                                                  "textEn": "Peach jam — 1 scoop" },
-        { "vessel": "blender", "text": "加冰",                                                           "textEn": "Add ice" },
-        { "vessel": "blender", "text": "Blender 搅拌，全部倒入奶茶杯",                                  "textEn": "Blend, pour everything into serving cup" },
-        { "vessel": "cup",     "text": "奶盖加满杯",                                                    "textEn": "Top with Cheese Foam to fill cup" }
+        {
+          "vessel": "blender",
+          "text": "西瓜 300g",
+          "textEn": "Watermelon 300g"
+        },
+        {
+          "vessel": "blender",
+          "text": "桃子果酱 一勺",
+          "textEn": "Peach jam — 1 scoop"
+        },
+        {
+          "vessel": "blender",
+          "text": "加冰",
+          "textEn": "Add ice"
+        },
+        {
+          "vessel": "blender",
+          "text": "Blender 搅拌，全部倒入奶茶杯",
+          "textEn": "Blend, pour everything into serving cup"
+        },
+        {
+          "vessel": "cup",
+          "text": "奶盖加满杯",
+          "textEn": "Top with Cheese Foam to fill cup"
+        }
       ],
       "lessIce": {
         "full": "正常加冰",
@@ -536,30 +1373,85 @@
         "full": "Normal ice",
         "less": "Less ice: reduce ice in blender"
       },
-      "toppings": ["奶盖（已含）", "珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"],
-      "toppingsEn": ["Cheese Foam — included", "Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)"]
+      "toppings": [
+        "奶盖（已含）",
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Cheese Foam — included",
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)"
+      ]
     },
     {
       "id": 18,
+      "video": "videos/MangoSago.mp4",
       "category": "Cheese Foam Slush",
       "chineseName": "杨枝甘露",
       "englishName": "Mango Sago",
       "cupSize": "700ml",
-      "sugarOptions": ["按需加糖"],
-      "sugarOptionsEn": ["Sugar as needed"],
+      "sugarOptions": [
+        "按需加糖"
+      ],
+      "sugarOptionsEn": [
+        "Sugar as needed"
+      ],
       "description": "芒果碎 + 西米 + 椰奶底；Blender 打碎 + 西柚果肉补满",
       "descriptionEn": "Crushed mango + Sago + coconut milk base; blended + grapefruit segments to fill",
       "steps": [
-        { "vessel": "cup",     "text": "出品杯：芒果碎 40g",                                            "textEn": "Serving cup: crushed mango 40g" },
-        { "vessel": "cup",     "text": "西米（西米）一勺",                                               "textEn": "Sago — 1 scoop" },
-        { "vessel": "cup",     "text": "Coco Milk 50ml",                                                "textEn": "Coco Milk 50ml" },
-        { "vessel": "blender", "text": "芒果块 80g",                                                    "textEn": "Mango chunks 80g" },
-        { "vessel": "blender", "text": "Mango Syrup 一勺",                                              "textEn": "Mango Syrup — 1 scoop" },
-        { "vessel": "blender", "text": "按需加糖",                                                       "textEn": "Add sugar as needed" },
-        { "vessel": "blender", "text": "Tea 150ml",                                                     "textEn": "Tea 150ml" },
-        { "vessel": "blender", "text": "加冰，搅拌机搅拌",                                               "textEn": "Add ice, blend in blender" },
-        { "vessel": "cup",     "text": "将 Blender 内容全部倒入出品杯",                                  "textEn": "Pour all blender contents into serving cup" },
-        { "vessel": "cup",     "text": "倒入西柚果肉补至满杯，出杯",                                    "textEn": "Top with grapefruit segments to fill cup, serve" }
+        {
+          "vessel": "cup",
+          "text": "出品杯：芒果碎 40g",
+          "textEn": "Serving cup: crushed mango 40g"
+        },
+        {
+          "vessel": "cup",
+          "text": "西米（西米）一勺",
+          "textEn": "Sago — 1 scoop"
+        },
+        {
+          "vessel": "cup",
+          "text": "Coco Milk 50ml",
+          "textEn": "Coco Milk 50ml"
+        },
+        {
+          "vessel": "blender",
+          "text": "芒果块 80g",
+          "textEn": "Mango chunks 80g"
+        },
+        {
+          "vessel": "blender",
+          "text": "Mango Syrup 一勺",
+          "textEn": "Mango Syrup — 1 scoop"
+        },
+        {
+          "vessel": "blender",
+          "text": "按需加糖",
+          "textEn": "Add sugar as needed"
+        },
+        {
+          "vessel": "blender",
+          "text": "Tea 150ml",
+          "textEn": "Tea 150ml"
+        },
+        {
+          "vessel": "blender",
+          "text": "加冰，搅拌机搅拌",
+          "textEn": "Add ice, blend in blender"
+        },
+        {
+          "vessel": "cup",
+          "text": "将 Blender 内容全部倒入出品杯",
+          "textEn": "Pour all blender contents into serving cup"
+        },
+        {
+          "vessel": "cup",
+          "text": "倒入西柚果肉补至满杯，出杯",
+          "textEn": "Top with grapefruit segments to fill cup, serve"
+        }
       ],
       "lessIce": {
         "full": "正常加冰",
@@ -569,23 +1461,50 @@
         "full": "Normal ice",
         "less": "Less ice: reduce ice in blender"
       },
-      "toppings": ["西米（已含）", "西柚果肉（已含）", "珍珠（+$0.75）", "脆啵啵（+$0.75）"],
-      "toppingsEn": ["Sago — included", "Grapefruit segments — included", "Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)"]
+      "toppings": [
+        "西米（已含）",
+        "西柚果肉（已含）",
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Sago — included",
+        "Grapefruit segments — included",
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)"
+      ]
     },
     {
       "id": 19,
+      "video": "videos/ClassicBubbleTea.mp4",
       "category": "Milk Tea",
       "chineseName": "珍珠奶茶 500ml",
       "englishName": "Classic Bubble Tea 500ml",
       "cupSize": "500ml",
-      "sugarOptions": ["按糖表"],
-      "sugarOptionsEn": ["Per sugar chart"],
+      "sugarOptions": [
+        "按糖表"
+      ],
+      "sugarOptionsEn": [
+        "Per sugar chart"
+      ],
       "description": "经典珍珠奶茶",
       "descriptionEn": "Classic bubble milk tea",
       "steps": [
-        { "vessel": "cup", "text": "珍珠 一勺",                      "textEn": "Pearl/Bubble — 1 scoop" },
-        { "vessel": "cup", "text": "奶茶 250ml（少冰：300ml）",       "textEn": "Milk tea 250ml (less ice: 300ml)" },
-        { "vessel": "cup", "text": "加冰满杯",                        "textEn": "Add ice to fill cup" }
+        {
+          "vessel": "cup",
+          "text": "珍珠 一勺",
+          "textEn": "Pearl/Bubble — 1 scoop"
+        },
+        {
+          "vessel": "cup",
+          "text": "奶茶 250ml（少冰：300ml）",
+          "textEn": "Milk tea 250ml (less ice: 300ml)"
+        },
+        {
+          "vessel": "cup",
+          "text": "加冰满杯",
+          "textEn": "Add ice to fill cup"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；奶茶 250ml",
@@ -595,23 +1514,52 @@
         "full": "Normal ice; milk tea 250ml",
         "less": "Less ice: milk tea 300ml"
       },
-      "toppings": ["珍珠（已含）", "换脆啵啵（免费）", "脆啵啵（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）"],
-      "toppingsEn": ["Pearl/Bubble — included", "Swap for Crispy Boba (free)", "Crispy Boba (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)"]
+      "toppings": [
+        "珍珠（已含）",
+        "换脆啵啵（免费）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Pearl/Bubble — included",
+        "Swap for Crispy Boba (free)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)"
+      ]
     },
     {
       "id": 20,
+      "video": "videos/ClassicBubbleTea.mp4",
       "category": "Milk Tea",
       "chineseName": "珍珠奶茶 700ml",
       "englishName": "Classic Bubble Tea 700ml",
       "cupSize": "700ml",
-      "sugarOptions": ["按糖表"],
-      "sugarOptionsEn": ["Per sugar chart"],
+      "sugarOptions": [
+        "按糖表"
+      ],
+      "sugarOptionsEn": [
+        "Per sugar chart"
+      ],
       "description": "经典珍珠奶茶",
       "descriptionEn": "Classic bubble milk tea",
       "steps": [
-        { "vessel": "cup", "text": "珍珠 一勺",                      "textEn": "Pearl/Bubble — 1 scoop" },
-        { "vessel": "cup", "text": "奶茶 350ml（少冰：400ml）",       "textEn": "Milk tea 350ml (less ice: 400ml)" },
-        { "vessel": "cup", "text": "加冰满杯",                        "textEn": "Add ice to fill cup" }
+        {
+          "vessel": "cup",
+          "text": "珍珠 一勺",
+          "textEn": "Pearl/Bubble — 1 scoop"
+        },
+        {
+          "vessel": "cup",
+          "text": "奶茶 350ml（少冰：400ml）",
+          "textEn": "Milk tea 350ml (less ice: 400ml)"
+        },
+        {
+          "vessel": "cup",
+          "text": "加冰满杯",
+          "textEn": "Add ice to fill cup"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；奶茶 350ml",
@@ -621,8 +1569,20 @@
         "full": "Normal ice; milk tea 350ml",
         "less": "Less ice: milk tea 400ml"
       },
-      "toppings": ["珍珠（已含）", "换脆啵啵（免费）", "脆啵啵（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）"],
-      "toppingsEn": ["Pearl/Bubble — included", "Swap for Crispy Boba (free)", "Crispy Boba (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)"]
+      "toppings": [
+        "珍珠（已含）",
+        "换脆啵啵（免费）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Pearl/Bubble — included",
+        "Swap for Crispy Boba (free)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)"
+      ]
     },
     {
       "id": 21,
@@ -630,17 +1590,51 @@
       "chineseName": "桂花乌龙鲜奶茶",
       "englishName": "Osmanthus Oolong Milk Tea",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖 30g", "半糖 20g", "30%糖 10g", "无糖 0g"],
-      "sugarOptionsEn": ["Full Sugar 30g", "Half Sugar 20g", "30% Sugar 10g", "No Sugar 0g"],
+      "sugarOptions": [
+        "全糖 30g",
+        "半糖 20g",
+        "30%糖 10g",
+        "无糖 0g"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar 30g",
+        "Half Sugar 20g",
+        "30% Sugar 10g",
+        "No Sugar 0g"
+      ],
       "description": "桂花冻 + 桂花乌龙茶 + 混合奶；搅拌机打6秒",
       "descriptionEn": "Osmanthus Jelly + osmanthus oolong tea + blended milk; blend 6 seconds",
       "steps": [
-        { "vessel": "cup",    "text": "出品杯底加入桂花冻 100g",                                        "textEn": "Add Osmanthus Jelly 100g to bottom of serving cup" },
-        { "vessel": "shaker", "text": "新搅拌杯：桂花乌龙茶 200ml（少冰：+50ml = 250ml）",              "textEn": "New shaker cup: osmanthus oolong tea 200ml (less ice: +50ml = 250ml)" },
-        { "vessel": "shaker", "text": "混合奶：牛奶 70ml + 咖奶（Evaporated Milk）30ml",               "textEn": "Blended milk: milk 70ml + Evaporated Milk 30ml" },
-        { "vessel": "shaker", "text": "按糖表加糖（全糖30g / 半糖20g / 30%糖10g / 无糖0g）",           "textEn": "Add sugar per sugar chart (full sugar 30g / half sugar 20g / 30% sugar 10g / no sugar 0g)" },
-        { "vessel": "shaker", "text": "新搅拌机打 6秒",                                                 "textEn": "Blend in new blender for 6 seconds" },
-        { "vessel": "cup",    "text": "倒入奶茶杯，加冰块，出品",                                       "textEn": "Pour into serving cup, add ice, serve" }
+        {
+          "vessel": "cup",
+          "text": "出品杯底加入桂花冻 100g",
+          "textEn": "Add Osmanthus Jelly 100g to bottom of serving cup"
+        },
+        {
+          "vessel": "shaker",
+          "text": "新搅拌杯：桂花乌龙茶 200ml（少冰：+50ml = 250ml）",
+          "textEn": "New shaker cup: osmanthus oolong tea 200ml (less ice: +50ml = 250ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "混合奶：牛奶 70ml + 咖奶（Evaporated Milk）30ml",
+          "textEn": "Blended milk: milk 70ml + Evaporated Milk 30ml"
+        },
+        {
+          "vessel": "shaker",
+          "text": "按糖表加糖（全糖30g / 半糖20g / 30%糖10g / 无糖0g）",
+          "textEn": "Add sugar per sugar chart (full sugar 30g / half sugar 20g / 30% sugar 10g / no sugar 0g)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "新搅拌机打 6秒",
+          "textEn": "Blend in new blender for 6 seconds"
+        },
+        {
+          "vessel": "cup",
+          "text": "倒入奶茶杯，加冰块，出品",
+          "textEn": "Pour into serving cup, add ice, serve"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；乌龙茶 200ml",
@@ -650,8 +1644,20 @@
         "full": "Normal ice; oolong tea 200ml",
         "less": "Less ice: oolong tea 250ml"
       },
-      "toppings": ["桂花冻（已含）", "珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）"],
-      "toppingsEn": ["Osmanthus Jelly — included", "Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)"]
+      "toppings": [
+        "桂花冻（已含）",
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Osmanthus Jelly — included",
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)"
+      ]
     },
     {
       "id": 22,
@@ -659,17 +1665,51 @@
       "chineseName": "白桃乌龙鲜奶茶",
       "englishName": "Peach Oolong Fresh Milk Tea",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖 30g", "半糖 20g", "30%糖 10g", "无糖 0g"],
-      "sugarOptionsEn": ["Full Sugar 30g", "Half Sugar 20g", "30% Sugar 10g", "No Sugar 0g"],
+      "sugarOptions": [
+        "全糖 30g",
+        "半糖 20g",
+        "30%糖 10g",
+        "无糖 0g"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar 30g",
+        "Half Sugar 20g",
+        "30% Sugar 10g",
+        "No Sugar 0g"
+      ],
       "description": "桂花冻 + 白桃乌龙茶 + 混合奶；搅拌机打6秒",
       "descriptionEn": "Osmanthus Jelly + white peach oolong tea + blended milk; blend 6 seconds",
       "steps": [
-        { "vessel": "cup",    "text": "出品杯底加入桂花冻 100g",                                        "textEn": "Add Osmanthus Jelly 100g to bottom of serving cup" },
-        { "vessel": "shaker", "text": "新搅拌杯：白桃乌龙茶 200ml（少冰：+50ml = 250ml）",              "textEn": "New shaker cup: white peach oolong tea 200ml (less ice: +50ml = 250ml)" },
-        { "vessel": "shaker", "text": "混合奶：牛奶 70ml + 咖奶（Evaporated Milk）30ml",               "textEn": "Blended milk: milk 70ml + Evaporated Milk 30ml" },
-        { "vessel": "shaker", "text": "按糖表加糖（全糖30g / 半糖20g / 30%糖10g / 无糖0g）",           "textEn": "Add sugar per sugar chart (full sugar 30g / half sugar 20g / 30% sugar 10g / no sugar 0g)" },
-        { "vessel": "shaker", "text": "新搅拌机打 6秒",                                                 "textEn": "Blend in new blender for 6 seconds" },
-        { "vessel": "cup",    "text": "倒入奶茶杯，加冰块，出品",                                       "textEn": "Pour into serving cup, add ice, serve" }
+        {
+          "vessel": "cup",
+          "text": "出品杯底加入桂花冻 100g",
+          "textEn": "Add Osmanthus Jelly 100g to bottom of serving cup"
+        },
+        {
+          "vessel": "shaker",
+          "text": "新搅拌杯：白桃乌龙茶 200ml（少冰：+50ml = 250ml）",
+          "textEn": "New shaker cup: white peach oolong tea 200ml (less ice: +50ml = 250ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "混合奶：牛奶 70ml + 咖奶（Evaporated Milk）30ml",
+          "textEn": "Blended milk: milk 70ml + Evaporated Milk 30ml"
+        },
+        {
+          "vessel": "shaker",
+          "text": "按糖表加糖（全糖30g / 半糖20g / 30%糖10g / 无糖0g）",
+          "textEn": "Add sugar per sugar chart (full sugar 30g / half sugar 20g / 30% sugar 10g / no sugar 0g)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "新搅拌机打 6秒",
+          "textEn": "Blend in new blender for 6 seconds"
+        },
+        {
+          "vessel": "cup",
+          "text": "倒入奶茶杯，加冰块，出品",
+          "textEn": "Pour into serving cup, add ice, serve"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；乌龙茶 200ml",
@@ -679,8 +1719,20 @@
         "full": "Normal ice; oolong tea 200ml",
         "less": "Less ice: oolong tea 250ml"
       },
-      "toppings": ["桂花冻（已含）", "珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）", "奶盖（+$1.00）"],
-      "toppingsEn": ["Osmanthus Jelly — included", "Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)", "Cheese Foam (+$1.00)"]
+      "toppings": [
+        "桂花冻（已含）",
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）",
+        "奶盖（+$1.00）"
+      ],
+      "toppingsEn": [
+        "Osmanthus Jelly — included",
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)",
+        "Cheese Foam (+$1.00)"
+      ]
     },
     {
       "id": 23,
@@ -688,15 +1740,36 @@
       "chineseName": "紫薯奶茶 500ml",
       "englishName": "Purple Yam Milk 500ml",
       "cupSize": "500ml",
-      "sugarOptions": ["按需"],
-      "sugarOptionsEn": ["As needed"],
+      "sugarOptions": [
+        "按需"
+      ],
+      "sugarOptionsEn": [
+        "As needed"
+      ],
       "description": "手捣紫薯贴杯壁；无粉末；口感有颗粒感，首次顾客须告知",
       "descriptionEn": "Hand-mashed purple yam pressed against cup wall; no powder; texture has chunks — inform first-time customers",
       "steps": [
-        { "vessel": "cup",  "text": "紫薯 三大勺，贴杯壁",                                              "textEn": "Purple yam — 3 large scoops, pressed against cup wall" },
-        { "vessel": "cup",  "text": "冰块 4-6 块",                                                      "textEn": "Ice cubes 4–6 pieces" },
-        { "vessel": "cup",  "text": "补满 Milk（有机牛奶 或 无乳糖牛奶）",                              "textEn": "Top up with milk (organic milk or lactose-free milk)" },
-        { "vessel": "note", "text": "⚠️ 手捣紫薯会有颗粒感，首次顾客必须提供试饮或告知", "isWarning": true, "textEn": "⚠️ Hand-mashed purple yam has a chunky texture — must offer taste test or inform first-time customers" }
+        {
+          "vessel": "cup",
+          "text": "紫薯 三大勺，贴杯壁",
+          "textEn": "Purple yam — 3 large scoops, pressed against cup wall"
+        },
+        {
+          "vessel": "cup",
+          "text": "冰块 4-6 块",
+          "textEn": "Ice cubes 4–6 pieces"
+        },
+        {
+          "vessel": "cup",
+          "text": "补满 Milk（有机牛奶 或 无乳糖牛奶）",
+          "textEn": "Top up with milk (organic milk or lactose-free milk)"
+        },
+        {
+          "vessel": "note",
+          "text": "⚠️ 手捣紫薯会有颗粒感，首次顾客必须提供试饮或告知",
+          "isWarning": true,
+          "textEn": "⚠️ Hand-mashed purple yam has a chunky texture — must offer taste test or inform first-time customers"
+        }
       ],
       "lessIce": {
         "full": "4-6块冰",
@@ -706,8 +1779,16 @@
         "full": "4–6 ice cubes",
         "less": "Less ice: 2–3 ice cubes"
       },
-      "toppings": ["珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"],
-      "toppingsEn": ["Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)"]
+      "toppings": [
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)"
+      ]
     },
     {
       "id": 24,
@@ -715,17 +1796,48 @@
       "chineseName": "桂花酒酿冰奶 700ml",
       "englishName": "Osmanthus Fermented Rice Milk 700ml",
       "cupSize": "700ml",
-      "sugarOptions": ["无糖", "无咖啡因"],
-      "sugarOptionsEn": ["No Sugar", "Caffeine-Free"],
+      "sugarOptions": [
+        "无糖",
+        "无咖啡因"
+      ],
+      "sugarOptionsEn": [
+        "No Sugar",
+        "Caffeine-Free"
+      ],
       "description": "无咖啡因；含微量酒精（0.5%vol）",
       "descriptionEn": "Caffeine-free; contains trace alcohol (0.5%vol)",
       "steps": [
-        { "vessel": "cup",  "text": "出品杯底加入桂花冻",                                               "textEn": "Add Osmanthus Jelly to bottom of serving cup" },
-        { "vessel": "cup",  "text": "米酒娘 3勺",                                                       "textEn": "Fermented Rice Wine — 3 scoops" },
-        { "vessel": "cup",  "text": "Heavy Cream 30ml",                                                 "textEn": "Heavy Cream 30ml" },
-        { "vessel": "cup",  "text": "无乳糖牛奶 200ml（少冰：250ml）",                                  "textEn": "Lactose-free milk 200ml (less ice: 250ml)" },
-        { "vessel": "cup",  "text": "加冰至满，出杯",                                                   "textEn": "Add ice to fill cup, serve" },
-        { "vessel": "note", "text": "⚠️ 无咖啡因；含微量酒精（0.5%vol）需告知顾客", "isWarning": true, "textEn": "⚠️ Caffeine-free; contains trace alcohol (0.5%vol) — inform customer" }
+        {
+          "vessel": "cup",
+          "text": "出品杯底加入桂花冻",
+          "textEn": "Add Osmanthus Jelly to bottom of serving cup"
+        },
+        {
+          "vessel": "cup",
+          "text": "米酒娘 3勺",
+          "textEn": "Fermented Rice Wine — 3 scoops"
+        },
+        {
+          "vessel": "cup",
+          "text": "Heavy Cream 30ml",
+          "textEn": "Heavy Cream 30ml"
+        },
+        {
+          "vessel": "cup",
+          "text": "无乳糖牛奶 200ml（少冰：250ml）",
+          "textEn": "Lactose-free milk 200ml (less ice: 250ml)"
+        },
+        {
+          "vessel": "cup",
+          "text": "加冰至满，出杯",
+          "textEn": "Add ice to fill cup, serve"
+        },
+        {
+          "vessel": "note",
+          "text": "⚠️ 无咖啡因；含微量酒精（0.5%vol）需告知顾客",
+          "isWarning": true,
+          "textEn": "⚠️ Caffeine-free; contains trace alcohol (0.5%vol) — inform customer"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；牛奶 200ml",
@@ -735,8 +1847,16 @@
         "full": "Normal ice; milk 200ml",
         "less": "Less ice: milk 250ml"
       },
-      "toppings": ["珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"],
-      "toppingsEn": ["Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)"]
+      "toppings": [
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)"
+      ]
     },
     {
       "id": 25,
@@ -744,17 +1864,48 @@
       "chineseName": "桂花酒酿冰奶 500ml",
       "englishName": "Osmanthus Fermented Rice Milk 500ml",
       "cupSize": "500ml",
-      "sugarOptions": ["无糖", "无咖啡因"],
-      "sugarOptionsEn": ["No Sugar", "Caffeine-Free"],
+      "sugarOptions": [
+        "无糖",
+        "无咖啡因"
+      ],
+      "sugarOptionsEn": [
+        "No Sugar",
+        "Caffeine-Free"
+      ],
       "description": "无咖啡因；含微量酒精（0.5%vol）",
       "descriptionEn": "Caffeine-free; contains trace alcohol (0.5%vol)",
       "steps": [
-        { "vessel": "cup",  "text": "出品杯底加入桂花冻",                                               "textEn": "Add Osmanthus Jelly to bottom of serving cup" },
-        { "vessel": "cup",  "text": "米酒娘 3勺",                                                       "textEn": "Fermented Rice Wine — 3 scoops" },
-        { "vessel": "cup",  "text": "Heavy Cream 30ml",                                                 "textEn": "Heavy Cream 30ml" },
-        { "vessel": "cup",  "text": "无乳糖牛奶 150ml（少冰：200ml）",                                  "textEn": "Lactose-free milk 150ml (less ice: 200ml)" },
-        { "vessel": "cup",  "text": "加冰至满，出杯",                                                   "textEn": "Add ice to fill cup, serve" },
-        { "vessel": "note", "text": "⚠️ 无咖啡因；含微量酒精（0.5%vol）需告知顾客", "isWarning": true, "textEn": "⚠️ Caffeine-free; contains trace alcohol (0.5%vol) — inform customer" }
+        {
+          "vessel": "cup",
+          "text": "出品杯底加入桂花冻",
+          "textEn": "Add Osmanthus Jelly to bottom of serving cup"
+        },
+        {
+          "vessel": "cup",
+          "text": "米酒娘 3勺",
+          "textEn": "Fermented Rice Wine — 3 scoops"
+        },
+        {
+          "vessel": "cup",
+          "text": "Heavy Cream 30ml",
+          "textEn": "Heavy Cream 30ml"
+        },
+        {
+          "vessel": "cup",
+          "text": "无乳糖牛奶 150ml（少冰：200ml）",
+          "textEn": "Lactose-free milk 150ml (less ice: 200ml)"
+        },
+        {
+          "vessel": "cup",
+          "text": "加冰至满，出杯",
+          "textEn": "Add ice to fill cup, serve"
+        },
+        {
+          "vessel": "note",
+          "text": "⚠️ 无咖啡因；含微量酒精（0.5%vol）需告知顾客",
+          "isWarning": true,
+          "textEn": "⚠️ Caffeine-free; contains trace alcohol (0.5%vol) — inform customer"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；牛奶 150ml",
@@ -764,30 +1915,83 @@
         "full": "Normal ice; milk 150ml",
         "less": "Less ice: milk 200ml"
       },
-      "toppings": ["珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"],
-      "toppingsEn": ["Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)"]
+      "toppings": [
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)"
+      ]
     },
     {
       "id": 26,
+      "video": "videos/pinkSaltGreenMilkTea.mp4",
       "category": "Milk Tea",
       "chineseName": "海盐芝士鲜奶绿 中杯 (Pink Salt M)",
       "englishName": "Pink Salt Fresh Green Milk Tea 500ml",
       "cupSize": "500ml（用700ml杯做）",
-      "sugarOptions": ["按糖表"],
-      "sugarOptionsEn": ["Per sugar chart"],
+      "sugarOptions": [
+        "按糖表"
+      ],
+      "sugarOptionsEn": [
+        "Per sugar chart"
+      ],
       "description": "黑珍珠底 + 无乳糖牛奶 + 淡奶 + 绿茶 + 粉盐 + 奶盖",
       "descriptionEn": "Black Pearl base + lactose-free milk + Evaporated Milk + green tea + Pink Salt + Cheese Foam",
       "steps": [
-        { "vessel": "cup",    "text": "出品杯（700ml杯）：黑珍珠 1勺",                                  "textEn": "Serving cup (700ml cup): Black Pearl — 1 scoop" },
-        { "vessel": "shaker", "text": "淡奶（Evaporated Milk）50ml",                                    "textEn": "Evaporated Milk 50ml" },
-        { "vessel": "shaker", "text": "无乳糖牛奶 100ml",                                               "textEn": "Lactose-free milk 100ml" },
-        { "vessel": "shaker", "text": "绿茶 100ml（少冰：150ml）",                                      "textEn": "Green tea 100ml (less ice: 150ml)" },
-        { "vessel": "shaker", "text": "按糖表加糖",                                                     "textEn": "Add sugar per sugar chart" },
-        { "vessel": "shaker", "text": "粉盐（Pink Salt）一点点",                                        "textEn": "Pink Salt — a small pinch" },
-        { "vessel": "shaker", "text": "搅拌均匀",                                                       "textEn": "Stir well to combine" },
-        { "vessel": "cup",    "text": "倒入出品杯",                                                     "textEn": "Pour into serving cup" },
-        { "vessel": "cup",    "text": "加冰至满杯",                                                     "textEn": "Add ice to fill cup" },
-        { "vessel": "cup",    "text": "加奶盖（Cheese Foam）",                                          "textEn": "Add Cheese Foam on top" }
+        {
+          "vessel": "cup",
+          "text": "出品杯（700ml杯）：黑珍珠 1勺",
+          "textEn": "Serving cup (700ml cup): Black Pearl — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "淡奶（Evaporated Milk）50ml",
+          "textEn": "Evaporated Milk 50ml"
+        },
+        {
+          "vessel": "shaker",
+          "text": "无乳糖牛奶 100ml",
+          "textEn": "Lactose-free milk 100ml"
+        },
+        {
+          "vessel": "shaker",
+          "text": "绿茶 100ml（少冰：150ml）",
+          "textEn": "Green tea 100ml (less ice: 150ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "按糖表加糖",
+          "textEn": "Add sugar per sugar chart"
+        },
+        {
+          "vessel": "shaker",
+          "text": "粉盐（Pink Salt）一点点",
+          "textEn": "Pink Salt — a small pinch"
+        },
+        {
+          "vessel": "shaker",
+          "text": "搅拌均匀",
+          "textEn": "Stir well to combine"
+        },
+        {
+          "vessel": "cup",
+          "text": "倒入出品杯",
+          "textEn": "Pour into serving cup"
+        },
+        {
+          "vessel": "cup",
+          "text": "加冰至满杯",
+          "textEn": "Add ice to fill cup"
+        },
+        {
+          "vessel": "cup",
+          "text": "加奶盖（Cheese Foam）",
+          "textEn": "Add Cheese Foam on top"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；绿茶 100ml",
@@ -797,30 +2001,87 @@
         "full": "Normal ice; green tea 100ml",
         "less": "Less ice: green tea 150ml"
       },
-      "toppings": ["黑珍珠（已含）", "奶盖（已含）", "换脆啵啵（免费）", "脆啵啵（+$0.75）", "西米（+$0.75）"],
-      "toppingsEn": ["Black Pearl — included", "Cheese Foam — included", "Swap for Crispy Boba (free)", "Crispy Boba (+$0.75)", "Sago (+$0.75)"]
+      "toppings": [
+        "黑珍珠（已含）",
+        "奶盖（已含）",
+        "换脆啵啵（免费）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Black Pearl — included",
+        "Cheese Foam — included",
+        "Swap for Crispy Boba (free)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)"
+      ]
     },
     {
       "id": 30,
+      "video": "videos/pinkSaltGreenMilkTea.mp4",
       "category": "Milk Tea",
       "chineseName": "海盐芝士鲜奶绿 大杯 (Pink Salt L)",
       "englishName": "Pink Salt Fresh Green Milk Tea 700ml",
       "cupSize": "700ml",
-      "sugarOptions": ["按糖表"],
-      "sugarOptionsEn": ["Per sugar chart"],
+      "sugarOptions": [
+        "按糖表"
+      ],
+      "sugarOptionsEn": [
+        "Per sugar chart"
+      ],
       "description": "黑珍珠底 + 无乳糖牛奶 + 淡奶 + 绿茶 + 粉盐 + 奶盖",
       "descriptionEn": "Black Pearl base + lactose-free milk + Evaporated Milk + green tea + Pink Salt + Cheese Foam",
       "steps": [
-        { "vessel": "cup",    "text": "出品杯：黑珍珠 1勺",                                             "textEn": "Serving cup: Black Pearl — 1 scoop" },
-        { "vessel": "shaker", "text": "淡奶（Evaporated Milk）70ml",                                    "textEn": "Evaporated Milk 70ml" },
-        { "vessel": "shaker", "text": "无乳糖牛奶 150ml",                                               "textEn": "Lactose-free milk 150ml" },
-        { "vessel": "shaker", "text": "绿茶 150ml（少冰：200ml）",                                      "textEn": "Green tea 150ml (less ice: 200ml)" },
-        { "vessel": "shaker", "text": "按糖表加糖",                                                     "textEn": "Add sugar per sugar chart" },
-        { "vessel": "shaker", "text": "粉盐（Pink Salt）一点点",                                        "textEn": "Pink Salt — a small pinch" },
-        { "vessel": "shaker", "text": "搅拌均匀",                                                       "textEn": "Stir well to combine" },
-        { "vessel": "cup",    "text": "倒入出品杯",                                                     "textEn": "Pour into serving cup" },
-        { "vessel": "cup",    "text": "加冰至满杯",                                                     "textEn": "Add ice to fill cup" },
-        { "vessel": "cup",    "text": "加奶盖（Cheese Foam）",                                          "textEn": "Add Cheese Foam on top" }
+        {
+          "vessel": "cup",
+          "text": "出品杯：黑珍珠 1勺",
+          "textEn": "Serving cup: Black Pearl — 1 scoop"
+        },
+        {
+          "vessel": "shaker",
+          "text": "淡奶（Evaporated Milk）70ml",
+          "textEn": "Evaporated Milk 70ml"
+        },
+        {
+          "vessel": "shaker",
+          "text": "无乳糖牛奶 150ml",
+          "textEn": "Lactose-free milk 150ml"
+        },
+        {
+          "vessel": "shaker",
+          "text": "绿茶 150ml（少冰：200ml）",
+          "textEn": "Green tea 150ml (less ice: 200ml)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "按糖表加糖",
+          "textEn": "Add sugar per sugar chart"
+        },
+        {
+          "vessel": "shaker",
+          "text": "粉盐（Pink Salt）一点点",
+          "textEn": "Pink Salt — a small pinch"
+        },
+        {
+          "vessel": "shaker",
+          "text": "搅拌均匀",
+          "textEn": "Stir well to combine"
+        },
+        {
+          "vessel": "cup",
+          "text": "倒入出品杯",
+          "textEn": "Pour into serving cup"
+        },
+        {
+          "vessel": "cup",
+          "text": "加冰至满杯",
+          "textEn": "Add ice to fill cup"
+        },
+        {
+          "vessel": "cup",
+          "text": "加奶盖（Cheese Foam）",
+          "textEn": "Add Cheese Foam on top"
+        }
       ],
       "lessIce": {
         "full": "正常加冰；绿茶 150ml",
@@ -830,8 +2091,20 @@
         "full": "Normal ice; green tea 150ml",
         "less": "Less ice: green tea 200ml"
       },
-      "toppings": ["黑珍珠（已含）", "奶盖（已含）", "换脆啵啵（免费）", "脆啵啵（+$0.75）", "西米（+$0.75）"],
-      "toppingsEn": ["Black Pearl — included", "Cheese Foam — included", "Swap for Crispy Boba (free)", "Crispy Boba (+$0.75)", "Sago (+$0.75)"]
+      "toppings": [
+        "黑珍珠（已含）",
+        "奶盖（已含）",
+        "换脆啵啵（免费）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Black Pearl — included",
+        "Cheese Foam — included",
+        "Swap for Crispy Boba (free)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)"
+      ]
     },
     {
       "id": 27,
@@ -839,16 +2112,41 @@
       "chineseName": "鲜橙C拿铁 500ml",
       "englishName": "Sparkling Orange Latte 500ml",
       "cupSize": "500ml",
-      "sugarOptions": ["无糖"],
-      "sugarOptionsEn": ["No Sugar"],
+      "sugarOptions": [
+        "无糖"
+      ],
+      "sugarOptionsEn": [
+        "No Sugar"
+      ],
       "description": "橙片贴壁 + 鲜橙C汽水 + 咖啡",
       "descriptionEn": "Orange slices pressed against cup wall + orange sparkling water + espresso",
       "steps": [
-        { "vessel": "cup",  "text": "橙子 2片，贴壁打底",                                               "textEn": "Orange 2 slices, pressed against cup wall at base" },
-        { "vessel": "cup",  "text": "鲜橙C汽水 200ml",                                                  "textEn": "Orange sparkling water 200ml" },
-        { "vessel": "cup",  "text": "加块冰",                                                           "textEn": "Add a piece of ice" },
-        { "vessel": "cup",  "text": "咖啡豆 18.7g（每次必须称量）→ 萃取出 36g 咖啡，约 36 秒",         "textEn": "Coffee beans 18.7g (must weigh every time) → extract 36g espresso, approx. 36 seconds" },
-        { "vessel": "note", "text": "⚠️ 咖啡豆每次必须称量 18.7g；出杯 36g；萃取时间约 36 秒", "isWarning": true, "textEn": "⚠️ Coffee beans must be weighed to 18.7g each time; yield 36g; extraction time approx. 36 seconds" }
+        {
+          "vessel": "cup",
+          "text": "橙子 2片，贴壁打底",
+          "textEn": "Orange 2 slices, pressed against cup wall at base"
+        },
+        {
+          "vessel": "cup",
+          "text": "鲜橙C汽水 200ml",
+          "textEn": "Orange sparkling water 200ml"
+        },
+        {
+          "vessel": "cup",
+          "text": "加块冰",
+          "textEn": "Add a piece of ice"
+        },
+        {
+          "vessel": "cup",
+          "text": "咖啡豆 18.7g（每次必须称量）→ 萃取出 36g 咖啡，约 36 秒",
+          "textEn": "Coffee beans 18.7g (must weigh every time) → extract 36g espresso, approx. 36 seconds"
+        },
+        {
+          "vessel": "note",
+          "text": "⚠️ 咖啡豆每次必须称量 18.7g；出杯 36g；萃取时间约 36 秒",
+          "isWarning": true,
+          "textEn": "⚠️ Coffee beans must be weighed to 18.7g each time; yield 36g; extraction time approx. 36 seconds"
+        }
       ],
       "lessIce": {
         "full": "加一块冰",
@@ -858,8 +2156,16 @@
         "full": "Add one piece of ice",
         "less": "Less ice: no ice"
       },
-      "toppings": ["珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"],
-      "toppingsEn": ["Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)"]
+      "toppings": [
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)"
+      ]
     },
     {
       "id": 28,
@@ -867,16 +2173,41 @@
       "chineseName": "鲜橙C拿铁 700ml",
       "englishName": "Sparkling Orange Latte 700ml",
       "cupSize": "700ml",
-      "sugarOptions": ["无糖"],
-      "sugarOptionsEn": ["No Sugar"],
+      "sugarOptions": [
+        "无糖"
+      ],
+      "sugarOptionsEn": [
+        "No Sugar"
+      ],
       "description": "橙片贴壁 + 鲜橙C汽水 + 咖啡",
       "descriptionEn": "Orange slices pressed against cup wall + orange sparkling water + espresso",
       "steps": [
-        { "vessel": "cup",  "text": "橙子 4片，贴壁打底",                                               "textEn": "Orange 4 slices, pressed against cup wall at base" },
-        { "vessel": "cup",  "text": "鲜橙C汽水 330ml",                                                  "textEn": "Orange sparkling water 330ml" },
-        { "vessel": "cup",  "text": "加块冰",                                                           "textEn": "Add a piece of ice" },
-        { "vessel": "cup",  "text": "咖啡豆 18.7g（每次必须称量）→ 萃取出 36g 咖啡，约 36 秒",         "textEn": "Coffee beans 18.7g (must weigh every time) → extract 36g espresso, approx. 36 seconds" },
-        { "vessel": "note", "text": "⚠️ 咖啡豆每次必须称量 18.7g；出杯 36g；萃取时间约 36 秒", "isWarning": true, "textEn": "⚠️ Coffee beans must be weighed to 18.7g each time; yield 36g; extraction time approx. 36 seconds" }
+        {
+          "vessel": "cup",
+          "text": "橙子 4片，贴壁打底",
+          "textEn": "Orange 4 slices, pressed against cup wall at base"
+        },
+        {
+          "vessel": "cup",
+          "text": "鲜橙C汽水 330ml",
+          "textEn": "Orange sparkling water 330ml"
+        },
+        {
+          "vessel": "cup",
+          "text": "加块冰",
+          "textEn": "Add a piece of ice"
+        },
+        {
+          "vessel": "cup",
+          "text": "咖啡豆 18.7g（每次必须称量）→ 萃取出 36g 咖啡，约 36 秒",
+          "textEn": "Coffee beans 18.7g (must weigh every time) → extract 36g espresso, approx. 36 seconds"
+        },
+        {
+          "vessel": "note",
+          "text": "⚠️ 咖啡豆每次必须称量 18.7g；出杯 36g；萃取时间约 36 秒",
+          "isWarning": true,
+          "textEn": "⚠️ Coffee beans must be weighed to 18.7g each time; yield 36g; extraction time approx. 36 seconds"
+        }
       ],
       "lessIce": {
         "full": "加一块冰",
@@ -886,8 +2217,16 @@
         "full": "Add one piece of ice",
         "less": "Less ice: no ice"
       },
-      "toppings": ["珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"],
-      "toppingsEn": ["Pearl/Bubble (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)"]
+      "toppings": [
+        "珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Pearl/Bubble (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)"
+      ]
     },
     {
       "id": 32,
@@ -895,15 +2234,42 @@
       "chineseName": "热珍珠奶茶",
       "englishName": "Classic Bubble Tea (Hot)",
       "cupSize": "500ml",
-      "sugarOptions": ["全糖", "半糖", "无糖", "30%糖"],
-      "sugarOptionsEn": ["Full Sugar", "Half Sugar", "No Sugar", "30% Sugar"],
+      "sugarOptions": [
+        "全糖",
+        "半糖",
+        "无糖",
+        "30%糖"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar",
+        "Half Sugar",
+        "No Sugar",
+        "30% Sugar"
+      ],
       "description": "经典热珍珠奶茶；珍珠已含",
       "descriptionEn": "Classic hot bubble milk tea; Pearl/Bubble included",
       "steps": [
-        { "vessel": "cup", "text": "珍珠 一勺放入杯底",                              "textEn": "Add Pearl/Bubble — 1 scoop to cup base" },
-        { "vessel": "cup", "text": "奶茶加热至适宜温度",                              "textEn": "Heat milk tea to appropriate temperature" },
-        { "vessel": "cup", "text": "热奶茶 300ml（调好糖量）倒入杯中",               "textEn": "Pour hot milk tea 300ml (with sugar adjusted) into cup" },
-        { "vessel": "note", "text": "⚠️ 热饮出品，请用热饮套", "isWarning": true,    "textEn": "⚠️ Serving as hot drink — use hot sleeve" }
+        {
+          "vessel": "cup",
+          "text": "珍珠 一勺放入杯底",
+          "textEn": "Add Pearl/Bubble — 1 scoop to cup base"
+        },
+        {
+          "vessel": "cup",
+          "text": "奶茶加热至适宜温度",
+          "textEn": "Heat milk tea to appropriate temperature"
+        },
+        {
+          "vessel": "cup",
+          "text": "热奶茶 300ml（调好糖量）倒入杯中",
+          "textEn": "Pour hot milk tea 300ml (with sugar adjusted) into cup"
+        },
+        {
+          "vessel": "note",
+          "text": "⚠️ 热饮出品，请用热饮套",
+          "isWarning": true,
+          "textEn": "⚠️ Serving as hot drink — use hot sleeve"
+        }
       ],
       "lessIce": {
         "full": "热饮，正常热度出品",
@@ -913,8 +2279,20 @@
         "full": "Hot drink, serve at normal temperature",
         "less": "Warm: serve slightly cooled (when customer requests)"
       },
-      "toppings": ["珍珠（已含）", "去除珍珠（免费）", "换脆啵啵（免费）", "脆啵啵（+$0.75）", "西米（+$0.75）"],
-      "toppingsEn": ["Pearl/Bubble — included", "Remove Pearl/Bubble (free)", "Swap for Crispy Boba (free)", "Crispy Boba (+$0.75)", "Sago (+$0.75)"]
+      "toppings": [
+        "珍珠（已含）",
+        "去除珍珠（免费）",
+        "换脆啵啵（免费）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Pearl/Bubble — included",
+        "Remove Pearl/Bubble (free)",
+        "Swap for Crispy Boba (free)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)"
+      ]
     },
     {
       "id": 33,
@@ -922,15 +2300,36 @@
       "chineseName": "热紫薯鲜奶",
       "englishName": "Purple Yam (Hot)",
       "cupSize": "500ml",
-      "sugarOptions": ["无糖（按需）"],
-      "sugarOptionsEn": ["No Sugar (as needed)"],
+      "sugarOptions": [
+        "无糖（按需）"
+      ],
+      "sugarOptionsEn": [
+        "No Sugar (as needed)"
+      ],
       "description": "手捣紫薯 + 热牛奶；无粉末；口感有颗粒感，首次顾客须告知；可选奶茶底/有机奶/无乳糖奶",
       "descriptionEn": "Hand-mashed purple yam + hot milk; no powder; texture has chunks — inform first-time customers; choice of milk tea base / organic milk / lactose-free milk",
       "steps": [
-        { "vessel": "cup", "text": "紫薯 三大勺放入杯中",                             "textEn": "Add purple yam — 3 large scoops into cup" },
-        { "vessel": "cup", "text": "奶茶/牛奶加热至适宜温度",                         "textEn": "Heat milk tea / milk to appropriate temperature" },
-        { "vessel": "cup", "text": "按顾客选择倒入热奶茶 / 热有机牛奶 / 热无乳糖牛奶至满杯", "textEn": "Pour hot milk tea / hot organic milk / hot lactose-free milk to fill cup per customer's choice" },
-        { "vessel": "note", "text": "⚠️ 手捣紫薯有颗粒感，首次顾客必须提供试饮或告知；热饮请用热饮套", "isWarning": true, "textEn": "⚠️ Hand-mashed purple yam has a chunky texture — must offer taste test or inform first-time customers; use hot sleeve for hot drinks" }
+        {
+          "vessel": "cup",
+          "text": "紫薯 三大勺放入杯中",
+          "textEn": "Add purple yam — 3 large scoops into cup"
+        },
+        {
+          "vessel": "cup",
+          "text": "奶茶/牛奶加热至适宜温度",
+          "textEn": "Heat milk tea / milk to appropriate temperature"
+        },
+        {
+          "vessel": "cup",
+          "text": "按顾客选择倒入热奶茶 / 热有机牛奶 / 热无乳糖牛奶至满杯",
+          "textEn": "Pour hot milk tea / hot organic milk / hot lactose-free milk to fill cup per customer's choice"
+        },
+        {
+          "vessel": "note",
+          "text": "⚠️ 手捣紫薯有颗粒感，首次顾客必须提供试饮或告知；热饮请用热饮套",
+          "isWarning": true,
+          "textEn": "⚠️ Hand-mashed purple yam has a chunky texture — must offer taste test or inform first-time customers; use hot sleeve for hot drinks"
+        }
       ],
       "lessIce": {
         "full": "热饮，正常热度出品",
@@ -940,8 +2339,16 @@
         "full": "Hot drink, serve at normal temperature",
         "less": "Warm: serve slightly cooled (when customer requests)"
       },
-      "toppings": ["黑珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"],
-      "toppingsEn": ["Black Pearl (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)"]
+      "toppings": [
+        "黑珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Black Pearl (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)"
+      ]
     },
     {
       "id": 34,
@@ -949,15 +2356,36 @@
       "chineseName": "热香芋鲜奶",
       "englishName": "Taro (Hot)",
       "cupSize": "500ml",
-      "sugarOptions": ["无糖（按需）"],
-      "sugarOptionsEn": ["No Sugar (as needed)"],
+      "sugarOptions": [
+        "无糖（按需）"
+      ],
+      "sugarOptionsEn": [
+        "No Sugar (as needed)"
+      ],
       "description": "手捣芋头 + 热牛奶；无粉末；口感有颗粒感，首次顾客须告知；可选奶茶底/有机奶/无乳糖奶",
       "descriptionEn": "Hand-mashed taro + hot milk; no powder; texture has chunks — inform first-time customers; choice of milk tea base / organic milk / lactose-free milk",
       "steps": [
-        { "vessel": "cup", "text": "芋头 三大勺放入杯中",                             "textEn": "Add taro — 3 large scoops into cup" },
-        { "vessel": "cup", "text": "奶茶/牛奶加热至适宜温度",                         "textEn": "Heat milk tea / milk to appropriate temperature" },
-        { "vessel": "cup", "text": "按顾客选择倒入热奶茶 / 热有机牛奶 / 热无乳糖牛奶至满杯", "textEn": "Pour hot milk tea / hot organic milk / hot lactose-free milk to fill cup per customer's choice" },
-        { "vessel": "note", "text": "⚠️ 手捣芋头有颗粒感，首次顾客必须提供试饮或告知；热饮请用热饮套", "isWarning": true, "textEn": "⚠️ Hand-mashed taro has a chunky texture — must offer taste test or inform first-time customers; use hot sleeve for hot drinks" }
+        {
+          "vessel": "cup",
+          "text": "芋头 三大勺放入杯中",
+          "textEn": "Add taro — 3 large scoops into cup"
+        },
+        {
+          "vessel": "cup",
+          "text": "奶茶/牛奶加热至适宜温度",
+          "textEn": "Heat milk tea / milk to appropriate temperature"
+        },
+        {
+          "vessel": "cup",
+          "text": "按顾客选择倒入热奶茶 / 热有机牛奶 / 热无乳糖牛奶至满杯",
+          "textEn": "Pour hot milk tea / hot organic milk / hot lactose-free milk to fill cup per customer's choice"
+        },
+        {
+          "vessel": "note",
+          "text": "⚠️ 手捣芋头有颗粒感，首次顾客必须提供试饮或告知；热饮请用热饮套",
+          "isWarning": true,
+          "textEn": "⚠️ Hand-mashed taro has a chunky texture — must offer taste test or inform first-time customers; use hot sleeve for hot drinks"
+        }
       ],
       "lessIce": {
         "full": "热饮，正常热度出品",
@@ -967,8 +2395,16 @@
         "full": "Hot drink, serve at normal temperature",
         "less": "Warm: serve slightly cooled (when customer requests)"
       },
-      "toppings": ["黑珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"],
-      "toppingsEn": ["Black Pearl (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)"]
+      "toppings": [
+        "黑珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Black Pearl (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)"
+      ]
     },
     {
       "id": 35,
@@ -976,21 +2412,66 @@
       "chineseName": "杨枝甘露（温热）",
       "englishName": "Mango Sago (Warm)",
       "cupSize": "700ml",
-      "sugarOptions": ["按需加糖"],
-      "sugarOptionsEn": ["Sugar as needed"],
+      "sugarOptions": [
+        "按需加糖"
+      ],
+      "sugarOptionsEn": [
+        "Sugar as needed"
+      ],
       "description": "无咖啡因；手打芒果 + 西米 + 椰奶底 + 西柚果肉；温热出品",
       "descriptionEn": "Caffeine-free; hand-crushed mango + Sago + coconut milk base + grapefruit segments; served warm",
       "steps": [
-        { "vessel": "cup", "text": "出品杯：芒果碎 120g 捣碎",                        "textEn": "Serving cup: crushed mango 120g, mashed" },
-        { "vessel": "cup", "text": "西米 一大勺",                                     "textEn": "Sago — 1 large scoop" },
-        { "vessel": "cup", "text": "西柚果肉 3勺",                                    "textEn": "Grapefruit segments — 3 scoops" },
-        { "vessel": "cup", "text": "Coco Milk 100ml，搅拌均匀",                       "textEn": "Coco Milk 100ml, stir well" },
-        { "vessel": "mug", "text": "芒果糖浆 一勺",                                   "textEn": "Mango syrup — 1 scoop" },
-        { "vessel": "mug", "text": "糖 20g（半糖：10g）",                             "textEn": "Sugar 20g (half sugar: 10g)" },
-        { "vessel": "mug", "text": "热水 1/3杯",                                     "textEn": "Hot water — fill Coffee Mug 1/3 full" },
-        { "vessel": "mug", "text": "左侧蒸汽按钮按下加热（自动停止）",                  "textEn": "Press left steam button to heat (stops automatically)" },
-        { "vessel": "cup", "text": "将咖啡杯内容倒入出品杯至满，搅拌均匀出杯",          "textEn": "Pour Coffee Mug contents into serving cup to fill, stir well, serve" },
-        { "vessel": "note", "text": "⚠️ 无咖啡因；温热出品，请用热饮套", "isWarning": true, "textEn": "⚠️ Caffeine-free; serving warm — use hot sleeve" }
+        {
+          "vessel": "cup",
+          "text": "出品杯：芒果碎 120g 捣碎",
+          "textEn": "Serving cup: crushed mango 120g, mashed"
+        },
+        {
+          "vessel": "cup",
+          "text": "西米 一大勺",
+          "textEn": "Sago — 1 large scoop"
+        },
+        {
+          "vessel": "cup",
+          "text": "西柚果肉 3勺",
+          "textEn": "Grapefruit segments — 3 scoops"
+        },
+        {
+          "vessel": "cup",
+          "text": "Coco Milk 100ml，搅拌均匀",
+          "textEn": "Coco Milk 100ml, stir well"
+        },
+        {
+          "vessel": "mug",
+          "text": "芒果糖浆 一勺",
+          "textEn": "Mango syrup — 1 scoop"
+        },
+        {
+          "vessel": "mug",
+          "text": "糖 20g（半糖：10g）",
+          "textEn": "Sugar 20g (half sugar: 10g)"
+        },
+        {
+          "vessel": "mug",
+          "text": "热水 1/3杯",
+          "textEn": "Hot water — fill Coffee Mug 1/3 full"
+        },
+        {
+          "vessel": "mug",
+          "text": "左侧蒸汽按钮按下加热（自动停止）",
+          "textEn": "Press left steam button to heat (stops automatically)"
+        },
+        {
+          "vessel": "cup",
+          "text": "将咖啡杯内容倒入出品杯至满，搅拌均匀出杯",
+          "textEn": "Pour Coffee Mug contents into serving cup to fill, stir well, serve"
+        },
+        {
+          "vessel": "note",
+          "text": "⚠️ 无咖啡因；温热出品，请用热饮套",
+          "isWarning": true,
+          "textEn": "⚠️ Caffeine-free; serving warm — use hot sleeve"
+        }
       ],
       "lessIce": {
         "full": "温热出品，不加冰",
@@ -1000,8 +2481,14 @@
         "full": "Serve warm, no ice",
         "less": "Slightly cool: serve after cooling a little (when customer requests)"
       },
-      "toppings": ["西米（已含）", "西柚果肉（已含）"],
-      "toppingsEn": ["Sago — included", "Grapefruit segments — included"]
+      "toppings": [
+        "西米（已含）",
+        "西柚果肉（已含）"
+      ],
+      "toppingsEn": [
+        "Sago — included",
+        "Grapefruit segments — included"
+      ]
     },
     {
       "id": 36,
@@ -1009,18 +2496,57 @@
       "chineseName": "热桂花乌龙鲜奶茶",
       "englishName": "Osmanthus Oolong Milk Tea (Hot)",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖", "半糖", "无糖", "30%糖"],
-      "sugarOptionsEn": ["Full Sugar", "Half Sugar", "No Sugar", "30% Sugar"],
+      "sugarOptions": [
+        "全糖",
+        "半糖",
+        "无糖",
+        "30%糖"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar",
+        "Half Sugar",
+        "No Sugar",
+        "30% Sugar"
+      ],
       "description": "桂花冻（已含）+ 桂花乌龙茶 + 有机牛奶；大杯",
       "descriptionEn": "Osmanthus Jelly (included) + osmanthus oolong tea + organic milk; large cup",
       "steps": [
-        { "vessel": "cup",    "text": "出品杯底加入桂花冻 100g",                                        "textEn": "Add Osmanthus Jelly 100g to bottom of serving cup" },
-        { "vessel": "shaker", "text": "新搅拌杯：热桂花乌龙茶 250ml",                                   "textEn": "New shaker cup: hot osmanthus oolong tea 250ml" },
-        { "vessel": "shaker", "text": "有机牛奶 70ml + 咖奶（Evaporated Milk）30ml",                    "textEn": "Organic milk 70ml + Evaporated Milk 30ml" },
-        { "vessel": "shaker", "text": "按糖表加糖（全糖 / 半糖 / 30%糖 / 无糖）",                      "textEn": "Add sugar per sugar chart (full sugar / half sugar / 30% sugar / no sugar)" },
-        { "vessel": "shaker", "text": "奶茶加热至适宜温度",                                             "textEn": "Heat milk tea to appropriate temperature" },
-        { "vessel": "cup",    "text": "搅拌均匀，倒入出品杯，热饮套出品",                                "textEn": "Stir well, pour into serving cup, serve with hot sleeve" },
-        { "vessel": "note",   "text": "⚠️ 热饮出品，请用热饮套", "isWarning": true,                    "textEn": "⚠️ Serving as hot drink — use hot sleeve" }
+        {
+          "vessel": "cup",
+          "text": "出品杯底加入桂花冻 100g",
+          "textEn": "Add Osmanthus Jelly 100g to bottom of serving cup"
+        },
+        {
+          "vessel": "shaker",
+          "text": "新搅拌杯：热桂花乌龙茶 250ml",
+          "textEn": "New shaker cup: hot osmanthus oolong tea 250ml"
+        },
+        {
+          "vessel": "shaker",
+          "text": "有机牛奶 70ml + 咖奶（Evaporated Milk）30ml",
+          "textEn": "Organic milk 70ml + Evaporated Milk 30ml"
+        },
+        {
+          "vessel": "shaker",
+          "text": "按糖表加糖（全糖 / 半糖 / 30%糖 / 无糖）",
+          "textEn": "Add sugar per sugar chart (full sugar / half sugar / 30% sugar / no sugar)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "奶茶加热至适宜温度",
+          "textEn": "Heat milk tea to appropriate temperature"
+        },
+        {
+          "vessel": "cup",
+          "text": "搅拌均匀，倒入出品杯，热饮套出品",
+          "textEn": "Stir well, pour into serving cup, serve with hot sleeve"
+        },
+        {
+          "vessel": "note",
+          "text": "⚠️ 热饮出品，请用热饮套",
+          "isWarning": true,
+          "textEn": "⚠️ Serving as hot drink — use hot sleeve"
+        }
       ],
       "lessIce": {
         "full": "热饮，正常热度出品",
@@ -1030,8 +2556,18 @@
         "full": "Hot drink, serve at normal temperature",
         "less": "Warm: serve slightly cooled (when customer requests)"
       },
-      "toppings": ["桂花冻（已含）", "黑珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"],
-      "toppingsEn": ["Osmanthus Jelly — included", "Black Pearl (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)"]
+      "toppings": [
+        "桂花冻（已含）",
+        "黑珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Osmanthus Jelly — included",
+        "Black Pearl (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)"
+      ]
     },
     {
       "id": 37,
@@ -1039,18 +2575,57 @@
       "chineseName": "热白桃乌龙鲜奶茶",
       "englishName": "Peach Oolong Fresh Milk Tea (Hot)",
       "cupSize": "700ml",
-      "sugarOptions": ["全糖", "半糖", "无糖", "30%糖"],
-      "sugarOptionsEn": ["Full Sugar", "Half Sugar", "No Sugar", "30% Sugar"],
+      "sugarOptions": [
+        "全糖",
+        "半糖",
+        "无糖",
+        "30%糖"
+      ],
+      "sugarOptionsEn": [
+        "Full Sugar",
+        "Half Sugar",
+        "No Sugar",
+        "30% Sugar"
+      ],
       "description": "桂花冻（已含）+ 白桃乌龙茶 + 有机牛奶；大杯",
       "descriptionEn": "Osmanthus Jelly (included) + white peach oolong tea + organic milk; large cup",
       "steps": [
-        { "vessel": "cup",    "text": "出品杯底加入桂花冻 100g",                                        "textEn": "Add Osmanthus Jelly 100g to bottom of serving cup" },
-        { "vessel": "shaker", "text": "新搅拌杯：热白桃乌龙茶 250ml",                                   "textEn": "New shaker cup: hot white peach oolong tea 250ml" },
-        { "vessel": "shaker", "text": "有机牛奶 70ml + 咖奶（Evaporated Milk）30ml",                    "textEn": "Organic milk 70ml + Evaporated Milk 30ml" },
-        { "vessel": "shaker", "text": "按糖表加糖（全糖 / 半糖 / 30%糖 / 无糖）",                      "textEn": "Add sugar per sugar chart (full sugar / half sugar / 30% sugar / no sugar)" },
-        { "vessel": "shaker", "text": "奶茶加热至适宜温度",                                             "textEn": "Heat milk tea to appropriate temperature" },
-        { "vessel": "cup",    "text": "搅拌均匀，倒入出品杯，热饮套出品",                                "textEn": "Stir well, pour into serving cup, serve with hot sleeve" },
-        { "vessel": "note",   "text": "⚠️ 热饮出品，请用热饮套", "isWarning": true,                    "textEn": "⚠️ Serving as hot drink — use hot sleeve" }
+        {
+          "vessel": "cup",
+          "text": "出品杯底加入桂花冻 100g",
+          "textEn": "Add Osmanthus Jelly 100g to bottom of serving cup"
+        },
+        {
+          "vessel": "shaker",
+          "text": "新搅拌杯：热白桃乌龙茶 250ml",
+          "textEn": "New shaker cup: hot white peach oolong tea 250ml"
+        },
+        {
+          "vessel": "shaker",
+          "text": "有机牛奶 70ml + 咖奶（Evaporated Milk）30ml",
+          "textEn": "Organic milk 70ml + Evaporated Milk 30ml"
+        },
+        {
+          "vessel": "shaker",
+          "text": "按糖表加糖（全糖 / 半糖 / 30%糖 / 无糖）",
+          "textEn": "Add sugar per sugar chart (full sugar / half sugar / 30% sugar / no sugar)"
+        },
+        {
+          "vessel": "shaker",
+          "text": "奶茶加热至适宜温度",
+          "textEn": "Heat milk tea to appropriate temperature"
+        },
+        {
+          "vessel": "cup",
+          "text": "搅拌均匀，倒入出品杯，热饮套出品",
+          "textEn": "Stir well, pour into serving cup, serve with hot sleeve"
+        },
+        {
+          "vessel": "note",
+          "text": "⚠️ 热饮出品，请用热饮套",
+          "isWarning": true,
+          "textEn": "⚠️ Serving as hot drink — use hot sleeve"
+        }
       ],
       "lessIce": {
         "full": "热饮，正常热度出品",
@@ -1060,60 +2635,254 @@
         "full": "Hot drink, serve at normal temperature",
         "less": "Warm: serve slightly cooled (when customer requests)"
       },
-      "toppings": ["桂花冻（已含）", "黑珍珠（+$0.75）", "脆啵啵（+$0.75）", "西米（+$0.75）"],
-      "toppingsEn": ["Osmanthus Jelly — included", "Black Pearl (+$0.75)", "Crispy Boba (+$0.75)", "Sago (+$0.75)"]
+      "toppings": [
+        "桂花冻（已含）",
+        "黑珍珠（+$0.75）",
+        "脆啵啵（+$0.75）",
+        "西米（+$0.75）"
+      ],
+      "toppingsEn": [
+        "Osmanthus Jelly — included",
+        "Black Pearl (+$0.75)",
+        "Crispy Boba (+$0.75)",
+        "Sago (+$0.75)"
+      ]
     }
   ],
   "checklistOpen": [
-    { "id": "o-power",    "text": "开电视 → 点餐机 → 开音乐 → 擦拭前台 → 扫地与拖地",                                                       "textEn": "Turn on TV → POS terminal → turn on music → wipe front counter → sweep and mop floor" },
-    { "id": "o-clock",    "text": "员工打卡",                                                                                                  "textEn": "Staff clock in" },
-    { "id": "o-menu",     "text": "检查商品上/下架是否正确",                                                                                   "textEn": "Check that menu items are correctly listed / unlisted" },
-    { "id": "o-menu-w",   "text": "⚠️ 珍珠奶茶、海盐芝士、珍珠、奶茶在珍珠未煮好前需下架", "isWarning": true,                               "textEn": "⚠️ Bubble Tea, Pink Salt, Pearl/Bubble, and milk tea must be taken off the menu until pearls are cooked" },
-    { "id": "o-coffee",   "text": "咖啡机开机、补水、清洁蒸汽头",                                                                             "textEn": "Turn on espresso machine, refill water, clean steam wand" },
-    { "id": "o-ice",      "text": "清理冰槽并补满冰块",                                                                                       "textEn": "Clean ice bin and refill with ice" },
-    { "id": "o-tea",      "text": "⚠️ 绿茶 & 桂花乌龙必须从冰箱中取出新鲜茶液，不可使用隔夜茶", "isWarning": true,                           "textEn": "⚠️ Green tea & osmanthus oolong must be fresh from fridge — do not use overnight tea" },
-    { "id": "o-left",     "text": "左侧工作台：脆啵啵、厚椰乳、草莓/芒果/桃子酱、水与干净抹布",                                               "textEn": "Left workstation: Crispy Boba, thick coconut milk, strawberry/mango/peach jam, water and clean cloth" },
-    { "id": "o-tools",    "text": "工具准备：榨汁棒、搅拌棒、100ml & 250ml & 0.5oz 量杯",                                                     "textEn": "Prepare tools: muddler, stirrer, 100ml & 250ml & 0.5oz measuring cups" },
-    { "id": "o-right",    "text": "右侧工作台：橙子酱、西柚酱、kiwi 酱、葡萄酱、百香果酱、芒果酱",                                            "textEn": "Right workstation: orange jam, grapefruit jam, kiwi jam, grape jam, passion fruit jam, mango jam" },
-    { "id": "o-nodrip",   "text": "工作台与冰箱外部必须无水果残渍",                                                                           "textEn": "Work counter and fridge exterior must be free of fruit residue" },
-    { "id": "o-supplies", "text": "前台补货：备足杯子、杯盖、吸管、热饮套、餐巾纸",                                                            "textEn": "Restock front counter: cups, lids, straws, hot sleeves, napkins" },
-    { "id": "o-table",    "text": "客席区：桌面干净、纸巾充足",                                                                               "textEn": "Customer seating area: clean tables, sufficient napkins" }
+    {
+      "id": "o-power",
+      "text": "开电视 → 点餐机 → 开音乐 → 擦拭前台 → 扫地与拖地",
+      "textEn": "Turn on TV → POS terminal → turn on music → wipe front counter → sweep and mop floor"
+    },
+    {
+      "id": "o-clock",
+      "text": "员工打卡",
+      "textEn": "Staff clock in"
+    },
+    {
+      "id": "o-menu",
+      "text": "检查商品上/下架是否正确",
+      "textEn": "Check that menu items are correctly listed / unlisted"
+    },
+    {
+      "id": "o-menu-w",
+      "text": "⚠️ 珍珠奶茶、海盐芝士、珍珠、奶茶在珍珠未煮好前需下架",
+      "isWarning": true,
+      "textEn": "⚠️ Bubble Tea, Pink Salt, Pearl/Bubble, and milk tea must be taken off the menu until pearls are cooked"
+    },
+    {
+      "id": "o-coffee",
+      "text": "咖啡机开机、补水、清洁蒸汽头",
+      "textEn": "Turn on espresso machine, refill water, clean steam wand"
+    },
+    {
+      "id": "o-ice",
+      "text": "清理冰槽并补满冰块",
+      "textEn": "Clean ice bin and refill with ice"
+    },
+    {
+      "id": "o-tea",
+      "text": "⚠️ 绿茶 & 桂花乌龙必须从冰箱中取出新鲜茶液，不可使用隔夜茶",
+      "isWarning": true,
+      "textEn": "⚠️ Green tea & osmanthus oolong must be fresh from fridge — do not use overnight tea"
+    },
+    {
+      "id": "o-left",
+      "text": "左侧工作台：脆啵啵、厚椰乳、草莓/芒果/桃子酱、水与干净抹布",
+      "textEn": "Left workstation: Crispy Boba, thick coconut milk, strawberry/mango/peach jam, water and clean cloth"
+    },
+    {
+      "id": "o-tools",
+      "text": "工具准备：榨汁棒、搅拌棒、100ml & 250ml & 0.5oz 量杯",
+      "textEn": "Prepare tools: muddler, stirrer, 100ml & 250ml & 0.5oz measuring cups"
+    },
+    {
+      "id": "o-right",
+      "text": "右侧工作台：橙子酱、西柚酱、kiwi 酱、葡萄酱、百香果酱、芒果酱",
+      "textEn": "Right workstation: orange jam, grapefruit jam, kiwi jam, grape jam, passion fruit jam, mango jam"
+    },
+    {
+      "id": "o-nodrip",
+      "text": "工作台与冰箱外部必须无水果残渍",
+      "textEn": "Work counter and fridge exterior must be free of fruit residue"
+    },
+    {
+      "id": "o-supplies",
+      "text": "前台补货：备足杯子、杯盖、吸管、热饮套、餐巾纸",
+      "textEn": "Restock front counter: cups, lids, straws, hot sleeves, napkins"
+    },
+    {
+      "id": "o-table",
+      "text": "客席区：桌面干净、纸巾充足",
+      "textEn": "Customer seating area: clean tables, sufficient napkins"
+    }
   ],
   "checklistClose": [
-    { "id": "c-floor",   "text": "全店地面清洁（扫地 + 拖地）",                         "textEn": "Clean entire store floor (sweep + mop)" },
-    { "id": "c-fridge",  "text": "所有原料回入冷藏",                                    "textEn": "Return all ingredients to refrigeration" },
-    { "id": "c-counter", "text": "台面与座位区清洁",                                    "textEn": "Clean counter and seating area" },
-    { "id": "c-ice",     "text": "清理冰槽并倒空",                                      "textEn": "Clean ice bin and empty it" },
-    { "id": "c-coffee",  "text": "咖啡机收水与清洁（蒸汽头排空 + 擦净）",               "textEn": "Drain and clean espresso machine (purge steam wand + wipe clean)" },
-    { "id": "c-tools",   "text": "清洗全部工具（榨汁棒、搅拌棒、量杯等）",               "textEn": "Wash all tools (muddler, stirrer, measuring cups, etc.)" },
-    { "id": "c-power",   "text": "关闭所有电器与灯",                                    "textEn": "Turn off all appliances and lights" }
+    {
+      "id": "c-floor",
+      "text": "全店地面清洁（扫地 + 拖地）",
+      "textEn": "Clean entire store floor (sweep + mop)"
+    },
+    {
+      "id": "c-fridge",
+      "text": "所有原料回入冷藏",
+      "textEn": "Return all ingredients to refrigeration"
+    },
+    {
+      "id": "c-counter",
+      "text": "台面与座位区清洁",
+      "textEn": "Clean counter and seating area"
+    },
+    {
+      "id": "c-ice",
+      "text": "清理冰槽并倒空",
+      "textEn": "Clean ice bin and empty it"
+    },
+    {
+      "id": "c-coffee",
+      "text": "咖啡机收水与清洁（蒸汽头排空 + 擦净）",
+      "textEn": "Drain and clean espresso machine (purge steam wand + wipe clean)"
+    },
+    {
+      "id": "c-tools",
+      "text": "清洗全部工具（榨汁棒、搅拌棒、量杯等）",
+      "textEn": "Wash all tools (muddler, stirrer, measuring cups, etc.)"
+    },
+    {
+      "id": "c-power",
+      "text": "关闭所有电器与灯",
+      "textEn": "Turn off all appliances and lights"
+    }
   ],
   "checklistStock": [
-    { "id": "s-fifo",       "text": "码柜区：切片水果遵守先进先出（FIFO）",                                                           "textEn": "Storage area: sliced fruit must follow FIFO (first in, first out)" },
-    { "id": "s-slices",     "text": "橙子片满盆，青柠半盆以上，柠檬约 1/3 盆，西柚片半个～一个",                                     "textEn": "Orange slices: full container; lime: more than half container; lemon: approx. 1/3 container; grapefruit slices: half to one grapefruit" },
-    { "id": "s-juice",      "text": "柑橘类果汁：橙汁 ≥ 1L，西柚汁 ≈ 600ml",                                                       "textEn": "Citrus juices: orange juice ≥ 1L, grapefruit juice ≈ 600ml" },
-    { "id": "s-grapefruit", "text": "西柚粒须戴手套剥好并用摇杯散开",                                                               "textEn": "Grapefruit segments must be peeled with gloves and separated using a shaker cup" },
-    { "id": "s-kitchen",    "text": "⚠️ 西瓜片、西米、果冻提前确认库存（备货时间需 1–2 小时）", "isWarning": true,               "textEn": "⚠️ Watermelon slices, Sago, and jelly — confirm stock in advance (prep time 1–2 hours)" },
-    { "id": "s-bobo",       "text": "脆啵啵用量大，需随时补充",                                                                     "textEn": "Crispy Boba usage is high — replenish at all times" },
-    { "id": "s-fruit",      "text": "水果杯区（Kiwi、西瓜捣碎、葡萄等）严格先进先出，交接时明确哪一侧旧货先用",                      "textEn": "Fruit cup area (Kiwi, crushed watermelon, grapes, etc.) — strict FIFO; clarify which side to use first during shift handover" },
-    { "id": "s-coffee",     "text": "咖啡区：确保咖啡机水与咖啡豆足够，咖啡头定时清洁",                                             "textEn": "Coffee station: ensure machine water and coffee beans are sufficient; clean group head regularly" },
-    { "id": "s-steam",      "text": "蒸汽喷头每次使用后立即擦净并排空蒸汽",                                                         "textEn": "Wipe and purge steam wand immediately after each use" },
-    { "id": "s-dairy",      "text": "咖啡机下冷藏区：两种牛奶、half & half、creamer 分区放置",                                      "textEn": "Under-machine fridge: two types of milk, half & half, creamer — stored in separate sections" },
-    { "id": "s-yam",        "text": "⚠️ 紫薯和芋头提前沟通备料（需要 3 小时）", "isWarning": true,                               "textEn": "⚠️ Purple yam and taro — coordinate prep in advance (requires 3 hours)" },
-    { "id": "s-foam",       "text": "奶盖使用后确认干净",                                                                           "textEn": "Confirm Cheese Foam dispenser is clean after use" },
-    { "id": "s-ratio",      "text": "咖啡奶比例：30g 咖啡奶 + 70g organic milk",                                                   "textEn": "Coffee milk ratio: 30g Evaporated Milk + 70g organic milk" }
+    {
+      "id": "s-fifo",
+      "text": "码柜区：切片水果遵守先进先出（FIFO）",
+      "textEn": "Storage area: sliced fruit must follow FIFO (first in, first out)"
+    },
+    {
+      "id": "s-slices",
+      "text": "橙子片满盆，青柠半盆以上，柠檬约 1/3 盆，西柚片半个～一个",
+      "textEn": "Orange slices: full container; lime: more than half container; lemon: approx. 1/3 container; grapefruit slices: half to one grapefruit"
+    },
+    {
+      "id": "s-juice",
+      "text": "柑橘类果汁：橙汁 ≥ 1L，西柚汁 ≈ 600ml",
+      "textEn": "Citrus juices: orange juice ≥ 1L, grapefruit juice ≈ 600ml"
+    },
+    {
+      "id": "s-grapefruit",
+      "text": "西柚粒须戴手套剥好并用摇杯散开",
+      "textEn": "Grapefruit segments must be peeled with gloves and separated using a shaker cup"
+    },
+    {
+      "id": "s-kitchen",
+      "text": "⚠️ 西瓜片、西米、果冻提前确认库存（备货时间需 1–2 小时）",
+      "isWarning": true,
+      "textEn": "⚠️ Watermelon slices, Sago, and jelly — confirm stock in advance (prep time 1–2 hours)"
+    },
+    {
+      "id": "s-bobo",
+      "text": "脆啵啵用量大，需随时补充",
+      "textEn": "Crispy Boba usage is high — replenish at all times"
+    },
+    {
+      "id": "s-fruit",
+      "text": "水果杯区（Kiwi、西瓜捣碎、葡萄等）严格先进先出，交接时明确哪一侧旧货先用",
+      "textEn": "Fruit cup area (Kiwi, crushed watermelon, grapes, etc.) — strict FIFO; clarify which side to use first during shift handover"
+    },
+    {
+      "id": "s-coffee",
+      "text": "咖啡区：确保咖啡机水与咖啡豆足够，咖啡头定时清洁",
+      "textEn": "Coffee station: ensure machine water and coffee beans are sufficient; clean group head regularly"
+    },
+    {
+      "id": "s-steam",
+      "text": "蒸汽喷头每次使用后立即擦净并排空蒸汽",
+      "textEn": "Wipe and purge steam wand immediately after each use"
+    },
+    {
+      "id": "s-dairy",
+      "text": "咖啡机下冷藏区：两种牛奶、half & half、creamer 分区放置",
+      "textEn": "Under-machine fridge: two types of milk, half & half, creamer — stored in separate sections"
+    },
+    {
+      "id": "s-yam",
+      "text": "⚠️ 紫薯和芋头提前沟通备料（需要 3 小时）",
+      "isWarning": true,
+      "textEn": "⚠️ Purple yam and taro — coordinate prep in advance (requires 3 hours)"
+    },
+    {
+      "id": "s-foam",
+      "text": "奶盖使用后确认干净",
+      "textEn": "Confirm Cheese Foam dispenser is clean after use"
+    },
+    {
+      "id": "s-ratio",
+      "text": "咖啡奶比例：30g 咖啡奶 + 70g organic milk",
+      "textEn": "Coffee milk ratio: 30g Evaporated Milk + 70g organic milk"
+    }
   ],
   "fruitWeights": [
-    { "item": "草莓",   "itemEn": "Strawberry",   "weight": "120g（不含杯重）",                    "weightEn": "120g (excluding cup weight)" },
-    { "item": "芒果",   "itemEn": "Mango",         "weight": "120g（不含杯重）",                    "weightEn": "120g (excluding cup weight)" },
-    { "item": "葡萄",   "itemEn": "Grape",          "weight": "120g + 20g 苹果（不含杯重）",         "weightEn": "120g + 20g apple (excluding cup weight)" },
-    { "item": "西瓜",   "itemEn": "Watermelon",    "weight": "140g / 200g / 300g（需盖盖子）",      "weightEn": "140g / 200g / 300g (cover with lid)" },
-    { "item": "柿子",   "itemEn": "Persimmon",     "weight": "半个或一个，60-80g",                  "weightEn": "Half or one whole, 60–80g" },
-    { "item": "奇异果", "itemEn": "Kiwi",           "weight": "整个",                               "weightEn": "Whole" }
+    {
+      "item": "草莓",
+      "itemEn": "Strawberry",
+      "weight": "120g（不含杯重）",
+      "weightEn": "120g (excluding cup weight)"
+    },
+    {
+      "item": "芒果",
+      "itemEn": "Mango",
+      "weight": "120g（不含杯重）",
+      "weightEn": "120g (excluding cup weight)"
+    },
+    {
+      "item": "葡萄",
+      "itemEn": "Grape",
+      "weight": "120g + 20g 苹果（不含杯重）",
+      "weightEn": "120g + 20g apple (excluding cup weight)"
+    },
+    {
+      "item": "西瓜",
+      "itemEn": "Watermelon",
+      "weight": "140g / 200g / 300g（需盖盖子）",
+      "weightEn": "140g / 200g / 300g (cover with lid)"
+    },
+    {
+      "item": "柿子",
+      "itemEn": "Persimmon",
+      "weight": "半个或一个，60-80g",
+      "weightEn": "Half or one whole, 60–80g"
+    },
+    {
+      "item": "奇异果",
+      "itemEn": "Kiwi",
+      "weight": "整个",
+      "weightEn": "Whole"
+    }
   ],
   "contacts": [
-    { "name": "Haoran",                    "role": "店长",    "roleEn": "Store Manager",              "phone": "(254) 214-9013", "emoji": "👨‍💼" },
-    { "name": "Uber Eats Merchant Support","role": "外卖平台", "roleEn": "Delivery Platform Support", "phone": "(833) 275-3287", "emoji": "🛵" },
-    { "name": "DoorDash Merchant Support", "role": "外卖平台", "roleEn": "Delivery Platform Support", "phone": "(855) 222-8111", "emoji": "🚗" }
+    {
+      "name": "Haoran",
+      "role": "店长",
+      "roleEn": "Store Manager",
+      "phone": "(254) 214-9013",
+      "emoji": "👨‍💼"
+    },
+    {
+      "name": "Uber Eats Merchant Support",
+      "role": "外卖平台",
+      "roleEn": "Delivery Platform Support",
+      "phone": "(833) 275-3287",
+      "emoji": "🛵"
+    },
+    {
+      "name": "DoorDash Merchant Support",
+      "role": "外卖平台",
+      "roleEn": "Delivery Platform Support",
+      "phone": "(855) 222-8111",
+      "emoji": "🚗"
+    }
   ]
 }
