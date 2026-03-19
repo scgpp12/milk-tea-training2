@@ -490,6 +490,11 @@
       "steps": [
         {
           "vessel": "cup",
+          "text": "杯底加入一片青柠檬片",
+          "textEn": "Add one lime slice to cup base"
+        },
+        {
+          "vessel": "cup",
           "text": "杯底加入啵啵 一勺",
           "textEn": "Add Bobo (crystal boba) to cup base — 1 scoop"
         },
